@@ -1,0 +1,13 @@
+{
+  "name": "@stillmine/tsconfig",
+  "version": "0.21.0",
+  "description": "Typescript config",
+  "keywords": [
+    "typescript",
+    "config"
+  ],
+  "main": "tsconfig.json",
+  "peerDependencies": {
+    "typescript": ">= 4"
+  }
+}

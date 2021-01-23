@@ -1,0 +1,25 @@
+{
+  "name": "@stillmine/rollup",
+  "version": "0.1.3",
+  "description": "",
+  "keywords": [
+    "rollup",
+    "cli"
+  ],
+  "homepage": "https://github.com/stillmine/packages/packages/rollup#readme",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "stillmine-rollup": "bin/cli.js"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist esm",
+    "build": "rollup -c && tsc",
+    "prepack": "yarn build"
+  },
+  "peerDependencies": {
+    "@babel/core": ">= 7.0.0",
+    "rollup": ">= 2.0.0"
+  }
+}

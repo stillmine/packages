@@ -1,0 +1,32 @@
+{
+  "name": "@stillmine/webpack",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": [
+    "webpack",
+    "cli"
+  ],
+  "homepage": "https://github.com/stillmine/packages/packages/webpack#readme",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "stillmine-webpack": "bin/cli.js"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c && tsc",
+    "prepack": "yarn build"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "webpack-merge": "5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.21"
+  },
+  "peerDependencies": {
+    "@babel/core": ">= 7",
+    "webpack": ">= 5"
+  }
+}

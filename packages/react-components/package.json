@@ -1,0 +1,44 @@
+{
+  "name": "@stillmine/react-components",
+  "version": "0.1.0",
+  "description": "React components.",
+  "keywords": [
+    "ui",
+    "react",
+    "components"
+  ],
+  "homepage": "https://stillmine-component-docs.netlify.com",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist lib",
+    "build": "yarn build:module && yarn build:definition",
+    "build:module": "rollup -c",
+    "build:definition": "tsc --emitDeclarationOnly",
+    "build:storybook": "build-storybook -o dist",
+    "develop:storybook": "start-storybook -p 6006",
+    "lint": "eslint src/**",
+    "lint:format": "prettier \"src/**/*.{ts|tsx}\" --list-different",
+    "test": "jest --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stillmine/styles": "0.0.0",
+    "@stillmine/units": "0.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "5.2.2",
+    "@rollup/plugin-node-resolve": "11.1.0",
+    "@storybook/react": "6.1.14",
+    "@testing-library/react": "11.2.3",
+    "babel-loader": "8.2.2",
+    "rollup": "2.36.2"
+  },
+  "peerDependencies": {
+    "@emotion/react": ">= 11",
+    "@emotion/styled": ">= 11",
+    "react": ">= 17"
+  }
+}

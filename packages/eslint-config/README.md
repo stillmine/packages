@@ -1,0 +1,1 @@
+# @stillmine/eslint-config

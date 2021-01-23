@@ -1,0 +1,97 @@
+{
+  "name": "@stillmine/packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bugs": {
+    "email": "euihyun.yang.9x@gmail.com",
+    "url": "https://github.com/stillmine/packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stillmine/packages.git"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "euihyun.yang.9x@gmail.com",
+    "name": "Euihyun_Yang",
+    "url": "https://euihyun.vercel.app"
+  },
+  "scripts": {
+    "postinstall": "husky install",
+    "build:lib": "lerna run build --scope @stillmine/*",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "typecheck": "lerna run typecheck",
+    "version": "lerna version",
+    "prepublishOnly": "pinst --disable",
+    "publish": "lerna publish from-package --yes",
+    "postpublish": "pinst --enable"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "@babel/preset-react": "7.12.10",
+    "@babel/preset-typescript": "7.12.7",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/config-lerna-scopes": "11.0.0",
+    "@emotion/babel-preset-css-prop": "11.0.0",
+    "@emotion/react": "11.1.4",
+    "@emotion/styled": "11.0.0",
+    "@rollup/plugin-babel": "5.2.2",
+    "@rollup/plugin-node-resolve": "11.1.0",
+    "@stillmine/eslint-config": "0.21.0",
+    "@stillmine/tsconfig": "0.21.0",
+    "@storybook/addon-a11y": "6.1.14",
+    "@storybook/addon-actions": "6.1.14",
+    "@storybook/addon-info": "5.3.21",
+    "@storybook/addon-knobs": "6.1.14",
+    "@storybook/addon-options": "5.3.21",
+    "@storybook/addons": "6.1.14",
+    "@storybook/react": "6.1.14",
+    "@testing-library/jest-dom": "5.11.9",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.21",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "@typescript-eslint/eslint-plugin": "4.13.0",
+    "@typescript-eslint/parser": "4.13.0",
+    "eslint": "7.18.0",
+    "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-no-secrets": "0.6.8",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "husky": "5.0.6",
+    "jest": "26.6.3",
+    "lerna": "3.22.1",
+    "lint-staged": "10.5.3",
+    "pinst": "2.1.1",
+    "prettier": "2.2.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "rimraf": "3.0.2",
+    "rollup": "2.36.2",
+    "sanitize.css": "12.0.1",
+    "textlint": "11.7.7",
+    "textlint-rule-no-todo": "2.0.1",
+    "ts-jest": "26.4.4",
+    "typescript": "4.1.3",
+    "webpack": "5.15.0"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": true,
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ]
+}
