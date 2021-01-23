@@ -1,0 +1,20 @@
+{
+  "name": "@stillmine/hooks",
+  "version": "0.0.0",
+  "description": "React hooks.",
+  "license": "MIT",
+  "main": "lib/mod.js",
+  "module": "esm/mod.js",
+  "types": "lib/mod.d.ts",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc --emitDeclarationOnly",
+    "lint": "eslint src/**",
+    "lint:format": "prettier \"src/**/*.{ts|tsx}\" --list-different",
+    "test": "jest --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">= 17"
+  }
+}

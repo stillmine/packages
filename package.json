@@ -17,15 +17,16 @@
     "url": "https://euihyun.vercel.app"
   },
   "scripts": {
-    "postinstall": "husky install",
     "build:lib": "lerna run build --scope @stillmine/*",
     "lint": "lerna run lint",
-    "test": "lerna run test",
-    "typecheck": "lerna run typecheck",
-    "version": "lerna version",
+    "new": "hygen package new",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
     "publish": "lerna publish from-package --yes",
-    "postpublish": "pinst --enable"
+    "test": "lerna run test",
+    "typecheck": "lerna run typecheck",
+    "version": "lerna version"
   },
   "devDependencies": {
     "@babel/core": "7.12.10",
@@ -67,6 +68,7 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "husky": "5.0.6",
+    "hygen": "6.0.4",
     "jest": "26.6.3",
     "lerna": "3.22.1",
     "lint-staged": "10.5.3",

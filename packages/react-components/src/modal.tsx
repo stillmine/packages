@@ -1,6 +1,5 @@
+import { useVisible } from '@stillmine/hooks';
 import { DialogHTMLAttributes, FC } from 'react';
-
-import { useVisible } from './hooks/mod';
 
 interface ModalProps extends DialogHTMLAttributes<HTMLDialogElement> {
   visible?: boolean;
