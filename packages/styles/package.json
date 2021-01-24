@@ -7,5 +7,9 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --passWithNoTests"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
