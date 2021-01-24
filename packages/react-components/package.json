@@ -9,14 +9,14 @@
   ],
   "homepage": "https://stillmine-component-docs.netlify.com",
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "esm/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/mod.js",
+  "module": "esm/mod.js",
+  "types": "lib/mod.d.ts",
   "scripts": {
-    "prebuild": "rimraf dist lib",
-    "build": "yarn build:module && yarn build:definition",
+    "prebuild": "rimraf esm lib",
+    "build": "yarn build:module && yarn build:types",
     "build:module": "rollup -c",
-    "build:definition": "tsc --emitDeclarationOnly",
+    "build:types": "tsc --emitDeclarationOnly",
     "build:storybook": "build-storybook -o dist",
     "develop:storybook": "start-storybook -p 6006",
     "lint": "eslint src/**",
@@ -29,20 +29,13 @@
     "@stillmine/styles": "0.0.0",
     "@stillmine/units": "0.0.0"
   },
-  "devDependencies": {
-    "@rollup/plugin-babel": "5.2.2",
-    "@rollup/plugin-node-resolve": "11.1.0",
-    "@storybook/react": "6.1.14",
-    "@testing-library/react": "11.2.3",
-    "babel-loader": "8.2.2",
-    "rollup": "2.36.2"
-  },
   "peerDependencies": {
     "@emotion/react": ">= 11",
     "@emotion/styled": ">= 11",
     "react": ">= 17"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

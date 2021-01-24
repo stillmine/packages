@@ -7,8 +7,10 @@
   "module": "esm/mod.js",
   "types": "lib/mod.d.ts",
   "scripts": {
-    "prebuild": "rimraf lib",
-    "build": "tsc --emitDeclarationOnly",
+    "prebuild": "rimraf esm lib",
+    "build": "yarn build:module && yarn build:types",
+    "build:module": "rollup -c",
+    "build:types": "tsc --emitDeclarationOnly",
     "lint": "eslint src/**",
     "lint:format": "prettier \"src/**/*.{ts|tsx}\" --list-different",
     "test": "jest --passWithNoTests",
@@ -16,5 +18,9 @@
   },
   "peerDependencies": {
     "react": ">= 17"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

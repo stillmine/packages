@@ -6,7 +6,7 @@ const pkg = require('./package');
 const extensions = ['.js', '.ts', '.tsx'];
 
 module.exports = {
-  input: 'src/index.ts',
+  input: 'src/mod.ts',
   output: [
     {
       exports: 'named',
@@ -21,9 +21,9 @@ module.exports = {
       sourcemap: true,
     },
   ],
-  external: ['@emotion/core', '@emotion/styled', 'react'],
+  external: ['@emotion/react', '@emotion/styled', 'react'],
   plugins: [
-    nodeResolve({ customResolveOptions: { moduleDirectory: 'node_modules' }, extensions }),
+    nodeResolve({ moduleDirectories: ['node_modules'], extensions }),
     babel({ babelHelpers: 'bundled', extensions }),
   ],
 };
