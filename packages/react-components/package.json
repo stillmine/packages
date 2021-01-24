@@ -8,6 +8,10 @@
     "components"
   ],
   "homepage": "https://stillmine-component-docs.netlify.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stillmine/packages.git"
+  },
   "license": "MIT",
   "main": "lib/mod.js",
   "module": "esm/mod.js",
