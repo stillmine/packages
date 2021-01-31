@@ -40,7 +40,7 @@
     "@emotion/react": "11.1.4",
     "@emotion/styled": "11.0.0",
     "@rollup/plugin-babel": "5.2.2",
-    "@rollup/plugin-node-resolve": "11.1.0",
+    "@rollup/plugin-node-resolve": "11.1.1",
     "@stillmine/eslint-config": "0.21.0",
     "@stillmine/tsconfig": "0.21.0",
     "@storybook/addon-a11y": "6.1.14",
