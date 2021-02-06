@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/eslint-config",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "description": "",
   "keywords": [
     "eslint",
@@ -40,10 +40,8 @@
     "eslint-plugin-react-hooks": ">= 4",
     "eslint-plugin-simple-import-sort": ">= 7"
   },
-  "engines": {
-    "node": ">= 10"
-  },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
