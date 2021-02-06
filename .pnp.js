@@ -6810,7 +6810,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/units", {
           "packageLocation": "./packages/units/",
           "packageDependencies": [
-            ["@stillmine/units", "workspace:packages/units"]
+            ["@stillmine/units", "workspace:packages/units"],
+            ["concurrently", "npm:5.3.0"]
           ],
           "linkType": "SOFT",
         }]

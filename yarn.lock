@@ -3899,6 +3899,8 @@ __metadata:
 "@stillmine/units@workspace:packages/units":
   version: 0.0.0-use.local
   resolution: "@stillmine/units@workspace:packages/units"
+  dependencies:
+    concurrently: 5.3.0
   languageName: unknown
   linkType: soft
 

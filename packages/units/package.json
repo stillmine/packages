@@ -12,7 +12,11 @@
   "scripts": {
     "prebuild": "rimraf esm lib",
     "build": "concurrently \"tsc -p tsconfig.cjs.json\" \"tsc -p tsconfig.esm.json\"",
+    "prepack": "yarn build",
     "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "concurrently": "5.3.0"
   },
   "publishConfig": {
     "access": "public",
