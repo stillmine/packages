@@ -3,7 +3,6 @@
   "compilerOptions": {
     "allowJs": false,
     "declaration": true,
-    "declarationDir": "lib",
     "incremental": true,
     "moduleResolution": "node",
     "outDir": "lib",

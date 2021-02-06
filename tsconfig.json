@@ -1,13 +1,3 @@
 {
-  "extends": "@stillmine/tsconfig",
-  "compileOnSave": false,
-  "compilerOptions": {
-    "allowJs": false,
-    "checkJs": false,
-    "declaration": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "strictNullChecks": true,
-    "target": "es2015"
-  }
+  "extends": "@stillmine/tsconfig"
 }

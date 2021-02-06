@@ -10,8 +10,9 @@
     "outDir": "lib",
     "paths": {
       "src/*": ["src/*"]
-    }
+    },
+    "skipLibCheck": true
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.stories.tsx", "**/*.test.tsx"]
 }

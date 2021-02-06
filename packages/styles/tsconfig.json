@@ -1,9 +1,11 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": false,
-    "esModuleInterop": true,
-    "incremental": true,
-    "moduleResolution": "node"
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "paths": {
+      "src/*": ["./src/*"]
+    }
   },
   "exclude": ["node_modules"]
 }
