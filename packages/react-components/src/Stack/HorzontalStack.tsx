@@ -1,5 +1,6 @@
 import { ComponentProps, forwardRef } from 'react';
-import { Stack } from 'src/Stack/mod';
+
+import { Stack } from './Stack';
 
 interface Props extends Omit<ComponentProps<typeof Stack>, 'direction'> {}
 

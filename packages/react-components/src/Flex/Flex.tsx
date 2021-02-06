@@ -1,6 +1,7 @@
 import { flex } from '@stillmine/styles';
 import { forwardRef, HTMLAttributes } from 'react';
-import { FlexCenter } from 'src/Flex/FlexCenter';
+
+import { FlexCenter } from './FlexCenter';
 
 type FlexOptions = Parameters<typeof flex>[0];
 

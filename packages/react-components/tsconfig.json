@@ -1,16 +1,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": ".",
     "declaration": true,
     "declarationDir": "lib",
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react",
     "outDir": "lib",
-    "paths": {
-      "src/*": ["src/*"]
-    },
     "skipLibCheck": true
   },
   "include": ["src/**/*"],

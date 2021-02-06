@@ -1,5 +1,6 @@
 import { ComponentProps, forwardRef } from 'react';
-import { Flex } from 'src/Flex/mod';
+
+import { Flex } from './Flex';
 
 interface Props extends Omit<ComponentProps<typeof Flex>, 'align' | 'justify'> {}
 

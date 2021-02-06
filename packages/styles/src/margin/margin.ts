@@ -1,6 +1,7 @@
 import { css } from '@emotion/react';
-import { marginTop } from 'src/margin/margin-top';
-import { marginY } from 'src/margin/margin-y';
+
+import { marginTop } from './margin-top';
+import { marginY } from './margin-y';
 
 interface Options {
   top?: number;

@@ -1,8 +1,9 @@
 import { gutter } from '@stillmine/styles';
 import { ComponentProps, forwardRef } from 'react';
-import { Flex } from 'src/Flex/mod';
-import { HorizontalStack } from 'src/Stack/HorzontalStack';
-import { VerticalStack } from 'src/Stack/VerticalStack';
+
+import { Flex } from '../Flex/mod';
+import { HorizontalStack } from './HorzontalStack';
+import { VerticalStack } from './VerticalStack';
 
 type GutterOptions = Parameters<typeof gutter>[0];
 
