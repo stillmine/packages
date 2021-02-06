@@ -6811,7 +6811,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/units/",
           "packageDependencies": [
             ["@stillmine/units", "workspace:packages/units"],
-            ["concurrently", "npm:5.3.0"]
+            ["concurrently", "npm:5.3.0"],
+            ["rimraf", "npm:3.0.2"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "linkType": "SOFT",
         }]
