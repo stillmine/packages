@@ -10,6 +10,8 @@
   "module": "esm/mod.js",
   "types": "lib/mod.d.ts",
   "scripts": {
+    "prebuild": "rimraf esm lib",
+    "build": "concurrently \"tsc -p tsconfig.cjs.json\" \"tsc -p tsconfig.esm.json\"",
     "test": "jest --passWithNoTests"
   },
   "publishConfig": {

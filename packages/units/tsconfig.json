@@ -1,3 +1,8 @@
 {
-  "extends": "../../tsconfig.json"
+  "compilerOptions": {
+    "allowJs": false,
+    "incremental": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
 }

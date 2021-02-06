@@ -28,11 +28,6 @@
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
-  "dependencies": {
-    "@stillmine/hooks": "0.0.0",
-    "@stillmine/styles": "0.0.0",
-    "@stillmine/units": "0.0.0"
-  },
   "peerDependencies": {
     "@emotion/react": ">= 11",
     "@emotion/styled": ">= 11",
