@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { ButtonHTMLAttributes, FC } from 'react';
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {

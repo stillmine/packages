@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "incremental": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}

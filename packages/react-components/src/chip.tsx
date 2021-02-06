@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { FC, HTMLAttributes } from 'react';
 
 interface Props extends HTMLAttributes<HTMLDivElement> {

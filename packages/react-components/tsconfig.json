@@ -1,15 +1,17 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": true,
     "declarationDir": "lib",
     "esModuleInterop": true,
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "outDir": "lib",
     "paths": {
       "src/*": ["src/*"]
     }
   },
   "include": ["src"],
-  "exclude": ["node_modules", "*.stories.tsx", "*.test.tsx"]
+  "exclude": ["node_modules", "**/*.stories.tsx", "**/*.test.tsx"]
 }

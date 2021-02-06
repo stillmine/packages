@@ -1,13 +1,13 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": ".",
+    "allowJs": false,
     "declaration": true,
-    "declarationDir": "./lib",
-    "outDir": "./lib",
-    "paths": {
-      "src/*": ["src/*"]
-    }
+    "declarationDir": "lib",
+    "incremental": true,
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "target": "es2015"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "*.test.tsx"]
+  "exclude": ["node_modules"]
 }

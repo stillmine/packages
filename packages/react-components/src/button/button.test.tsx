@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { Button } from 'src/button/mod';
+import { Button } from 'src/Button/mod';
 
 it('Button should render', () => {
   const textContent = 'Hello button';

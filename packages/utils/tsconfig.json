@@ -1,15 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "declaration": true,
-    "declarationDir": "lib",
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "outDir": "lib",
-    "paths": {
-      "src/*": ["src/*"]
-    }
+    "allowJs": false,
+    "incremental": true,
+    "moduleResolution": "node"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "*.stories.tsx", "*.test.tsx"]
+  "exclude": ["node_modules"]
 }

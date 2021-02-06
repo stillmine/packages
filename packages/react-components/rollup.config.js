@@ -1,4 +1,5 @@
 const { babel } = require('@rollup/plugin-babel');
+const commonjs = require('@rollup/plugin-commonjs');
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 
 const pkg = require('./package');
@@ -21,9 +22,10 @@ module.exports = {
       sourcemap: true,
     },
   ],
-  external: ['@emotion/react', '@emotion/styled', 'react'],
+  external: ['@emotion/react', '@emotion/styled', 'facepaint', 'react'],
   plugins: [
     nodeResolve({ moduleDirectories: ['node_modules'], extensions }),
     babel({ babelHelpers: 'bundled', extensions }),
+    commonjs(),
   ],
 };

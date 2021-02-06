@@ -1,1 +1,1 @@
-export { useVisible } from './use-visible';
+export * from './useVisible';
