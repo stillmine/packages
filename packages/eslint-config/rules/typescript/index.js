@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     'indent': 'off',
     'no-extra-parens': 'off',
+    'no-magic-numbers': 'off',
     'no-return-await': 'off',
     'no-unused-vars': 'off',
     'quotes': 'off',

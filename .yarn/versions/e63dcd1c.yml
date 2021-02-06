@@ -1,0 +1,4 @@
+undecided:
+  - "@stillmine/packages"
+  - "@stillmine/eslint-config"
+  - "@stillmine/react-components"

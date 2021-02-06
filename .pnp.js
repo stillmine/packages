@@ -51,6 +51,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/tsconfig"
       },
       {
+        "name": "@stillmine/types",
+        "reference": "workspace:packages/types"
+      },
+      {
         "name": "@stillmine/units",
         "reference": "workspace:packages/units"
       },
@@ -73,6 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@stillmine/rollup", ["workspace:packages/rollup"]],
       ["@stillmine/styles", ["virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles", "workspace:packages/styles"]],
       ["@stillmine/tsconfig", ["virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#workspace:packages/tsconfig", "workspace:packages/tsconfig"]],
+      ["@stillmine/types", ["workspace:packages/types"]],
       ["@stillmine/units", ["workspace:packages/units"]],
       ["@stillmine/utils", ["workspace:packages/utils"]],
       ["@stillmine/webpack", ["virtual:710cb9b081c5f56f4b0000568ad8cc284b950c7b66f666d5d631e5422d93e420995e2ce0fb432de5e87d35912c1e7fb9040944db6015c63d6b3d7d45d35789e2#workspace:packages/webpack", "workspace:packages/webpack"]],
@@ -7741,6 +7746,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-node-resolve", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:11.1.1"],
             ["@stillmine/hooks", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/hooks"],
             ["@stillmine/styles", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles"],
+            ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/units", "workspace:packages/units"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/react", "npm:17.0.1"],
@@ -7818,6 +7824,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/tsconfig/",
           "packageDependencies": [
             ["@stillmine/tsconfig", "workspace:packages/tsconfig"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["@stillmine/types", [
+        ["workspace:packages/types", {
+          "packageLocation": "./packages/types/",
+          "packageDependencies": [
+            ["@stillmine/types", "workspace:packages/types"],
+            ["@types/react", "npm:17.0.1"],
+            ["concurrently", "npm:5.3.0"],
+            ["rimraf", "npm:3.0.2"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "linkType": "SOFT",
         }]

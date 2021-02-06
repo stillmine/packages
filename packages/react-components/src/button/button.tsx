@@ -1,12 +1,13 @@
 import { css } from '@emotion/react';
-import { ButtonHTMLAttributes, FC } from 'react';
+import { As } from '@stillmine/types';
+import { ComponentProps, forwardRef } from 'react';
 
-interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  as?: any;
+interface Props extends ComponentProps<As> {
+  as?: As;
   color?: string;
 }
 
-export const Button: FC<Props> = ({ as: Component = 'button', children, ...props }) => {
+export const Button = forwardRef<HTMLButtonElement, Props>(({ as: Component = 'button', ...props }, ref) => {
   return (
     <Component
       css={css`
@@ -17,9 +18,8 @@ export const Button: FC<Props> = ({ as: Component = 'button', children, ...props
           background-color: #555;
         }
       `}
+      ref={ref}
       {...props}
-    >
-      {children}
-    </Component>
+    />
   );
-};
+});

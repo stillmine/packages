@@ -11,7 +11,16 @@ module.exports = {
       'always',
       { ignoreConsecutiveComments: true, ignoreInlineComments: true, ignorePattern: 'pragma' },
     ],
-    'comma-dangle': ['warn', 'always-multiline'],
+    'comma-dangle': [
+      'warn',
+      {
+        arrays: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+        imports: 'always-multiline',
+        objects: 'always-multiline',
+      },
+    ],
     'comma-spacing': ['warn', { after: true, before: false }],
     'comma-style': [
       'warn',
@@ -43,7 +52,7 @@ module.exports = {
     ],
     'func-names': ['warn', 'as-needed', { generators: 'always' }],
     'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
-    'function-paren-newline': ['warn', { minItems: 3 }],
+    'function-paren-newline': ['warn', 'consistent'],
     'id-blacklist': 'off',
     'id-length': ['warn', { exceptions: [], min: 2, properties: 'always' }],
     'id-match': 'off',
@@ -63,7 +72,7 @@ module.exports = {
     'max-len': [
       'warn',
       {
-        code: 80,
+        code: 120,
         comments: 65,
         ignoreComments: false,
         ignorePattern: '',
@@ -138,7 +147,7 @@ module.exports = {
       {
         ExportDeclaration: { minProperties: 3, multiline: true },
         ImportDeclaration: 'never',
-        ObjectExpression: 'always',
+        ObjectExpression: { consistent: true },
         ObjectPattern: { multiline: true },
       },
     ],

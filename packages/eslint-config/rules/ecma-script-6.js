@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'arrow-body-style': ['warn', 'as-needed', { requireReturnForObjectLiteral: false }],
+    'arrow-body-style': 'off',
     'arrow-parens': ['warn', 'as-needed', { requireForBlockBody: false }],
     'arrow-spacing': ['warn', { after: true, before: true }],
     'constructor-super': 'warn',

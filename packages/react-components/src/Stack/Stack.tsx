@@ -1,5 +1,6 @@
 import { gutter } from '@stillmine/styles';
-import { ComponentProps, forwardRef } from 'react';
+import { As, OmitProps } from '@stillmine/types';
+import { forwardRef } from 'react';
 
 import { Flex } from '../Flex/mod';
 import { HorizontalStack } from './HorzontalStack';
@@ -7,11 +8,11 @@ import { VerticalStack } from './VerticalStack';
 
 type GutterOptions = Parameters<typeof gutter>[0];
 
-interface Props extends Omit<ComponentProps<typeof Flex>, 'direction'>, Omit<GutterOptions, 'size'> {
+interface Props extends OmitProps<typeof Flex, 'direction'>, Omit<GutterOptions, 'size'> {
   gutter?: GutterOptions['size'];
 }
 
-const ForwardedStack = forwardRef<any, Props>(({ direction = 'vertical', gutter: size, ...props }, ref) => {
+const ForwardedStack = forwardRef<As, Props>(({ direction = 'vertical', gutter: size, ...props }, ref) => {
   return (
     <Flex
       css={gutter({ direction, size })}

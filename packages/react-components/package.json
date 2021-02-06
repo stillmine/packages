@@ -27,6 +27,7 @@
   "dependencies": {
     "@stillmine/hooks": "workspace:packages/hooks",
     "@stillmine/styles": "workspace:packages/styles",
+    "@stillmine/types": "workspace:packages/types",
     "@stillmine/units": "workspace:packages/units",
     "@stillmine/utils": "workspace:packages/utils"
   },

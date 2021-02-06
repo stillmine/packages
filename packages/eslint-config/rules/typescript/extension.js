@@ -27,7 +27,7 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': 'warn',
     '@typescript-eslint/no-invalid-this': 'warn',
     '@typescript-eslint/no-loss-of-precision': 'warn',
-    '@typescript-eslint/no-magic-numbers': 'warn',
+    '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-unused-expressions': 'warn',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-use-before-define': 'warn',
