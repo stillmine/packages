@@ -1,0 +1,8 @@
+undecided:
+  - "@stillmine/packages"
+  - "@stillmine/eslint-config"
+  - "@stillmine/styles"
+  - "@stillmine/tsconfig"
+  - "@stillmine/units"
+  - "@stillmine/utils"
+  - "@stillmine/validator"
