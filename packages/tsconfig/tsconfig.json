@@ -9,6 +9,7 @@
     "newLine": "lf",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "skipLibCheck": true,
     "strictNullChecks": true
   }
 }

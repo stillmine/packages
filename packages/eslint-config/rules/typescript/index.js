@@ -1,9 +1,6 @@
 module.exports = {
   extends: ['prettier/@typescript-eslint', ...['./extension', './typescript'].map(path => require.resolve(path))],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: './tsconfig.json',
-  },
   plugins: ['node'],
   rules: {
     'indent': 'off',

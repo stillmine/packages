@@ -12,4 +12,7 @@ export enum Color {
   tossBlue = '#317ff3',
   googleBlue = '#4285f4',
   facebookBlue = '#3b5998',
+  // NOTE: gray
+  white = '#fff',
+  black = '#333',
 }

@@ -91,7 +91,7 @@ module.exports = {
     'max-statements': ['warn', { max: 10 }, { ignoreTopLevelFunctions: true }],
     'max-statements-per-line': ['warn', { max: 1 }],
     'multiline-comment-style': ['warn', 'separate-lines'],
-    'multiline-ternary': ['warn', 'always-multiline'],
+    'multiline-ternary': 'off',
     'new-cap': [
       'warn',
       {
@@ -133,7 +133,7 @@ module.exports = {
     'no-plusplus': ['warn', { allowForLoopAfterthoughts: true }],
     'no-restricted-syntax': ['warn', 'FunctionExpression', 'WithStatement'],
     'no-tabs': ['warn', { allowIndentationTabs: false }],
-    'no-ternary': 'warn',
+    'no-ternary': 'off',
     'no-trailing-spaces': ['warn', { ignoreComments: false, skipBlankLines: false }],
     'no-underscore-dangle': [
       'warn',

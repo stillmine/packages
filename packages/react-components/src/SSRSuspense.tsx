@@ -1,7 +1,9 @@
 import { isClient } from '@stillmine/utils';
-import { Suspense } from 'react';
+import { ComponentProps, Suspense } from 'react';
 
-export const SSRSuspense = ({ fallback, ...props }) => {
+interface Props extends ComponentProps<typeof Suspense> {}
+
+export const SSRSuspense = ({ fallback, ...props }: Readonly<Props>) => {
   if (isClient()) {
     return <Suspense fallback={fallback} {...props} />;
   }

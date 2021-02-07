@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Chip } from '../src/chip';
+import { Chip } from './Chip';
 
 export default { title: 'Chip' };
 

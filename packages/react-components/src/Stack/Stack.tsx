@@ -8,14 +8,14 @@ import { VerticalStack } from './VerticalStack';
 
 type GutterOptions = Parameters<typeof gutter>[0];
 
-interface Props extends OmitProps<typeof Flex, 'direction'>, Omit<GutterOptions, 'size'> {
-  gutter?: GutterOptions['size'];
+interface Props extends OmitProps<typeof Flex, 'direction'>, Omit<GutterOptions, 'space'> {
+  gutter?: GutterOptions['space'];
 }
 
-const ForwardedStack = forwardRef<As, Props>(({ direction = 'vertical', gutter: size, ...props }, ref) => {
+const ForwardedStack = forwardRef<As, Props>(({ direction = 'vertical', gutter: space, ...props }, ref) => {
   return (
     <Flex
-      css={gutter({ direction, size })}
+      css={gutter({ direction, space })}
       direction={direction === 'vertical' ? 'column' : 'row'}
       ref={ref}
       {...props}
