@@ -54,7 +54,7 @@ module.exports = {
     'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
     'function-paren-newline': ['warn', 'consistent'],
     'id-blacklist': 'off',
-    'id-length': ['warn', { exceptions: [], min: 2, properties: 'always' }],
+    'id-length': 'off',
     'id-match': 'off',
     'implicit-arrow-linebreak': ['warn', 'beside'],
     'indent': ['warn', 2],

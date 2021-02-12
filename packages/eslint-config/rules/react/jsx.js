@@ -26,7 +26,7 @@ module.exports = {
     'react/jsx-no-target-blank': 'warn',
     'react/jsx-no-undef': 'warn',
     'react/jsx-no-useless-fragment': 'warn',
-    'react/jsx-one-expression-per-line': ['warn', { allow: 'literal' }],
+    'react/jsx-one-expression-per-line': ['warn', { allow: 'single-child' }],
     'react/jsx-pascal-case': 'warn',
     'react/jsx-props-no-multi-spaces': 'warn',
     'react/jsx-props-no-spreading': 'off',

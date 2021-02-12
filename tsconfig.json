@@ -1,3 +1,7 @@
 {
-  "extends": "@stillmine/tsconfig"
+  "extends": "@stillmine/tsconfig",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx"
+  }
 }

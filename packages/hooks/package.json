@@ -12,20 +12,30 @@
   "types": "lib/mod.d.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc --emitDeclarationOnly\"",
+    "build:watch": "rollup -c -w",
+    "lint": "eslint src/**",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "7.12.13",
+    "@babel/plugin-transform-runtime": "7.12.15",
     "@babel/preset-env": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
+    "@babel/runtime": "7.12.13",
     "@rollup/plugin-babel": "5.2.3",
     "@rollup/plugin-node-resolve": "11.1.1",
+    "@testing-library/react-hooks": "5.0.3",
+    "@types/babel__plugin-transform-runtime": "^7",
+    "@types/jest": "26.0.20",
     "@types/react": "17.0.1",
     "concurrently": "5.3.0",
+    "jest": "26.6.3",
+    "react": "17.0.1",
     "rimraf": "3.0.2",
     "rollup": "2.38.5",
+    "ts-jest": "26.5.1",
     "typescript": "4.1.3"
   },
   "peerDependencies": {

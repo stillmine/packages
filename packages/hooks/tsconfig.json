@@ -1,12 +1,9 @@
 {
-  "compileOnSave": false,
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": false,
     "declaration": true,
-    "incremental": true,
-    "moduleResolution": "node",
     "outDir": "lib",
     "target": "es2015"
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/*.test.ts"]
 }

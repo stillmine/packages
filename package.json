@@ -68,6 +68,9 @@
     "webpack": "5.15.0"
   },
   "private": true,
+  "resolutions": {
+    "react": "17.0.1"
+  },
   "workspaces": [
     "examples/*",
     "packages/*"

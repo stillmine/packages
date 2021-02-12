@@ -1,4 +1,4 @@
+.babelrc
+rollup.config.js
 src
-tsconfig.cjs.json
-tsconfig.esm.json
 tsconfig.json
