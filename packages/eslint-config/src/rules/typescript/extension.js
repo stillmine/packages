@@ -34,7 +34,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-use-before-define': 'warn',
     '@typescript-eslint/no-useless-constructor': 'warn',
-    '@typescript-eslint/quotes': ['warn', 'single', { allowTemplateLiterals: false, avoidEscape: false }],
+    '@typescript-eslint/quotes': ['warn', 'single', { allowTemplateLiterals: true, avoidEscape: false }],
     '@typescript-eslint/require-await': 'error',
     '@typescript-eslint/return-await': ['error', 'never'],
     '@typescript-eslint/semi': ['error', 'always', { omitLastInOneLineBlock: false }],

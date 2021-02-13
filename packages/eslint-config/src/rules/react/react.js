@@ -45,7 +45,7 @@ module.exports = {
     'react/prefer-stateless-function': 'warn',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/require-default-props': 'warn',
+    'react/require-default-props': 'off',
     'react/require-optimization': 'warn',
     'react/require-render-return': 'warn',
     'react/self-closing-comp': 'warn',
