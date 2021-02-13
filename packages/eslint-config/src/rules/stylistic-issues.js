@@ -144,15 +144,7 @@ module.exports = {
     'no-unneeded-ternary': ['warn', { defaultAssignment: false }],
     'no-whitespace-before-property': 'warn',
     'nonblock-statement-body-position': ['warn', 'below', { overrides: {} }],
-    'object-curly-newline': [
-      'warn',
-      {
-        ExportDeclaration: { minProperties: 3, multiline: true },
-        ImportDeclaration: 'never',
-        ObjectExpression: { multiline: true },
-        ObjectPattern: { multiline: true },
-      },
-    ],
+    'object-curly-newline': ['warn', { consistent: true }],
     'object-curly-spacing': ['warn', 'always', { arraysInObjects: true, objectsInObjects: true }],
     'object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
     'one-var': ['warn', 'never'],
