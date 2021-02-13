@@ -8,5 +8,5 @@ export const SSRSuspense = ({ fallback, ...props }: Readonly<Props>) => {
     return <Suspense fallback={fallback} {...props} />;
   }
 
-  return fallback;
+  return <>{fallback}</>;
 };
