@@ -1,7 +1,6 @@
 module.exports = {
-  extends: ['prettier/@typescript-eslint', ...['./extension', './typescript'].map(path => require.resolve(path))],
+  extends: ['prettier/@typescript-eslint', './extension', './typescript'],
   parser: '@typescript-eslint/parser',
-  plugins: ['node'],
   rules: {
     'indent': 'off',
     'no-extra-parens': 'off',
@@ -12,7 +11,5 @@ module.exports = {
     'require-await': 'off',
     'semi': 'off',
     'space-before-function-paren': 'off',
-    'node/no-missing-import': 'off',
-    'node/no-unsupported-features/es-syntax': 'off',
   },
 };

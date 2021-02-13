@@ -1,3 +1,5 @@
+const { INDENT_SIZE, SINGLE } = require('../../constants');
+
 module.exports = {
   plugins: ['react'],
   rules: {
@@ -13,11 +15,11 @@ module.exports = {
     'react/jsx-first-prop-new-line': 'warn',
     'react/jsx-fragments': 'warn',
     'react/jsx-handler-names': 'warn',
-    'react/jsx-indent': ['warn', 2, { checkAttributes: false, indentLogicalExpressions: false }],
-    'react/jsx-indent-props': ['warn', 2],
+    'react/jsx-indent': ['warn', INDENT_SIZE, { checkAttributes: false, indentLogicalExpressions: false }],
+    'react/jsx-indent-props': ['warn', INDENT_SIZE],
     'react/jsx-key': 'warn',
     'react/jsx-max-depth': 'off',
-    'react/jsx-max-props-per-line': ['warn', { maximum: 1, when: 'multiline' }],
+    'react/jsx-max-props-per-line': ['warn', { maximum: SINGLE, when: 'multiline' }],
     'react/jsx-no-bind': 'warn',
     'react/jsx-no-comment-textnodes': 'warn',
     'react/jsx-no-duplicate-props': 'warn',

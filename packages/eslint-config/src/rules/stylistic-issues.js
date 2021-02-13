@@ -1,8 +1,10 @@
+const { INDENT_SIZE, SINGLE } = require('../constants');
+
 module.exports = {
   rules: {
-    'array-bracket-newline': ['warn', { minItems: 3, multiline: true }],
+    'array-bracket-newline': ['warn', 'consistent'],
     'array-bracket-spacing': ['warn', 'never', { arraysInArrays: false, objectsInArrays: false, singleValue: false }],
-    'array-element-newline': ['warn', { minItems: 3, multiline: true }],
+    'array-element-newline': ['warn', 'consistent'],
     'block-spacing': ['warn', 'always'],
     'brace-style': ['warn', '1tbs', { allowSingleLine: false }],
     'camelcase': ['warn', { allow: [], ignoreDestructuring: false, properties: 'always' }],
@@ -57,7 +59,7 @@ module.exports = {
     'id-length': 'off',
     'id-match': 'off',
     'implicit-arrow-linebreak': ['warn', 'beside'],
-    'indent': ['warn', 2],
+    'indent': ['warn', INDENT_SIZE],
     'jsx-quotes': ['warn', 'prefer-double'],
     'key-spacing': ['warn', { mode: 'strict' }],
     'keyword-spacing': ['warn', { after: true, before: true, overrides: {} }],
@@ -81,7 +83,7 @@ module.exports = {
         ignoreTemplateLiterals: false,
         ignoreTrailingComments: false,
         ignoreUrls: true,
-        tabWidth: 2,
+        tabWidth: INDENT_SIZE,
       },
     ],
     'max-lines': ['warn', { max: 300, skipBlankLines: true, skipComments: true }],
@@ -89,7 +91,7 @@ module.exports = {
     'max-nested-callbacks': ['warn', { max: 3 }],
     'max-params': ['warn', { max: 3 }],
     'max-statements': ['warn', { max: 10 }, { ignoreTopLevelFunctions: true }],
-    'max-statements-per-line': ['warn', { max: 1 }],
+    'max-statements-per-line': ['warn', { max: SINGLE }],
     'multiline-comment-style': ['warn', 'separate-lines'],
     'multiline-ternary': 'off',
     'new-cap': [
@@ -126,7 +128,7 @@ module.exports = {
     ],
     'no-mixed-spaces-and-tabs': ['warn', 'smart-tabs'],
     'no-multi-assign': 'error',
-    'no-multiple-empty-lines': ['warn', { max: 2, maxBOF: 1, maxEOF: 1 }],
+    'no-multiple-empty-lines': ['warn', { max: 2, maxBOF: SINGLE, maxEOF: SINGLE }],
     'no-negated-condition': 'warn',
     'no-nested-ternary': 'warn',
     'no-new-object': 'warn',
@@ -164,7 +166,7 @@ module.exports = {
     ],
     'padding-line-between-statements': 'off',
     'prefer-object-spread': 'warn',
-    'quote-props': ['warn', 'consistent-as-needed', { keywords: true, numbers: true, unnecessary: true }],
+    'quote-props': ['warn', 'consistent-as-needed', { keywords: false, numbers: true, unnecessary: true }],
     'quotes': ['warn', 'single', { allowTemplateLiterals: false, avoidEscape: false }],
     'semi': ['error', 'always', { omitLastInOneLineBlock: false }],
     'semi-spacing': ['warn', { after: true, before: false }],

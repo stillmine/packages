@@ -1,29 +1,27 @@
+const { ECMA_VERSION } = require('./src/constants');
+const { resolveModule } = require('./src/utils');
+
 module.exports = {
-  env: {
-    browser: true,
-    jest: true,
-  },
+  env: { jest: true, node: true },
   extends: [
-    './rules/best-practices',
-    './rules/ecma-script-6',
-    './rules/import',
-    './rules/no-secrets',
-    './rules/node',
-    './rules/possible-errors',
-    './rules/prettier',
-    './rules/react',
-    './rules/strict-mode',
-    './rules/stylistic-issues',
-    './rules/variables',
-  ].map(path => require.resolve(path)),
+    'best-practices',
+    'ecma-script-6',
+    'import',
+    'no-secrets',
+    'possible-errors',
+    'prettier',
+    'strict-mode',
+    'stylistic-issues',
+    'variables',
+  ].map(resolveModule),
   overrides: [
     {
-      extends: require.resolve('./rules/typescript'),
+      extends: resolveModule('typescript'),
       files: ['**/*.ts', '**/*.tsx'],
     },
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: ECMA_VERSION,
     sourceType: 'module',
   },
 };

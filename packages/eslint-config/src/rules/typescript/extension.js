@@ -1,12 +1,14 @@
+const { INDENT_SIZE } = require('../../constants');
+
 module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/brace-style': 'warn',
     '@typescript-eslint/comma-spacing': 'warn',
     '@typescript-eslint/default-param-last': 'warn',
-    '@typescript-eslint/dot-notation': 'warn',
+    '@typescript-eslint/dot-notation': 'off',
     '@typescript-eslint/func-call-spacing': 'warn',
-    '@typescript-eslint/indent': ['warn', 2],
+    '@typescript-eslint/indent': ['warn', INDENT_SIZE],
     '@typescript-eslint/init-declarations': 'warn',
     '@typescript-eslint/keyword-spacing': 'warn',
     '@typescript-eslint/lines-between-class-members': 'warn',

@@ -1,3 +1,5 @@
+const { SINGLE } = require('../constants');
+
 module.exports = {
   rules: {
     'accessor-pairs': ['error', { getWithoutSet: false, setWithoutGet: true }],
@@ -10,10 +12,10 @@ module.exports = {
     'default-case': 'error',
     'default-case-last': 'error',
     'dot-location': ['error', 'property'],
-    'dot-notation': ['error', { allowKeywords: false }],
+    'dot-notation': 'off',
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
     'guard-for-in': 'error',
-    'max-classes-per-file': ['warn', 1],
+    'max-classes-per-file': ['warn', SINGLE],
     'no-alert': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'error',
