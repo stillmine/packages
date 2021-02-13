@@ -1,1 +1,1 @@
-export * from './reset-list';
+export * from './resetList';
