@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@stillmine/utils": "workspace:packages/utils"
+    "@stillmine/utils": "workspace:0.3.0"
   },
   "devDependencies": {
     "@emotion/react": "11.1.5",
