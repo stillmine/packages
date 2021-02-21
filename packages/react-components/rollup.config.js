@@ -22,7 +22,7 @@ module.exports = {
       sourcemap: true,
     },
   ],
-  external: ['@emotion/react', '@emotion/styled', 'facepaint', 'react'],
+  external: ['@emotion/react', '@emotion/styled', 'facepaint', 'react', 'react-dom'],
   plugins: [
     nodeResolve({ moduleDirectories: ['node_modules'], extensions }),
     babel({ babelHelpers: 'bundled', extensions }),
