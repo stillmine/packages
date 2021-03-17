@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier/@typescript-eslint', './extension', './typescript'],
+  extends: ['./extension', './typescript'],
   parser: '@typescript-eslint/parser',
   rules: {
     'indent': 'off',
