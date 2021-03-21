@@ -13,11 +13,7 @@
   "bin": {
     "stillmine-rollup": "bin/cli.js"
   },
-  "scripts": {
-    "prebuild": "rimraf dist esm",
-    "build": "rollup -c && tsc",
-    "prepack": "yarn build"
-  },
+  "scripts": {},
   "peerDependencies": {
     "@babel/core": ">= 7.0.0",
     "rollup": ">= 2.0.0"

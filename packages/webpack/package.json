@@ -13,11 +13,7 @@
   "bin": {
     "stillmine-webpack": "bin/cli.js"
   },
-  "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "rollup -c && tsc",
-    "prepack": "yarn build"
-  },
+  "scripts": {},
   "dependencies": {
     "dotenv": "8.2.0",
     "webpack-merge": "5.7.3"
