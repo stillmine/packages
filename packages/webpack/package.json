@@ -23,7 +23,7 @@
     "webpack-merge": "5.7.3"
   },
   "devDependencies": {
-    "@types/node": "14.14.21"
+    "@types/node": "14.14.35"
   },
   "peerDependencies": {
     "@babel/core": ">= 7",
