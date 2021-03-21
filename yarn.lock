@@ -3948,7 +3948,7 @@ __metadata:
     "@rollup/plugin-babel": 5.2.3
     "@rollup/plugin-node-resolve": 11.1.1
     "@testing-library/react-hooks": 5.0.3
-    "@types/babel__plugin-transform-runtime": ^7
+    "@types/babel__plugin-transform-runtime": 7.9.1
     "@types/jest": 26.0.20
     "@types/react": 17.0.1
     concurrently: 5.3.0
@@ -5893,7 +5893,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__plugin-transform-runtime@npm:^7":
+"@types/babel__plugin-transform-runtime@npm:7.9.1":
   version: 7.9.1
   resolution: "@types/babel__plugin-transform-runtime@npm:7.9.1"
   checksum: 269e2a523cb4550ec19ad2e619c94625586fb630f209132ab15ec7163633b211f266d9433c778ccc0996f91a26f578649fe877e220542b9761b294ad96a390de
