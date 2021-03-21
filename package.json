@@ -19,9 +19,9 @@
     "new": "hygen package new"
   },
   "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "@commitlint/config-lerna-scopes": "11.0.0",
+    "@commitlint/cli": "12.0.1",
+    "@commitlint/config-conventional": "12.0.1",
+    "@commitlint/config-lerna-scopes": "12.0.1",
     "@emotion/react": "11.1.4",
     "@emotion/styled": "11.0.0",
     "@stillmine/eslint-config": "workspace:packages/eslint-config",
