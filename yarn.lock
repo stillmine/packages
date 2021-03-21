@@ -4335,7 +4335,7 @@ __metadata:
     eslint-config-prettier: 7.2.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jsx-a11y: 6.4.1
-    eslint-plugin-no-secrets: 0.6.8
+    eslint-plugin-no-secrets: 0.8.9
     eslint-plugin-prettier: 3.3.1
     eslint-plugin-react: 7.22.0
     eslint-plugin-react-hooks: 4.2.0
@@ -4377,7 +4377,7 @@ __metadata:
     eslint-config-prettier: 7.2.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jsx-a11y: 6.4.1
-    eslint-plugin-no-secrets: 0.6.8
+    eslint-plugin-no-secrets: 0.8.9
     eslint-plugin-prettier: 3.3.1
     eslint-plugin-react: 7.22.0
     eslint-plugin-react-hooks: 4.2.0
@@ -4424,7 +4424,7 @@ __metadata:
     eslint-config-prettier: 7.2.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jsx-a11y: 6.4.1
-    eslint-plugin-no-secrets: 0.6.8
+    eslint-plugin-no-secrets: 0.8.9
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.3.1
     eslint-plugin-react: 7.22.0
@@ -11618,12 +11618,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-secrets@npm:0.6.8":
-  version: 0.6.8
-  resolution: "eslint-plugin-no-secrets@npm:0.6.8"
+"eslint-plugin-no-secrets@npm:0.8.9":
+  version: 0.8.9
+  resolution: "eslint-plugin-no-secrets@npm:0.8.9"
   peerDependencies:
     eslint: ">=3.0.0"
-  checksum: 629b62c2e13d2a176ab3e5f270dfdddc1c7672eeff5b4bd79f62f2c8fe7a6d3149ac5f1702fe74a9acce70e592c26de591e5d53a4ebb7f698ae453106966e657
+  checksum: aefe3412af74b32157b0690a1cb8f4cc019fbf029669557e4b0734cec6fa9a9b3ec0d89567b500d07b8616af4814da3a217fb97989ad1f55c2dabec775fcd23e
   languageName: node
   linkType: hard
 
