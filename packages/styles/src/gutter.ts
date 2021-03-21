@@ -1,10 +1,12 @@
 import { css } from '@emotion/react';
 import { numberToUnit } from '@stillmine/utils';
 
+import type { Unit } from './unit';
+
 interface Options {
   direction?: 'horizontal' | 'vertical';
   selector?: string;
-  space?: number;
+  space?: Unit;
 }
 
 export function gutter({ direction = 'vertical', selector = '*', space = 16 }: Readonly<Options>) {

@@ -1,18 +1,21 @@
 import { css } from '@emotion/react';
+import { numberToUnit } from '@stillmine/utils';
+
+import type { Unit } from '../unit';
 
 type SpacingType = 'margin' | 'padding';
 
 interface SpacingOptions {
-  bottom?: number;
-  left?: number;
-  right?: number;
-  top?: number;
-  x?: number;
-  y?: number;
+  bottom?: Unit;
+  left?: Unit;
+  right?: Unit;
+  top?: Unit;
+  x?: Unit;
+  y?: Unit;
 }
 
 export function spacing(type: SpacingType, options: SpacingOptions | number) {
-  const spacing: Record<string, number> = {};
+  const spacing: Record<string, Unit> = {};
 
   if (typeof options === 'number') {
     spacing.bottom = options;
@@ -51,7 +54,7 @@ export function spacing(type: SpacingType, options: SpacingOptions | number) {
 
   return css(
     Object.entries(spacing)
-      .map(([direction, unit]) => `${type}-${direction}: ${unit}px;`)
+      .map(([direction, unit]) => `${type}-${direction}: ${numberToUnit(unit)};`)
       .join('')
   );
 }
