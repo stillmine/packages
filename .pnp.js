@@ -112,7 +112,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addons", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:6.1.14"],
             ["@storybook/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:6.1.14"],
             ["@testing-library/jest-dom", "npm:5.11.9"],
-            ["@testing-library/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.3"],
+            ["@testing-library/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.5"],
             ["@types/jest", "npm:26.0.20"],
             ["@types/node", "npm:14.14.35"],
             ["@types/react", "npm:17.0.1"],
@@ -8839,7 +8839,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addons", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:6.1.14"],
             ["@storybook/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:6.1.14"],
             ["@testing-library/jest-dom", "npm:5.11.9"],
-            ["@testing-library/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.3"],
+            ["@testing-library/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.5"],
             ["@types/jest", "npm:26.0.20"],
             ["@types/node", "npm:14.14.35"],
             ["@types/react", "npm:17.0.1"],
@@ -11085,13 +11085,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@testing-library/react", [
-        ["npm:11.2.3", {
-          "packageLocation": "./.yarn/cache/@testing-library-react-npm-11.2.3-3e43d47b5f-a310ca61cd.zip/node_modules/@testing-library/react/",
-          "packageDependencies": [
-            ["@testing-library/react", "npm:11.2.3"]
-          ],
-          "linkType": "SOFT",
-        }],
         ["npm:11.2.5", {
           "packageLocation": "./.yarn/cache/@testing-library-react-npm-11.2.5-dc83329a0e-1389b4eb11.zip/node_modules/@testing-library/react/",
           "packageDependencies": [
@@ -11118,10 +11111,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.3", {
-          "packageLocation": "./.yarn/$$virtual/@testing-library-react-virtual-462a3a1bf2/0/cache/@testing-library-react-npm-11.2.3-3e43d47b5f-a310ca61cd.zip/node_modules/@testing-library/react/",
+        ["virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.5", {
+          "packageLocation": "./.yarn/$$virtual/@testing-library-react-virtual-6baa31e80a/0/cache/@testing-library-react-npm-11.2.5-dc83329a0e-1389b4eb11.zip/node_modules/@testing-library/react/",
           "packageDependencies": [
-            ["@testing-library/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.3"],
+            ["@testing-library/react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:11.2.5"],
             ["@babel/runtime", "npm:7.12.5"],
             ["@testing-library/dom", "npm:7.29.4"],
             ["@types/react", "npm:17.0.1"],
