@@ -1,8 +1,9 @@
 import { css, keyframes } from '@emotion/react';
-import { FC } from 'react';
+
+type Size = 'sm' | 'md' | 'lg';
 
 interface Props {
-  size?: 'sm' | 'md' | 'lg';
+  size?: Size;
 }
 
 const spinFrame = keyframes`
@@ -15,7 +16,7 @@ const spinFrame = keyframes`
   }
 `;
 
-function getSpinnerSize(size) {
+function getSpinnerSize(size: Size) {
   switch (size) {
     case 'lg':
       return css`
@@ -39,17 +40,19 @@ function getSpinnerSize(size) {
   }
 }
 
-export const Spinner: FC<Props> = ({ size = 'md' }) => (
-  <div
-    css={[
-      getSpinnerSize(size),
-      css`
-        animation: ${spinFrame} 1s ease-in-out infinite;
-        border-color: #707070;
-        border-left-color: transparent;
-        border-radius: 50%;
-        border-style: solid;
-      `,
-    ]}
-  />
-);
+export const Spinner = ({ size = 'md' }: Props) => {
+  return (
+    <div
+      css={[
+        getSpinnerSize(size),
+        css`
+          animation: ${spinFrame} 1s ease-in-out infinite;
+          border-color: #707070;
+          border-left-color: transparent;
+          border-radius: 50%;
+          border-style: solid;
+        `,
+      ]}
+    />
+  );
+};
