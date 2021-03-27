@@ -9557,6 +9557,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:26.0.20"],
             ["@types/react", "npm:17.0.1"],
             ["@types/react-dom", "npm:17.0.1"],
+            ["@types/testing-library__jest-dom", "npm:5.9.5"],
             ["concurrently", "npm:5.3.0"],
             ["core-js", "npm:3.8.3"],
             ["facepaint", "npm:1.2.1"],
