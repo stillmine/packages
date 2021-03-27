@@ -12,6 +12,6 @@ describe('useSelect', () => {
   it('', () => {
     const { result } = renderHook(() => useSelect({ initialOptions }));
 
-    expect(result.current[0]).toStrictEqual(initialOptions);
+    expect(result.current.options[0]).toStrictEqual(initialOptions);
   });
 });
