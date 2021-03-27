@@ -4340,6 +4340,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/eslint-config@workspace:packages/eslint-config"
   dependencies:
+    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config"
     "@typescript-eslint/eslint-plugin": 4.18.0
     "@typescript-eslint/parser": 4.18.0
     eslint: 7.20.0
@@ -4351,6 +4352,7 @@ __metadata:
     eslint-plugin-react: 7.22.0
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-simple-import-sort: 7.0.0
+    semantic-release: 17.4.2
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">= 4"
     "@typescript-eslint/parser": ">= 4"
@@ -4560,6 +4562,9 @@ __metadata:
 "@stillmine/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@stillmine/tsconfig@workspace:packages/tsconfig"
+  dependencies:
+    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config"
+    semantic-release: 17.4.2
   peerDependencies:
     typescript: ">= 4"
   languageName: unknown

@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@stillmine/packages", ["workspace:."]],
       ["@stillmine/react-components", ["workspace:packages/react-components"]],
       ["@stillmine/rollup", ["workspace:packages/rollup"]],
-      ["@stillmine/semantic-release-config", ["virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config", "workspace:packages/semantic-release-config"]],
+      ["@stillmine/semantic-release-config", ["virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config", "workspace:packages/semantic-release-config"]],
       ["@stillmine/styles", ["virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles", "workspace:packages/styles"]],
       ["@stillmine/tsconfig", ["virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#workspace:packages/tsconfig", "workspace:packages/tsconfig"]],
       ["@stillmine/types", ["workspace:packages/types"]],
@@ -9016,10 +9016,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:19a1663ad4466d58fb1de78233b843b09ede7642d42d863eb43b2283d9ea074bff630b1ca3b88c5cbcb1b855a2d3e134b45e0efeb497220ab9c4d22b6c50062e#npm:5.0.1", {
-          "packageLocation": "./.yarn/$$virtual/@semantic-release-changelog-virtual-bacede33ca/0/cache/@semantic-release-changelog-npm-5.0.1-6a4fde8bb8-9f4620e6f6.zip/node_modules/@semantic-release/changelog/",
+        ["virtual:11ea1a83689bc400223f42e6dafff731b98a096665ba98e4ff48f03748c0a92cae2d827d0de3cf6b75fed3b2829446b1cd7a344c1c4b9ea0a0d6c2cec50aba8d#npm:5.0.1", {
+          "packageLocation": "./.yarn/$$virtual/@semantic-release-changelog-virtual-dc7749fbd8/0/cache/@semantic-release-changelog-npm-5.0.1-6a4fde8bb8-9f4620e6f6.zip/node_modules/@semantic-release/changelog/",
           "packageDependencies": [
-            ["@semantic-release/changelog", "virtual:19a1663ad4466d58fb1de78233b843b09ede7642d42d863eb43b2283d9ea074bff630b1ca3b88c5cbcb1b855a2d3e134b45e0efeb497220ab9c4d22b6c50062e#npm:5.0.1"],
+            ["@semantic-release/changelog", "virtual:11ea1a83689bc400223f42e6dafff731b98a096665ba98e4ff48f03748c0a92cae2d827d0de3cf6b75fed3b2829446b1cd7a344c1c4b9ea0a0d6c2cec50aba8d#npm:5.0.1"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["@types/semantic-release", null],
             ["aggregate-error", "npm:3.1.0"],
@@ -9097,10 +9097,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:19a1663ad4466d58fb1de78233b843b09ede7642d42d863eb43b2283d9ea074bff630b1ca3b88c5cbcb1b855a2d3e134b45e0efeb497220ab9c4d22b6c50062e#npm:9.0.0", {
-          "packageLocation": "./.yarn/$$virtual/@semantic-release-git-virtual-649c43501b/0/cache/@semantic-release-git-npm-9.0.0-28528be7a6-8a96bc9e44.zip/node_modules/@semantic-release/git/",
+        ["virtual:11ea1a83689bc400223f42e6dafff731b98a096665ba98e4ff48f03748c0a92cae2d827d0de3cf6b75fed3b2829446b1cd7a344c1c4b9ea0a0d6c2cec50aba8d#npm:9.0.0", {
+          "packageLocation": "./.yarn/$$virtual/@semantic-release-git-virtual-fd5c5b4ae7/0/cache/@semantic-release-git-npm-9.0.0-28528be7a6-8a96bc9e44.zip/node_modules/@semantic-release/git/",
           "packageDependencies": [
-            ["@semantic-release/git", "virtual:19a1663ad4466d58fb1de78233b843b09ede7642d42d863eb43b2283d9ea074bff630b1ca3b88c5cbcb1b855a2d3e134b45e0efeb497220ab9c4d22b6c50062e#npm:9.0.0"],
+            ["@semantic-release/git", "virtual:11ea1a83689bc400223f42e6dafff731b98a096665ba98e4ff48f03748c0a92cae2d827d0de3cf6b75fed3b2829446b1cd7a344c1c4b9ea0a0d6c2cec50aba8d#npm:9.0.0"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["@types/semantic-release", null],
             ["aggregate-error", "npm:3.1.0"],
@@ -9270,6 +9270,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@stillmine-eslint-config-virtual-bc0a41afca/1/packages/eslint-config/",
           "packageDependencies": [
             ["@stillmine/eslint-config", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#workspace:packages/eslint-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@types/eslint", null],
             ["@types/eslint-config-prettier", null],
             ["@types/eslint-plugin-import", null],
@@ -9291,7 +9292,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:a9bf1ed90254ef350b6ab2f743db0a316665767f8e2a2815f2a381dcabe0cb9560923c46fc75efeceb725f8af63b0af510552f5b6ee2241e49bb3035bc3b53b7#npm:3.3.1"],
             ["eslint-plugin-react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.22.0"],
             ["eslint-plugin-react-hooks", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:4.2.0"],
-            ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"]
+            ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"],
+            ["semantic-release", "npm:17.4.2"]
           ],
           "packagePeers": [
             "@types/eslint-config-prettier",
@@ -9323,6 +9325,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@stillmine-eslint-config-virtual-28029b504e/1/packages/eslint-config/",
           "packageDependencies": [
             ["@stillmine/eslint-config", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#workspace:packages/eslint-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@types/eslint", null],
             ["@types/eslint-config-prettier", null],
             ["@types/eslint-plugin-import", null],
@@ -9344,7 +9347,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:3.3.1"],
             ["eslint-plugin-react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.22.0"],
             ["eslint-plugin-react-hooks", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:4.2.0"],
-            ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"]
+            ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"],
+            ["semantic-release", "npm:17.4.2"]
           ],
           "packagePeers": [
             "@types/eslint-config-prettier",
@@ -9376,6 +9380,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/eslint-config/",
           "packageDependencies": [
             ["@stillmine/eslint-config", "workspace:packages/eslint-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@typescript-eslint/eslint-plugin", "virtual:a9bf1ed90254ef350b6ab2f743db0a316665767f8e2a2815f2a381dcabe0cb9560923c46fc75efeceb725f8af63b0af510552f5b6ee2241e49bb3035bc3b53b7#npm:4.18.0"],
             ["@typescript-eslint/parser", "virtual:a9bf1ed90254ef350b6ab2f743db0a316665767f8e2a2815f2a381dcabe0cb9560923c46fc75efeceb725f8af63b0af510552f5b6ee2241e49bb3035bc3b53b7#npm:4.18.0"],
             ["eslint", "npm:7.20.0"],
@@ -9386,7 +9391,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:a9bf1ed90254ef350b6ab2f743db0a316665767f8e2a2815f2a381dcabe0cb9560923c46fc75efeceb725f8af63b0af510552f5b6ee2241e49bb3035bc3b53b7#npm:3.3.1"],
             ["eslint-plugin-react", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.22.0"],
             ["eslint-plugin-react-hooks", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:4.2.0"],
-            ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"]
+            ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"],
+            ["semantic-release", "npm:17.4.2"]
           ],
           "linkType": "SOFT",
         }]
@@ -9541,7 +9547,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/plugin-commonjs", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.1.0"],
             ["@rollup/plugin-node-resolve", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:11.1.1"],
             ["@stillmine/hooks", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/hooks"],
-            ["@stillmine/semantic-release-config", "virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@stillmine/styles", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/units", "workspace:packages/units"],
@@ -9585,12 +9591,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@stillmine/semantic-release-config", [
-        ["virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config", {
-          "packageLocation": "./.yarn/$$virtual/@stillmine-semantic-release-config-virtual-19a1663ad4/1/packages/semantic-release-config/",
+        ["virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config", {
+          "packageLocation": "./.yarn/$$virtual/@stillmine-semantic-release-config-virtual-11ea1a8368/1/packages/semantic-release-config/",
           "packageDependencies": [
-            ["@stillmine/semantic-release-config", "virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config"],
-            ["@semantic-release/changelog", "virtual:19a1663ad4466d58fb1de78233b843b09ede7642d42d863eb43b2283d9ea074bff630b1ca3b88c5cbcb1b855a2d3e134b45e0efeb497220ab9c4d22b6c50062e#npm:5.0.1"],
-            ["@semantic-release/git", "virtual:19a1663ad4466d58fb1de78233b843b09ede7642d42d863eb43b2283d9ea074bff630b1ca3b88c5cbcb1b855a2d3e134b45e0efeb497220ab9c4d22b6c50062e#npm:9.0.0"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
+            ["@semantic-release/changelog", "virtual:11ea1a83689bc400223f42e6dafff731b98a096665ba98e4ff48f03748c0a92cae2d827d0de3cf6b75fed3b2829446b1cd7a344c1c4b9ea0a0d6c2cec50aba8d#npm:5.0.1"],
+            ["@semantic-release/git", "virtual:11ea1a83689bc400223f42e6dafff731b98a096665ba98e4ff48f03748c0a92cae2d827d0de3cf6b75fed3b2829446b1cd7a344c1c4b9ea0a0d6c2cec50aba8d#npm:9.0.0"],
             ["@types/semantic-release", null],
             ["eslint", "npm:7.23.0"],
             ["semantic-release", "npm:17.4.2"]
@@ -9618,7 +9624,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/styles", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles"],
             ["@emotion/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:11.1.5"],
-            ["@stillmine/semantic-release-config", "virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/emotion__react", null],
@@ -9646,7 +9652,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/styles", "workspace:packages/styles"],
             ["@emotion/react", "virtual:32448490a953c8ca1b6c61105d30db99da0198b6677b2a5d793d2f926d65b9c2a05a4e98d22c99147e4a0e1185424fe482e533eb3bfe164778f0b1e1665a353c#npm:11.1.5"],
-            ["@stillmine/semantic-release-config", "virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/facepaint", "npm:1.2.1"],
@@ -9665,7 +9671,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@stillmine-tsconfig-virtual-dc4a6c928e/1/packages/tsconfig/",
           "packageDependencies": [
             ["@stillmine/tsconfig", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#workspace:packages/tsconfig"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["@types/typescript", null],
+            ["semantic-release", "npm:17.4.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
           "packagePeers": [
@@ -9677,7 +9685,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/tsconfig", {
           "packageLocation": "./packages/tsconfig/",
           "packageDependencies": [
-            ["@stillmine/tsconfig", "workspace:packages/tsconfig"]
+            ["@stillmine/tsconfig", "workspace:packages/tsconfig"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
+            ["semantic-release", "npm:17.4.2"]
           ],
           "linkType": "SOFT",
         }]
@@ -9712,7 +9722,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/utils/",
           "packageDependencies": [
             ["@stillmine/utils", "workspace:packages/utils"],
-            ["@stillmine/semantic-release-config", "virtual:335974e4bc86e985d2c16527f54d5d15146513a5ef5745ddbdb72209225fed6251b22224a4a3bccc6f3d006cdfda05a06116586c9a0b851995813e59c8ed01fe#workspace:packages/semantic-release-config"],
+            ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["concurrently", "npm:5.3.0"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
@@ -17385,18 +17395,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:1f43412872fd884ea1247d77cd236ac89b1b489fe66cda1675f885395b16fa7be38fca8f4ee0ddb7d79481d2482886d2d62a39f86813baeaf755095851975ab1#npm:3.2.7", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-f112a3202f/0/cache/debug-npm-3.2.7-754e818c7a-9fc1277e66.zip/node_modules/debug/",
-          "packageDependencies": [
-            ["debug", "virtual:1f43412872fd884ea1247d77cd236ac89b1b489fe66cda1675f885395b16fa7be38fca8f4ee0ddb7d79481d2482886d2d62a39f86813baeaf755095851975ab1#npm:3.2.7"],
-            ["ms", "npm:2.1.3"],
-            ["supports-color", null]
-          ],
-          "packagePeers": [
-            "supports-color"
-          ],
-          "linkType": "HARD",
-        }],
         ["virtual:2bcc47d217f870e3d52f0e55493dc34fd3da852877f7db32fa2940cc320151746026495daf6a34a974488cf5a949d93be1e2dc1ffba036faf081a9b15fcd2252#npm:2.6.9", {
           "packageLocation": "./.yarn/$$virtual/debug-virtual-6cfa7ae8cd/0/cache/debug-npm-2.6.9-7d4cb597dc-559f44f98c.zip/node_modules/debug/",
           "packageDependencies": [
@@ -17438,6 +17436,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["debug", "virtual:6618ab6046111bda0b9a733e34fec5329265b155b4408a2345f36333ccbe1a86dfc9efc447e5134e4156dde98ed737f5efbe42b5378f22c09197bf46e2cdab17#npm:3.1.0"],
             ["ms", "npm:2.0.0"],
+            ["supports-color", null]
+          ],
+          "packagePeers": [
+            "supports-color"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:8bb97bed484f021974a05538f31c077871d2363ce26ebed59b11577446762350604c9011c0660ae55b141dd86d888615a377ccccd7a87c5e54ae38233a22d5a9#npm:3.2.7", {
+          "packageLocation": "./.yarn/$$virtual/debug-virtual-f5a57aca55/0/cache/debug-npm-3.2.7-754e818c7a-9fc1277e66.zip/node_modules/debug/",
+          "packageDependencies": [
+            ["debug", "virtual:8bb97bed484f021974a05538f31c077871d2363ce26ebed59b11577446762350604c9011c0660ae55b141dd86d888615a377ccccd7a87c5e54ae38233a22d5a9#npm:3.2.7"],
+            ["ms", "npm:2.1.3"],
             ["supports-color", null]
           ],
           "packagePeers": [
@@ -21441,7 +21451,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["https-proxy-agent", "npm:2.2.4"],
             ["agent-base", "npm:4.3.0"],
-            ["debug", "virtual:1f43412872fd884ea1247d77cd236ac89b1b489fe66cda1675f885395b16fa7be38fca8f4ee0ddb7d79481d2482886d2d62a39f86813baeaf755095851975ab1#npm:3.2.7"]
+            ["debug", "virtual:8bb97bed484f021974a05538f31c077871d2363ce26ebed59b11577446762350604c9011c0660ae55b141dd86d888615a377ccccd7a87c5e54ae38233a22d5a9#npm:3.2.7"]
           ],
           "linkType": "HARD",
         }],
@@ -34341,7 +34351,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/webpack-virtual-modules-npm-0.2.2-1f43412872-f06d8f3e84.zip/node_modules/webpack-virtual-modules/",
           "packageDependencies": [
             ["webpack-virtual-modules", "npm:0.2.2"],
-            ["debug", "virtual:1f43412872fd884ea1247d77cd236ac89b1b489fe66cda1675f885395b16fa7be38fca8f4ee0ddb7d79481d2482886d2d62a39f86813baeaf755095851975ab1#npm:3.2.7"]
+            ["debug", "virtual:8bb97bed484f021974a05538f31c077871d2363ce26ebed59b11577446762350604c9011c0660ae55b141dd86d888615a377ccccd7a87c5e54ae38233a22d5a9#npm:3.2.7"]
           ],
           "linkType": "HARD",
         }]
