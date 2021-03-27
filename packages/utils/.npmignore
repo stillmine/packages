@@ -1,4 +1,4 @@
-.babelrc
-rollup.config.js
+.releaserc
 src
-tsconfig.json
+tsconfig*.json
+*.tsbuildinfo

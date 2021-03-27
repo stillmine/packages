@@ -1,8 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declaration": true,
-    "outDir": "lib"
-  },
-  "exclude": ["node_modules"]
+    "incremental": true,
+    "lib": ["dom", "es2015"]
+  }
 }
