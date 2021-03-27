@@ -10,8 +10,7 @@
   "main": "src/mod.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc --emitDeclarationOnly -p tsconfig.build.json\"",
-    "build:watch": "rollup -c -w",
-    "lint": "eslint src/**",
+    "lint": "eslint src/**/*.ts",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
