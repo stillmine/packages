@@ -1,11 +1,11 @@
-name: Release
+name: CI
 on:
   push:
-    branches:
+    branches-ignore:
       - main
 jobs:
-  release:
-    name: Release
+  CI:
+    name: CI
     runs-on: ubuntu-18.04
     steps:
       - name: Cancel Previous Runs
@@ -20,8 +20,7 @@ jobs:
           node-version: 14
       - name: Install dependencies
         run: yarn --immutable --immutable-cache
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn workspaces foreach -pt run release
+      - name: Run typecheck
+        run: yarn workspaces foreach -pt run typecheck
+      - name: Run lint
+        run: yarn workspaces foreach -pt run lint
