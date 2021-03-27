@@ -40,7 +40,7 @@
     "@emotion/react": "11.1.5",
     "@rollup/plugin-babel": "5.3.0",
     "@rollup/plugin-commonjs": "17.1.0",
-    "@rollup/plugin-node-resolve": "11.1.1",
+    "@rollup/plugin-node-resolve": "11.2.1",
     "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
     "@stillmine/types": "workspace:packages/types",
     "@storybook/addon-a11y": "6.1.21",
