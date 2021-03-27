@@ -18,7 +18,7 @@
   "scripts": {
     "new": "hygen package new",
     "lint": "yarn workspaces foreach -pt run lint",
-    "release": "yarn workspaces foreach -pt run release",
+    "release": "yarn workspaces foreach -t run release",
     "typecheck": "yarn workspaces foreach -pt run typecheck"
   },
   "devDependencies": {
