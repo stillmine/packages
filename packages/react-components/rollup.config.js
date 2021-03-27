@@ -11,13 +11,13 @@ module.exports = {
   output: [
     {
       exports: 'named',
-      file: pkg.main,
+      file: pkg.publishConfig.main,
       format: 'cjs',
       sourcemap: true,
     },
     {
       exports: 'named',
-      file: pkg.module,
+      file: pkg.publishConfig.module,
       format: 'esm',
       sourcemap: true,
     },

@@ -1,11 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "lib",
-    "jsxImportSource": "@emotion/react",
-    "outDir": "lib"
+    "jsxImportSource": "@emotion/react"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.stories.tsx", "**/*.test.tsx"]
+  "include": ["src/**/*"]
 }

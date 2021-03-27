@@ -13,11 +13,9 @@
     "url": "https://github.com/stillmine/packages.git"
   },
   "license": "MIT",
-  "main": "lib/mod.js",
-  "module": "esm/mod.js",
-  "types": "lib/mod.d.ts",
+  "main": "src/mod.ts",
   "scripts": {
-    "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc --emitDeclarationOnly\"",
+    "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc -p tsconfig.build.json\"",
     "develop:storybook": "start-storybook -p 6006",
     "lint": "eslint src/**",
     "prepack": "yarn build",
@@ -43,8 +41,7 @@
     "@rollup/plugin-babel": "5.3.0",
     "@rollup/plugin-commonjs": "17.1.0",
     "@rollup/plugin-node-resolve": "11.1.1",
-    "@semantic-release/git": "9.0.0",
-    "@semantic-release/npm": "7.0.10",
+    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
     "@stillmine/types": "workspace:packages/types",
     "@storybook/addon-a11y": "6.1.21",
     "@storybook/addon-actions": "6.1.21",
@@ -78,6 +75,9 @@
     "react-dom": ">= 17"
   },
   "publishConfig": {
+    "main": "lib/mod.js",
+    "module": "esm/mod.js",
+    "types": "lib/mod.d.ts",
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   }
