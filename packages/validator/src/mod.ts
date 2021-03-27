@@ -1,1 +1,2 @@
-export * from './validator';
+export * from './isNil';
+export * from './isUUID';
