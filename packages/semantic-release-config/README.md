@@ -1,0 +1,1 @@
+# @stillmine/semantic-release-config
