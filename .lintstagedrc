@@ -2,8 +2,8 @@
   "**/*.js": "yarn lint",
   "**/*.md": "textlint",
   "**/*.{ts,tsx}": [
-    "yarn lint",
     "yarn typecheck",
+    "yarn lint",
     "yarn test"
   ]
 }
