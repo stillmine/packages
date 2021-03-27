@@ -4,12 +4,14 @@
     "allowJs": false,
     "charset": "utf8",
     "checkJs": false,
+    "esModuleInterop": true,
     "incremental": true,
     "moduleResolution": "node",
     "newLine": "lf",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "skipLibCheck": true,
+    "strict": true,
     "strictNullChecks": true
   }
 }
