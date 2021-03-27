@@ -5,6 +5,7 @@ export * from './Flex/mod';
 export * from './Icon/mod';
 export * from './ProgressBar/mod';
 export * from './Select/mod';
+export * from './Spinner/mod';
 export * from './SSRSuspense';
 export * from './Stack/mod';
 export * from './Tab/mod';

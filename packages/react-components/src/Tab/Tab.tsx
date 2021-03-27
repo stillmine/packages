@@ -1,4 +1,4 @@
-import { Children, cloneElement, ReactElement, useState } from 'react';
+import { Children, cloneElement, MouseEvent, ReactElement, useState } from 'react';
 
 import { TabItem } from './TabItem';
 
@@ -16,7 +16,7 @@ export const Tab = ({ children, defaultValue, onChange, ...props }: Props) => {
       {Children.map(children, child => {
         return cloneElement(child, {
           active: value === child.props.value,
-          onClick({ currentTarget: { value } }) {
+          onClick({ currentTarget: { value } }: MouseEvent<HTMLButtonElement>) {
             onChange?.(value);
             setValue(value);
           },

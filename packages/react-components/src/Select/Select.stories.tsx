@@ -26,7 +26,7 @@ export const Basic = () => {
 };
 
 export const Searchable = () => {
-  const [options] = useSelect(initialOptions);
+  const { options } = useSelect({ initialOptions });
 
   return (
     <Select.Searchable label="Fruits">

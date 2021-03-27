@@ -2,11 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "lib": ["es2017"],
-    "target": "es2015",
-    "paths": {
-      "src/*": ["./src/*"]
-    }
-  },
-  "exclude": ["node_modules"]
+    "esModuleInterop": true,
+    "incremental": true,
+    "lib": ["dom", "es2017"],
+    "target": "es2015"
+  }
 }

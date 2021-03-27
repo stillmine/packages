@@ -16,7 +16,10 @@
     "url": "https://euihyun.vercel.app"
   },
   "scripts": {
-    "new": "hygen package new"
+    "new": "hygen package new",
+    "lint": "yarn workspaces foreach -pt run lint",
+    "release": "yarn workspaces foreach -pt run release",
+    "typecheck": "yarn workspaces foreach -pt run typecheck"
   },
   "devDependencies": {
     "@commitlint/cli": "12.0.1",

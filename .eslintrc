@@ -1,5 +1,5 @@
 {
-  "extends": "@stillmine",
+  "extends": "@stillmine/eslint-config/react",
   "parserOptions": {
     "project": "./tsconfig.json"
   }
