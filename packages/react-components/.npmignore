@@ -1,7 +1,12 @@
 .babelrc
+.releaserc
 .storybook
 jest.config.js
 jest.setup.ts
 rollup.config.js
+assets
 src
+stories
 tsconfig.json
+tsconfig.build.json
+*.tsbuildinfo
