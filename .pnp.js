@@ -9741,7 +9741,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/webpack", "virtual:710cb9b081c5f56f4b0000568ad8cc284b950c7b66f666d5d631e5422d93e420995e2ce0fb432de5e87d35912c1e7fb9040944db6015c63d6b3d7d45d35789e2#workspace:packages/webpack"],
             ["@babel/core", null],
             ["@types/babel__core", null],
-            ["@types/node", "npm:14.14.35"],
+            ["@types/node", "npm:14.14.37"],
             ["@types/webpack", null],
             ["dotenv", "npm:8.2.0"],
             ["webpack", null],
@@ -9759,7 +9759,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/webpack/",
           "packageDependencies": [
             ["@stillmine/webpack", "workspace:packages/webpack"],
-            ["@types/node", "npm:14.14.35"],
+            ["@types/node", "npm:14.14.37"],
             ["dotenv", "npm:8.2.0"],
             ["webpack-merge", "npm:5.7.3"]
           ],
@@ -11580,10 +11580,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:14.14.35", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.14.35-c55176fef6-0f6320bf53.zip/node_modules/@types/node/",
+        ["npm:14.14.37", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.14.37-6783f920bd-5e2d9baf75.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:14.14.35"]
+            ["@types/node", "npm:14.14.37"]
           ],
           "linkType": "HARD",
         }]
