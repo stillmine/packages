@@ -4207,7 +4207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/commit-analyzer@npm:^8.0.0":
+"@semantic-release/commit-analyzer@npm:8.0.1, @semantic-release/commit-analyzer@npm:^8.0.0":
   version: 8.0.1
   resolution: "@semantic-release/commit-analyzer@npm:8.0.1"
   dependencies:
@@ -4249,7 +4249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^7.0.0":
+"@semantic-release/github@npm:7.2.0, @semantic-release/github@npm:^7.0.0":
   version: 7.2.0
   resolution: "@semantic-release/github@npm:7.2.0"
   dependencies:
@@ -4275,7 +4275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^7.0.0":
+"@semantic-release/npm@npm:7.0.10, @semantic-release/npm@npm:^7.0.0":
   version: 7.0.10
   resolution: "@semantic-release/npm@npm:7.0.10"
   dependencies:
@@ -4298,7 +4298,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^9.0.0":
+"@semantic-release/release-notes-generator@npm:9.0.2, @semantic-release/release-notes-generator@npm:^9.0.0":
   version: 9.0.2
   resolution: "@semantic-release/release-notes-generator@npm:9.0.2"
   dependencies:
@@ -4530,7 +4530,11 @@ __metadata:
   resolution: "@stillmine/semantic-release-config@workspace:packages/semantic-release-config"
   dependencies:
     "@semantic-release/changelog": 5.0.1
+    "@semantic-release/commit-analyzer": 8.0.1
     "@semantic-release/git": 9.0.0
+    "@semantic-release/github": 7.2.0
+    "@semantic-release/npm": 7.0.10
+    "@semantic-release/release-notes-generator": 9.0.2
     eslint: 7.23.0
   peerDependencies:
     semantic-release: ">= 17"
