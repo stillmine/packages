@@ -4275,7 +4275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:7.0.10, @semantic-release/npm@npm:^7.0.0":
+"@semantic-release/npm@npm:^7.0.0":
   version: 7.0.10
   resolution: "@semantic-release/npm@npm:7.0.10"
   dependencies:
@@ -4539,8 +4539,7 @@ __metadata:
   resolution: "@stillmine/styles@workspace:packages/styles"
   dependencies:
     "@emotion/react": 11.1.5
-    "@semantic-release/git": 9.0.0
-    "@semantic-release/npm": 7.0.10
+    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config"
     "@stillmine/types": "workspace:packages/types"
     "@stillmine/utils": "workspace:^0.3.0"
     "@types/facepaint": 1.2.1

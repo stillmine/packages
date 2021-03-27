@@ -9617,8 +9617,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/styles", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles"],
             ["@emotion/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:11.1.5"],
-            ["@semantic-release/git", "virtual:2e6be0afd757b7a886a197803b3fa7a00810c3422d9b829aa58b3a9459c9959a37749796c06ca3f0404cf60709c247682b7f64f80439795a26b10a21bc848117#npm:9.0.0"],
-            ["@semantic-release/npm", "virtual:33879d04bef49b7b9fe84d7fabbf5820f5fa969041ba25c4ebd6e3f4996c9d7942420274ab424f141d5c92bfd39e850e5377ac94f2fe0e48beb1b7b64e40a05c#npm:7.0.10"],
+            ["@stillmine/semantic-release-config", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/semantic-release-config"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/emotion__react", null],
@@ -9646,8 +9645,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/styles", "workspace:packages/styles"],
             ["@emotion/react", "virtual:32448490a953c8ca1b6c61105d30db99da0198b6677b2a5d793d2f926d65b9c2a05a4e98d22c99147e4a0e1185424fe482e533eb3bfe164778f0b1e1665a353c#npm:11.1.5"],
-            ["@semantic-release/git", "virtual:2e6be0afd757b7a886a197803b3fa7a00810c3422d9b829aa58b3a9459c9959a37749796c06ca3f0404cf60709c247682b7f64f80439795a26b10a21bc848117#npm:9.0.0"],
-            ["@semantic-release/npm", "virtual:33879d04bef49b7b9fe84d7fabbf5820f5fa969041ba25c4ebd6e3f4996c9d7942420274ab424f141d5c92bfd39e850e5377ac94f2fe0e48beb1b7b64e40a05c#npm:7.0.10"],
+            ["@stillmine/semantic-release-config", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/semantic-release-config"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/facepaint", "npm:1.2.1"],
