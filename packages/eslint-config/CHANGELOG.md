@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/stillmine/packages/compare/v1.3.0...v1.3.1) (2021-03-27)
+
+
+### Bug Fixes
+
+* **semantic-release-config:** add semantic-release base plugins ([#48](https://github.com/stillmine/packages/issues/48)) ([5bd026e](https://github.com/stillmine/packages/commit/5bd026e0f1245f65feb696a96c7df3bcf393c2f2))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
