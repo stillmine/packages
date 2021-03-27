@@ -6,6 +6,7 @@ module.exports = {
     'no-extra-parens': 'off',
     'no-magic-numbers': 'off',
     'no-return-await': 'off',
+    'no-undef': 'off',
     'no-unused-vars': 'off',
     'quotes': 'off',
     'require-await': 'off',
