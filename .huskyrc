@@ -1,5 +1,6 @@
 {
   "hooks": {
-    "post-merge": "yarn"
+    "post-merge": "yarn",
+    "pre-commit": "commitlint"
   }
 }
