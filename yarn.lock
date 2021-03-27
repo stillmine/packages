@@ -4126,9 +4126,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-node-resolve@npm:11.1.1":
-  version: 11.1.1
-  resolution: "@rollup/plugin-node-resolve@npm:11.1.1"
+"@rollup/plugin-node-resolve@npm:11.2.1":
+  version: 11.2.1
+  resolution: "@rollup/plugin-node-resolve@npm:11.2.1"
   dependencies:
     "@rollup/pluginutils": ^3.1.0
     "@types/resolve": 1.17.1
@@ -4138,7 +4138,7 @@ __metadata:
     resolve: ^1.19.0
   peerDependencies:
     rollup: ^1.20.0||^2.0.0
-  checksum: 79161dcdf482812c843ace75fd73b9b8497490d1ee03bbd1e52e8a6d0dac4b0f5c1f773cec447157c77a946eccd2256b8d51f95a42e0a6992b6c2739ad03197a
+  checksum: ae1bed46a949a1d8c077e021751c0140a523f731bea464ed0bfc3d335096493d1638be2a756f72d96f1f3a00fbdad8ba8fad8e86381d3eafce5ea2dffd62f175
   languageName: node
   linkType: hard
 
@@ -4340,7 +4340,7 @@ __metadata:
     "@babel/preset-typescript": 7.13.0
     "@babel/runtime": 7.13.10
     "@rollup/plugin-babel": 5.3.0
-    "@rollup/plugin-node-resolve": 11.1.1
+    "@rollup/plugin-node-resolve": 11.2.1
     "@stillmine/eslint-config": "workspace:packages/eslint-config"
     "@testing-library/react-hooks": 5.1.0
     "@types/jest": 26.0.20
@@ -4412,7 +4412,7 @@ __metadata:
     "@reach/auto-id": 0.13.0
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-commonjs": 17.1.0
-    "@rollup/plugin-node-resolve": 11.1.1
+    "@rollup/plugin-node-resolve": 11.2.1
     "@stillmine/hooks": "workspace:^0.2.0"
     "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config"
     "@stillmine/styles": "workspace:^1.1.0"
