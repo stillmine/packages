@@ -9540,7 +9540,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/addon-knobs", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:6.1.21"],
             ["@storybook/addon-options", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:5.3.21"],
             ["@storybook/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:6.1.21"],
-            ["@testing-library/jest-dom", "npm:5.11.9"],
+            ["@testing-library/jest-dom", "npm:5.11.10"],
             ["@testing-library/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:11.2.5"],
             ["@types/jest", "npm:26.0.20"],
             ["@types/react", "npm:17.0.1"],
@@ -10975,10 +10975,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@testing-library/jest-dom", [
-        ["npm:5.11.9", {
-          "packageLocation": "./.yarn/cache/@testing-library-jest-dom-npm-5.11.9-ad0c7dbe3e-c285c044ed.zip/node_modules/@testing-library/jest-dom/",
+        ["npm:5.11.10", {
+          "packageLocation": "./.yarn/cache/@testing-library-jest-dom-npm-5.11.10-0c42cd523e-25bf4cd9f6.zip/node_modules/@testing-library/jest-dom/",
           "packageDependencies": [
-            ["@testing-library/jest-dom", "npm:5.11.9"],
+            ["@testing-library/jest-dom", "npm:5.11.10"],
             ["@babel/runtime", "npm:7.12.5"],
             ["@types/testing-library__jest-dom", "npm:5.9.5"],
             ["aria-query", "npm:4.2.2"],
