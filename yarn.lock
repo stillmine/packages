@@ -4495,7 +4495,7 @@ __metadata:
     jest: 26.6.3
     react: 17.0.1
     rimraf: 3.0.2
-    rollup: 2.38.5
+    rollup: 2.43.1
     ts-jest: 26.5.4
     typescript: 4.1.5
   peerDependencies:
@@ -4574,7 +4574,7 @@ __metadata:
     react-dom: 17.0.1
     react-use: 17.1.1
     rimraf: 3.0.2
-    rollup: 2.38.5
+    rollup: 2.43.1
     sanitize.css: 12.0.1
     semantic-release: 17.4.2
     ts-jest: 26.5.4
@@ -20979,9 +20979,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.38.5":
-  version: 2.38.5
-  resolution: "rollup@npm:2.38.5"
+"rollup@npm:2.43.1":
+  version: 2.43.1
+  resolution: "rollup@npm:2.43.1"
   dependencies:
     fsevents: ~2.3.1
   dependenciesMeta:
@@ -20989,7 +20989,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: b8ccad97a04f95f2459101c9b477e27f857fba5995d936728838da3728c2295aa396198b42fd254888057974589ba70a06e00feff7c1a1db992f0280914d695b
+  checksum: 058e27219f50b761ffed7d95db7eca7155143127a979a74a67a0a89545d4715fd1276f9fa47c142a4ab9aa25cb15bd831413cd22e00b11a1f80261f14bbabe5a
   languageName: node
   linkType: hard
 
