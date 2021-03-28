@@ -1,0 +1,14 @@
+name: Auto Update
+on:
+  push:
+    branches:
+      - main
+jobs:
+  AutoUpdate:
+    name: Auto Update
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Auto Update Branch
+        uses: hinthakagodawita/autoupdate-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
