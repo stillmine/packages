@@ -18,9 +18,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: Install dependencies
+      - name: Install Dependencies
         run: yarn --immutable --immutable-cache
-      - name: Run typecheck
+      - name: Run Typecheck
         run: yarn typecheck
-      - name: Run lint
+      - name: Run Lint
         run: yarn lint
