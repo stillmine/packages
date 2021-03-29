@@ -4572,7 +4572,7 @@ __metadata:
     jest: 26.6.3
     react: 17.0.2
     react-dom: 17.0.2
-    react-use: 17.1.1
+    react-use: 17.2.1
     rimraf: 3.0.2
     rollup: 2.43.1
     sanitize.css: 12.0.1
@@ -6029,6 +6029,13 @@ __metadata:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
   checksum: 221e39c7c9ce8d71ae4b2ba6abeef1a5b04f1cd96419b9fbbb65534bef4c4215b650561183073dcf47584ff1888d1f4fa7d2af2a38492b7feb9a3bfdcd24c44f
+  languageName: node
+  linkType: hard
+
+"@types/js-cookie@npm:^2.2.6":
+  version: 2.2.6
+  resolution: "@types/js-cookie@npm:2.2.6"
+  checksum: 08d3a2a014d2b7fd97070b5e5039f2ca387f07b9ecc13cfa85040479e7adbd62087901bd8adf94b2afad96457652996d1f051282ad3d4677a7ae1b6bf87a640f
   languageName: node
   linkType: hard
 
@@ -19960,10 +19967,11 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react-use@npm:17.1.1":
-  version: 17.1.1
-  resolution: "react-use@npm:17.1.1"
+"react-use@npm:17.2.1":
+  version: 17.2.1
+  resolution: "react-use@npm:17.2.1"
   dependencies:
+    "@types/js-cookie": ^2.2.6
     "@xobotyi/scrollbar-width": ^1.9.5
     copy-to-clipboard: ^3.3.1
     fast-deep-equal: ^3.1.3
@@ -19980,7 +19988,7 @@ fsevents@~2.1.2:
   peerDependencies:
     react: ^16.8.0  || ^17.0.0
     react-dom: ^16.8.0  || ^17.0.0
-  checksum: 796af77ad217843b91911298fd045bef02ed8ba91de90b5a91c7a438d7fa3fe977f2f4fc8d93692c335f182e506deb8a6dc1039125faa7fb5af9f8d4db12f945
+  checksum: b18eaeb5ddbdc1d9e49dd3bde9a9e7327eb45aab18ffe672bbc9b92ac9cdbaf4960d3193fc53468bab7886e88a64d1df5b1fb7b3b3dbc7e61e0774aa5a69dac0
   languageName: node
   linkType: hard
 
