@@ -4185,16 +4185,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/auto-id@npm:0.13.0":
-  version: 0.13.0
-  resolution: "@reach/auto-id@npm:0.13.0"
+"@reach/auto-id@npm:0.14.0":
+  version: 0.14.0
+  resolution: "@reach/auto-id@npm:0.14.0"
   dependencies:
-    "@reach/utils": 0.13.0
-    tslib: ^2.0.0
+    "@reach/utils": 0.14.0
+    tslib: ^2.1.0
   peerDependencies:
     react: ^16.8.0 || 17.x
     react-dom: ^16.8.0 || 17.x
-  checksum: bd9aac5f6058e15857ad61fcdb0a6c427c25be69d355fbe73436dc6ca70b75e3528b1c3711d695a6af496b7e62a1f19a86585ae6bf4ac90ce4dc6db211a53aec
+  checksum: 587d1bfc3fc5b7860f159c537643a32595a79af183ff8d3ed70864ad33f0adef53530f556788c194f8cc3721fd63bec61a260444c85f2ade30f24585c0c5cb9f
   languageName: node
   linkType: hard
 
@@ -4213,17 +4213,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/utils@npm:0.13.0":
-  version: 0.13.0
-  resolution: "@reach/utils@npm:0.13.0"
+"@reach/utils@npm:0.14.0":
+  version: 0.14.0
+  resolution: "@reach/utils@npm:0.14.0"
   dependencies:
     "@types/warning": ^3.0.0
-    tslib: ^2.0.0
+    tslib: ^2.1.0
     warning: ^4.0.3
   peerDependencies:
     react: ^16.8.0 || 17.x
     react-dom: ^16.8.0 || 17.x
-  checksum: 3c421b49383282b3e8d8f242d992ab82ead95bdd7a0c2dab8391d697b8cb247fef916ec646af0490ef87c184acb8cd6a87b97bb35914f113dd9f42799f23535f
+  checksum: eee16852fa341ae7b50c958a4c05bd20a78c7fdc203c94c019eefaf4b748bc60734feb56f1558ab76ba9aff7f544bcb086f931a412b29ff5d5b2f81e814cf0ea
   languageName: node
   linkType: hard
 
@@ -4544,7 +4544,7 @@ __metadata:
     "@babel/preset-typescript": 7.13.0
     "@emotion/babel-plugin": 11.2.0
     "@emotion/react": 11.1.5
-    "@reach/auto-id": 0.13.0
+    "@reach/auto-id": 0.14.0
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-commonjs": 17.1.0
     "@rollup/plugin-node-resolve": 11.2.1
