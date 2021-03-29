@@ -4482,7 +4482,7 @@ __metadata:
     "@types/react": 17.0.3
     "@typescript-eslint/eslint-plugin": 4.19.0
     "@typescript-eslint/parser": 4.19.0
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     eslint: 7.23.0
     eslint-config-prettier: 7.2.0
     eslint-plugin-import: 2.22.1
@@ -4566,7 +4566,7 @@ __metadata:
     "@types/react": 17.0.3
     "@types/react-dom": 17.0.3
     "@types/testing-library__jest-dom": 5.9.5
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     core-js: 3.9.1
     facepaint: 1.2.1
     jest: 26.6.3
@@ -4625,7 +4625,7 @@ __metadata:
     "@stillmine/utils": "workspace:^0.3.0"
     "@types/facepaint": 1.2.1
     "@types/react": 17.0.3
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     core-js: 3.9.1
     rimraf: 3.0.2
     semantic-release: 17.4.2
@@ -4653,7 +4653,7 @@ __metadata:
   resolution: "@stillmine/types@workspace:packages/types"
   dependencies:
     "@types/react": 17.0.3
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     rimraf: 3.0.2
     typescript: 4.1.3
   languageName: unknown
@@ -4663,7 +4663,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/units@workspace:packages/units"
   dependencies:
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     rimraf: 3.0.2
     typescript: 4.1.3
   languageName: unknown
@@ -4674,7 +4674,7 @@ __metadata:
   resolution: "@stillmine/utils@workspace:packages/utils"
   dependencies:
     "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config"
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     rimraf: 3.0.2
     semantic-release: 17.4.2
     typescript: 4.1.3
@@ -4686,7 +4686,7 @@ __metadata:
   resolution: "@stillmine/validator@workspace:packages/validator"
   dependencies:
     "@types/uuid": 8.3.0
-    concurrently: 5.3.0
+    concurrently: 6.0.0
     rimraf: 3.0.2
     typescript: 4.1.3
   peerDependencies:
@@ -9442,22 +9442,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:5.3.0":
-  version: 5.3.0
-  resolution: "concurrently@npm:5.3.0"
+"concurrently@npm:6.0.0":
+  version: 6.0.0
+  resolution: "concurrently@npm:6.0.0"
   dependencies:
-    chalk: ^2.4.2
-    date-fns: ^2.0.1
-    lodash: ^4.17.15
-    read-pkg: ^4.0.1
-    rxjs: ^6.5.2
+    chalk: ^4.1.0
+    date-fns: ^2.16.1
+    lodash: ^4.17.20
+    read-pkg: ^5.2.0
+    rxjs: ^6.6.3
     spawn-command: ^0.0.2-1
-    supports-color: ^6.1.0
+    supports-color: ^8.1.0
     tree-kill: ^1.2.2
-    yargs: ^13.3.0
+    yargs: ^16.2.0
   bin:
     concurrently: bin/concurrently.js
-  checksum: c46bb460ea0fdf1a15232d84b6122e1ec56655043c154d2be70375ab6eafe04a9224d0da35af5bf190e09d85343bda7a670a886cc67e678fabc4996e9f41650f
+  checksum: c5ef6bb312201d59d342a9e1ba5b7c78d8b660e3cd7d59c262ae4563a95106633ddae2e7a760c8166bffa9a85961c0f49ef86bad51231529aaa92e4eb7a505d7
   languageName: node
   linkType: hard
 
@@ -10191,10 +10191,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.0.1":
-  version: 2.17.0
-  resolution: "date-fns@npm:2.17.0"
-  checksum: 51ee9e264aac54d2a16471691d560838bad681f729573f520b03ec0c21f28904c73bf98ec2d33603e71bdabf8506140449c2b50d0db6fdd042faed9fe5467b92
+"date-fns@npm:^2.16.1":
+  version: 2.19.0
+  resolution: "date-fns@npm:2.19.0"
+  checksum: 99ec34199c3a61cdb7fd27dcd68dd3c0c949ddfc34aa1daba9a6b2e0b5381bf42d8955d28ec2770f72eee429f5e7ab10fadba7b69108379d2545f003461d04f7
   languageName: node
   linkType: hard
 
@@ -20146,17 +20146,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "read-pkg@npm:4.0.1"
-  dependencies:
-    normalize-package-data: ^2.3.2
-    parse-json: ^4.0.0
-    pify: ^3.0.0
-  checksum: cc1ed67240e0f8c51e11ab3dbe17041ceae75427925babf816812e437d0adfbe2c8449142a41feaed81a5c2572a986e27be2fa093dab8b3f2eb29951ca24f8d2
-  languageName: node
-  linkType: hard
-
 "read-pkg@npm:^5.0.0, read-pkg@npm:^5.2.0":
   version: 5.2.0
   resolution: "read-pkg@npm:5.2.0"
@@ -20963,7 +20952,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.5.2, rxjs@npm:^6.6.0, rxjs@npm:^6.6.3":
+"rxjs@npm:^6.6.0, rxjs@npm:^6.6.3":
   version: 6.6.3
   resolution: "rxjs@npm:6.6.3"
   dependencies:
@@ -22523,6 +22512,15 @@ resolve@^2.0.0-next.3:
   dependencies:
     has-flag: ^4.0.0
   checksum: 8e57067c39216f3c2ffce7cc14ca934d54746192571203aa9c9922d97d2d55cc1bdaa9e41a11f91e620670b5a74ebdec6b548a885d8cc2dea7cab59e21416029
+  languageName: node
+  linkType: hard
+
+"supports-color@npm:^8.1.0":
+  version: 8.1.1
+  resolution: "supports-color@npm:8.1.1"
+  dependencies:
+    has-flag: ^4.0.0
+  checksum: 0219f5c91753fea8dc8046cd4b18d39458b5dc0c6421c67c1072209faae9ba93b89283252e3b05d5c18901fd9f8b95001e3247fb93e2265f66d584a676522c75
   languageName: node
   linkType: hard
 
@@ -24775,16 +24773,6 @@ typescript@4.2.3:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^13.1.2":
-  version: 13.1.2
-  resolution: "yargs-parser@npm:13.1.2"
-  dependencies:
-    camelcase: ^5.0.0
-    decamelize: ^1.2.0
-  checksum: 82d3b7ab99085d70a5121399ad407d2b98d296538bf7012ac2ce044a61160ca891ea617de6374699d81955d9a61c36a3b2a6a51588e38f710bd211ce2e63c33c
-  languageName: node
-  linkType: hard
-
 "yargs-parser@npm:^15.0.1":
   version: 15.0.1
   resolution: "yargs-parser@npm:15.0.1"
@@ -24818,24 +24806,6 @@ typescript@4.2.3:
   dependencies:
     camelcase: ^4.1.0
   checksum: f4b6bb339caa9f6b47553fca781a9e1cd14666cf1704520fbe56b220d6d13f3e01c020978156937c074c527e05d972e7793893c087973692057d7dd653c5e912
-  languageName: node
-  linkType: hard
-
-"yargs@npm:^13.3.0":
-  version: 13.3.2
-  resolution: "yargs@npm:13.3.2"
-  dependencies:
-    cliui: ^5.0.0
-    find-up: ^3.0.0
-    get-caller-file: ^2.0.1
-    require-directory: ^2.1.1
-    require-main-filename: ^2.0.0
-    set-blocking: ^2.0.0
-    string-width: ^3.0.0
-    which-module: ^2.0.0
-    y18n: ^4.0.0
-    yargs-parser: ^13.1.2
-  checksum: 92c612cd14a9217d7421ae4f42bc7c460472633bfc2e45f7f86cd614a61a845670d3bac7c2228c39df7fcecce0b8c12b2af65c785b1f757de974dcf84b5074f9
   languageName: node
   linkType: hard
 
