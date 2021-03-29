@@ -29,7 +29,7 @@
     "@stillmine/styles": "workspace:^1.1.0",
     "@stillmine/units": "workspace:^0.4.0",
     "@stillmine/utils": "workspace:^0.3.0",
-    "react-use": "17.1.1"
+    "react-use": "17.2.1"
   },
   "devDependencies": {
     "@babel/core": "7.13.13",
