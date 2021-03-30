@@ -9403,7 +9403,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.3"],
             ["@typescript-eslint/eslint-plugin", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:4.19.0"],
             ["@typescript-eslint/parser", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:4.19.0"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["eslint", "npm:7.23.0"],
             ["eslint-config-prettier", "virtual:a9bf1ed90254ef350b6ab2f743db0a316665767f8e2a2815f2a381dcabe0cb9560923c46fc75efeceb725f8af63b0af510552f5b6ee2241e49bb3035bc3b53b7#npm:7.2.0"],
             ["eslint-plugin-import", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:2.22.1"],
@@ -9443,7 +9443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.3"],
             ["@typescript-eslint/eslint-plugin", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:4.19.0"],
             ["@typescript-eslint/parser", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:4.19.0"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["eslint", "npm:7.23.0"],
             ["eslint-config-prettier", "virtual:a9bf1ed90254ef350b6ab2f743db0a316665767f8e2a2815f2a381dcabe0cb9560923c46fc75efeceb725f8af63b0af510552f5b6ee2241e49bb3035bc3b53b7#npm:7.2.0"],
             ["eslint-plugin-import", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:2.22.1"],
@@ -9529,7 +9529,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.3"],
             ["@types/react-dom", "npm:17.0.3"],
             ["@types/testing-library__jest-dom", "npm:5.9.5"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["core-js", "npm:3.9.1"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
@@ -9603,7 +9603,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/emotion__react", null],
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["core-js", "npm:3.9.1"],
             ["facepaint", "npm:1.2.1"],
             ["react", "npm:17.0.2"],
@@ -9630,7 +9630,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["core-js", "npm:3.9.1"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
@@ -9671,7 +9671,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/types", "workspace:packages/types"],
             ["@types/react", "npm:17.0.3"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
@@ -9683,7 +9683,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/units/",
           "packageDependencies": [
             ["@stillmine/units", "workspace:packages/units"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
@@ -9696,7 +9696,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
@@ -9710,7 +9710,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/validator", "workspace:packages/validator"],
             ["@types/uuid", "npm:8.3.0"],
-            ["concurrently", "npm:5.3.0"],
+            ["concurrently", "npm:6.0.0"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
@@ -15557,19 +15557,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["concurrently", [
-        ["npm:5.3.0", {
-          "packageLocation": "./.yarn/cache/concurrently-npm-5.3.0-181bac49ed-c46bb460ea.zip/node_modules/concurrently/",
+        ["npm:6.0.0", {
+          "packageLocation": "./.yarn/cache/concurrently-npm-6.0.0-30b74cef1f-c5ef6bb312.zip/node_modules/concurrently/",
           "packageDependencies": [
-            ["concurrently", "npm:5.3.0"],
-            ["chalk", "npm:2.4.2"],
-            ["date-fns", "npm:2.17.0"],
+            ["concurrently", "npm:6.0.0"],
+            ["chalk", "npm:4.1.0"],
+            ["date-fns", "npm:2.19.0"],
             ["lodash", "npm:4.17.20"],
-            ["read-pkg", "npm:4.0.1"],
+            ["read-pkg", "npm:5.2.0"],
             ["rxjs", "npm:6.6.3"],
             ["spawn-command", "npm:0.0.2-1"],
-            ["supports-color", "npm:6.1.0"],
+            ["supports-color", "npm:8.1.1"],
             ["tree-kill", "npm:1.2.2"],
-            ["yargs", "npm:13.3.2"]
+            ["yargs", "npm:16.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -16421,10 +16421,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["date-fns", [
-        ["npm:2.17.0", {
-          "packageLocation": "./.yarn/cache/date-fns-npm-2.17.0-2c8505ac95-51ee9e264a.zip/node_modules/date-fns/",
+        ["npm:2.19.0", {
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.19.0-225f089506-99ec34199c.zip/node_modules/date-fns/",
           "packageDependencies": [
-            ["date-fns", "npm:2.17.0"]
+            ["date-fns", "npm:2.19.0"]
           ],
           "linkType": "HARD",
         }]
@@ -27923,16 +27923,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:4.0.1", {
-          "packageLocation": "./.yarn/cache/read-pkg-npm-4.0.1-d15bb8956e-cc1ed67240.zip/node_modules/read-pkg/",
-          "packageDependencies": [
-            ["read-pkg", "npm:4.0.1"],
-            ["normalize-package-data", "npm:2.5.0"],
-            ["parse-json", "npm:4.0.0"],
-            ["pify", "npm:3.0.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:5.2.0", {
           "packageLocation": "./.yarn/cache/read-pkg-npm-5.2.0-50426bd8dc-641102f095.zip/node_modules/read-pkg/",
           "packageDependencies": [
@@ -30555,6 +30545,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-color-npm-7.2.0-606bfcf7da-8e57067c39.zip/node_modules/supports-color/",
           "packageDependencies": [
             ["supports-color", "npm:7.2.0"],
+            ["has-flag", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:8.1.1", {
+          "packageLocation": "./.yarn/cache/supports-color-npm-8.1.1-289e937149-0219f5c917.zip/node_modules/supports-color/",
+          "packageDependencies": [
+            ["supports-color", "npm:8.1.1"],
             ["has-flag", "npm:4.0.0"]
           ],
           "linkType": "HARD",
@@ -33210,23 +33208,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["yargs", [
-        ["npm:13.3.2", {
-          "packageLocation": "./.yarn/cache/yargs-npm-13.3.2-1588f5dd4c-92c612cd14.zip/node_modules/yargs/",
-          "packageDependencies": [
-            ["yargs", "npm:13.3.2"],
-            ["cliui", "npm:5.0.0"],
-            ["find-up", "npm:3.0.0"],
-            ["get-caller-file", "npm:2.0.5"],
-            ["require-directory", "npm:2.1.1"],
-            ["require-main-filename", "npm:2.0.0"],
-            ["set-blocking", "npm:2.0.0"],
-            ["string-width", "npm:3.1.0"],
-            ["which-module", "npm:2.0.0"],
-            ["y18n", "npm:4.0.1"],
-            ["yargs-parser", "npm:13.1.2"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:14.2.3", {
           "packageLocation": "./.yarn/cache/yargs-npm-14.2.3-b84ca3cee2-cfe46545a6.zip/node_modules/yargs/",
           "packageDependencies": [
@@ -33299,15 +33280,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["yargs-parser", [
-        ["npm:13.1.2", {
-          "packageLocation": "./.yarn/cache/yargs-parser-npm-13.1.2-546b639909-82d3b7ab99.zip/node_modules/yargs-parser/",
-          "packageDependencies": [
-            ["yargs-parser", "npm:13.1.2"],
-            ["camelcase", "npm:5.3.1"],
-            ["decamelize", "npm:1.2.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:15.0.1", {
           "packageLocation": "./.yarn/cache/yargs-parser-npm-15.0.1-7ef5e80780-1969d5cf00.zip/node_modules/yargs-parser/",
           "packageDependencies": [
