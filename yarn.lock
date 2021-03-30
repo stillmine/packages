@@ -4441,7 +4441,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 4.19.0
     "@typescript-eslint/parser": 4.19.0
     eslint: 7.23.0
-    eslint-config-prettier: 7.2.0
+    eslint-config-prettier: 8.1.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-no-secrets: 0.8.9
@@ -4484,7 +4484,7 @@ __metadata:
     "@typescript-eslint/parser": 4.19.0
     concurrently: 6.0.0
     eslint: 7.23.0
-    eslint-config-prettier: 7.2.0
+    eslint-config-prettier: 8.1.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-no-secrets: 0.8.9
@@ -11387,17 +11387,6 @@ __metadata:
     escodegen: bin/escodegen.js
     esgenerate: bin/esgenerate.js
   checksum: 548c5a83a81a51122f1006309a392e1412bb00657f15aca60f01f9d4553851bdaf0519d898fd3ee2bb46f116e03ee48757f4d9a28a7b58bc8c096fd4b33f6cbc
-  languageName: node
-  linkType: hard
-
-"eslint-config-prettier@npm:7.2.0":
-  version: 7.2.0
-  resolution: "eslint-config-prettier@npm:7.2.0"
-  peerDependencies:
-    eslint: ">=7.0.0"
-  bin:
-    eslint-config-prettier: bin/cli.js
-  checksum: 6812150ea49703cd64035527205b4905bc1edcd34646e71f71665e1acff9ab4648f872598389bdb209964093ad73993830a2c821ba12642764a5293513b92a58
   languageName: node
   linkType: hard
 
