@@ -8813,7 +8813,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],
             ["@types/rollup", null],
             ["@types/types__babel__core", null],
-            ["rollup", "npm:2.43.1"]
+            ["rollup", "npm:2.44.0"]
           ],
           "packagePeers": [
             "@babel/core",
@@ -8845,7 +8845,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-reference", "npm:1.2.1"],
             ["magic-string", "npm:0.25.7"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
-            ["rollup", "npm:2.43.1"]
+            ["rollup", "npm:2.44.0"]
           ],
           "packagePeers": [
             "@types/rollup",
@@ -8873,7 +8873,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["deepmerge", "npm:4.2.2"],
             ["is-module", "npm:1.0.0"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
-            ["rollup", "npm:2.43.1"]
+            ["rollup", "npm:2.44.0"]
           ],
           "packagePeers": [
             "@types/rollup",
@@ -8898,7 +8898,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rollup", null],
             ["estree-walker", "npm:1.0.1"],
             ["picomatch", "npm:2.2.2"],
-            ["rollup", "npm:2.43.1"]
+            ["rollup", "npm:2.44.0"]
           ],
           "packagePeers": [
             "@types/rollup",
@@ -9425,7 +9425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
             ["rimraf", "npm:3.0.2"],
-            ["rollup", "npm:2.43.1"],
+            ["rollup", "npm:2.44.0"],
             ["ts-jest", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:26.5.4"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=a45b0e"]
           ],
@@ -9465,7 +9465,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
             ["rimraf", "npm:3.0.2"],
-            ["rollup", "npm:2.43.1"],
+            ["rollup", "npm:2.44.0"],
             ["ts-jest", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:26.5.4"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=a45b0e"]
           ],
@@ -9546,7 +9546,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.0.2"],
             ["react-use", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.1"],
             ["rimraf", "npm:3.0.2"],
-            ["rollup", "npm:2.43.1"],
+            ["rollup", "npm:2.44.0"],
             ["sanitize.css", "npm:12.0.1"],
             ["semantic-release", "npm:17.4.2"],
             ["ts-jest", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:26.5.4"],
@@ -28738,10 +28738,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["rollup", [
-        ["npm:2.43.1", {
-          "packageLocation": "./.yarn/cache/rollup-npm-2.43.1-9012297fd4-058e27219f.zip/node_modules/rollup/",
+        ["npm:2.44.0", {
+          "packageLocation": "./.yarn/cache/rollup-npm-2.44.0-933a5cc29a-8142c058b2.zip/node_modules/rollup/",
           "packageDependencies": [
-            ["rollup", "npm:2.43.1"],
+            ["rollup", "npm:2.44.0"],
             ["fsevents", "patch:fsevents@npm%3A2.3.1#builtin<compat/fsevents>::version=2.3.1&hash=11e9ea"]
           ],
           "linkType": "HARD",
