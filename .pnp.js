@@ -9539,7 +9539,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.3"],
             ["@types/testing-library__jest-dom", "npm:5.9.5"],
             ["concurrently", "npm:6.0.0"],
-            ["core-js", "npm:3.9.1"],
+            ["core-js", "npm:3.10.0"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
@@ -9613,7 +9613,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.0.0"],
-            ["core-js", "npm:3.9.1"],
+            ["core-js", "npm:3.10.0"],
             ["facepaint", "npm:1.2.1"],
             ["react", "npm:17.0.2"],
             ["rimraf", "npm:3.0.2"],
@@ -9640,7 +9640,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.0.0"],
-            ["core-js", "npm:3.9.1"],
+            ["core-js", "npm:3.10.0"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
@@ -15828,17 +15828,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["core-js", [
+        ["npm:3.10.0", {
+          "packageLocation": "./.yarn/cache/core-js-npm-3.10.0-2088bcb2de-d8bb20f7da.zip/node_modules/core-js/",
+          "packageDependencies": [
+            ["core-js", "npm:3.10.0"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:3.8.2", {
           "packageLocation": "./.yarn/cache/core-js-npm-3.8.2-9054e52bf1-8fa2c580b7.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.8.2"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:3.9.1", {
-          "packageLocation": "./.yarn/cache/core-js-npm-3.9.1-5a7342ca0f-3f36046624.zip/node_modules/core-js/",
-          "packageDependencies": [
-            ["core-js", "npm:3.9.1"]
           ],
           "linkType": "HARD",
         }]
