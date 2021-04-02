@@ -23,9 +23,9 @@
     "typecheck": "yarn workspaces foreach -pt run typecheck"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.0.1",
-    "@commitlint/config-conventional": "12.0.1",
-    "@commitlint/config-lerna-scopes": "12.0.1",
+    "@commitlint/cli": "12.1.1",
+    "@commitlint/config-conventional": "12.1.1",
+    "@commitlint/config-lerna-scopes": "12.1.1",
     "@stillmine/eslint-config": "workspace:packages/eslint-config",
     "@stillmine/tsconfig": "workspace:packages/tsconfig",
     "@typescript-eslint/eslint-plugin": "4.19.0",
