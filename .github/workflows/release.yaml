@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - next
 jobs:
   release:
     name: Release
@@ -23,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: yarn --immutable --immutable-cache
       - name: Release
-        run: yarn changed foreach --git-range=origin/main -p run release
+        run: yarn workspaces since run release origin/main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.GH_TOKEN }}
