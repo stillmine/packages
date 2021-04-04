@@ -19,8 +19,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
-    "release": "semantic-release",
-    "test": "jest --passWithNoTests"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
