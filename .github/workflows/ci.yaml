@@ -21,6 +21,8 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable --immutable-cache
       - name: Run Typecheck
-        run: yarn typecheck
+        run: yarn workspaces since run typecheck origin/main
       - name: Run Lint
-        run: yarn lint
+        run: yarn workspaces since run lint origin/main
+      - name: Run Test
+        run: yarn workspaces since run test origin/main
