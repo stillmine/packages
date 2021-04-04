@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/stillmine/packages/compare/v1.4.0...v1.4.1) (2021-04-04)
+
+
+### Bug Fixes
+
+* **react-components:** fix build errors ([#70](https://github.com/stillmine/packages/issues/70)) ([1941caf](https://github.com/stillmine/packages/commit/1941caf3c68ff0827737500743061094ab227e77))
+
 # [1.4.0](https://github.com/stillmine/packages/compare/v1.3.1...v1.4.0) (2021-04-04)
 
 
