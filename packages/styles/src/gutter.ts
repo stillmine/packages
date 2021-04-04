@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 import { numberToUnit } from '@stillmine/utils';
 
-import type { Unit } from './unit';
+import { Unit } from './unit';
 
 interface Options {
   direction?: 'horizontal' | 'vertical';

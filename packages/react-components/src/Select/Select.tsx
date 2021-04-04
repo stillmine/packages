@@ -1,4 +1,4 @@
-import React, { forwardRef, SelectHTMLAttributes } from 'react';
+import { forwardRef, SelectHTMLAttributes } from 'react';
 
 import { Stack } from '../Stack/mod';
 import { SearchableSelect } from './SearchableSelect';

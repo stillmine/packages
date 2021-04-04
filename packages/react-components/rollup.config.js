@@ -23,9 +23,5 @@ module.exports = {
     },
   ],
   external: ['@emotion/react', '@emotion/styled', 'facepaint', 'react', 'react-dom'],
-  plugins: [
-    nodeResolve({ moduleDirectories: ['node_modules'], extensions }),
-    babel({ babelHelpers: 'bundled', extensions }),
-    commonjs(),
-  ],
+  plugins: [commonjs(), babel({ babelHelpers: 'bundled', babelrc: true, extensions }), nodeResolve({ extensions })],
 };
