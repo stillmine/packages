@@ -4657,6 +4657,7 @@ __metadata:
     "@types/react": 17.0.3
     concurrently: 6.0.0
     core-js: 3.10.0
+    jest: 26.6.3
     rimraf: 3.0.2
     semantic-release: 17.4.2
     typescript: 4.1.3
@@ -4684,7 +4685,9 @@ __metadata:
   dependencies:
     "@types/react": 17.0.3
     concurrently: 6.0.0
+    jest: 26.6.3
     rimraf: 3.0.2
+    ts-jest: 26.5.4
     typescript: 4.1.3
   languageName: unknown
   linkType: soft
@@ -4694,6 +4697,7 @@ __metadata:
   resolution: "@stillmine/units@workspace:packages/units"
   dependencies:
     concurrently: 6.0.0
+    jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.1.3
   languageName: unknown
@@ -4705,6 +4709,7 @@ __metadata:
   dependencies:
     "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config"
     concurrently: 6.0.0
+    jest: 26.6.3
     rimraf: 3.0.2
     semantic-release: 17.4.2
     typescript: 4.1.3
@@ -4717,6 +4722,7 @@ __metadata:
   dependencies:
     "@types/uuid": 8.3.0
     concurrently: 6.0.0
+    jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.1.3
   peerDependencies:

@@ -8029,6 +8029,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concurrently", "npm:6.0.0"],
             ["core-js", "npm:3.10.0"],
             ["facepaint", "npm:1.2.1"],
+            ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
@@ -8055,6 +8056,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.0.0"],
             ["core-js", "npm:3.10.0"],
+            ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
@@ -8095,7 +8097,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/types", "workspace:packages/types"],
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.0.0"],
+            ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
+            ["ts-jest", "virtual:4c5c033154bc32fda67edd5e45eeddb1b5161b835fa90e068939243d1c94938cdd80549ec8ad6f903734d730a00640a143b4ced36d2842dd6ebbf37abcd50f4a#npm:26.5.4"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
           "linkType": "SOFT",
@@ -8107,6 +8111,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/units", "workspace:packages/units"],
             ["concurrently", "npm:6.0.0"],
+            ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
@@ -8120,6 +8125,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@stillmine/semantic-release-config", "virtual:28029b504ea29f7557532fa39443c4173692f5143c791b4fd08a98b2ed93c7d151faa86a9d0de589391195fd9396cf9c373b8c07fe9b833076aecf2b1773fef0#workspace:packages/semantic-release-config"],
             ["concurrently", "npm:6.0.0"],
+            ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["semantic-release", "npm:17.4.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
@@ -8134,6 +8140,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/validator", "workspace:packages/validator"],
             ["@types/uuid", "npm:8.3.0"],
             ["concurrently", "npm:6.0.0"],
+            ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"]
           ],
@@ -30759,6 +30766,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-jest", "npm:26.5.4"]
           ],
           "linkType": "SOFT",
+        }],
+        ["virtual:4c5c033154bc32fda67edd5e45eeddb1b5161b835fa90e068939243d1c94938cdd80549ec8ad6f903734d730a00640a143b4ced36d2842dd6ebbf37abcd50f4a#npm:26.5.4", {
+          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-602c2af11e/0/cache/ts-jest-npm-26.5.4-d44a800654-8e5856b7cb.zip/node_modules/ts-jest/",
+          "packageDependencies": [
+            ["ts-jest", "virtual:4c5c033154bc32fda67edd5e45eeddb1b5161b835fa90e068939243d1c94938cdd80549ec8ad6f903734d730a00640a143b4ced36d2842dd6ebbf37abcd50f4a#npm:26.5.4"],
+            ["@types/jest", null],
+            ["@types/typescript", null],
+            ["bs-logger", "npm:0.2.6"],
+            ["buffer-from", "npm:1.1.1"],
+            ["fast-json-stable-stringify", "npm:2.1.0"],
+            ["jest", "npm:26.6.3"],
+            ["jest-util", "npm:26.6.2"],
+            ["json5", "npm:2.1.3"],
+            ["lodash", "npm:4.17.20"],
+            ["make-error", "npm:1.3.6"],
+            ["mkdirp", "npm:1.0.4"],
+            ["semver", "npm:7.3.4"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=a45b0e"],
+            ["yargs-parser", "npm:20.2.4"]
+          ],
+          "packagePeers": [
+            "@types/jest",
+            "@types/typescript",
+            "jest",
+            "typescript"
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:26.5.4", {
           "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-39205dcbf6/0/cache/ts-jest-npm-26.5.4-d44a800654-8e5856b7cb.zip/node_modules/ts-jest/",
