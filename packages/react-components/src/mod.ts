@@ -6,6 +6,6 @@ export * from './Icon/mod';
 export * from './ProgressBar/mod';
 export * from './Select/mod';
 export * from './Spinner/mod';
-export * from './SSRSuspense';
 export * from './Stack/mod';
+export * from './Suspense/mod';
 export * from './Tab/mod';

@@ -4597,6 +4597,7 @@ __metadata:
     jest: 26.6.3
     react: 17.0.2
     react-dom: 17.0.2
+    react-error-boundary: 3.1.1
     react-use: 17.2.1
     rimraf: 3.0.2
     rollup: 2.44.0
@@ -20252,6 +20253,17 @@ fsevents@~2.1.2:
     react: ^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1
     react-dom: ^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1
   checksum: 38e9e094ff98f2d68a37b53524a64047848a42f4f552a4399b39473f75ca62ff88e92b5cf6c8f9bf8be6368407284119b8f31a3a97bb9b793a457bccb8c4fa6c
+  languageName: node
+  linkType: hard
+
+"react-error-boundary@npm:3.1.1":
+  version: 3.1.1
+  resolution: "react-error-boundary@npm:3.1.1"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+  peerDependencies:
+    react: ">=16.13.1"
+  checksum: 8860975e5ab2cf85c50713a18cabadd862b8d9ac694f53fdff7d2f51ec92fec2a7ea839b1379cad7ad3fec8f49122dd4e4a2fc7b0fc5776671acff860dbad691
   languageName: node
   linkType: hard
 

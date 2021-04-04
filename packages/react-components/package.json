@@ -17,7 +17,8 @@
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc -p tsconfig.build.json\"",
     "develop:storybook": "start-storybook -p 6006",
-    "lint": "eslint src/**",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "yarn lint --fix",
     "prepack": "yarn build",
     "release": "semantic-release",
     "test": "jest --passWithNoTests",
@@ -29,6 +30,7 @@
     "@stillmine/styles": "workspace:^1.1.0",
     "@stillmine/units": "workspace:^0.4.0",
     "@stillmine/utils": "workspace:^0.3.0",
+    "react-error-boundary": "3.1.1",
     "react-use": "17.2.1"
   },
   "devDependencies": {
