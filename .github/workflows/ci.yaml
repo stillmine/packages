@@ -8,21 +8,18 @@ jobs:
     name: CI
     runs-on: ubuntu-18.04
     steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.8.0
+      - uses: styfle/cancel-workflow-action@0.8.0
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
           node-version: 14
       - name: Install Dependencies
         run: yarn --immutable --immutable-cache
       - name: Run Typecheck
-        run: yarn typecheck
+        run: yarn changed foreach --git-range=origin/main -pt run typecheck
       - name: Run Lint
-        run: yarn lint
+        run: yarn changed foreach --git-range=origin/main -pt run lint
       - name: Run Test
-        run: yarn test
+        run: yarn changed foreach --git-range=origin/main -pt run test
