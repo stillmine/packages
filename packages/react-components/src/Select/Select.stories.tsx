@@ -1,5 +1,4 @@
 import { useSelect } from '@stillmine/hooks';
-import React from 'react';
 
 import { Select } from './Select';
 
