@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/stillmine/packages/compare/v1.4.1...v1.5.0) (2021-04-04)
+
+
+### Features
+
+* **react-components:** add Text ([#73](https://github.com/stillmine/packages/issues/73)) ([f28f37f](https://github.com/stillmine/packages/commit/f28f37fb9050a6adcc47a000577d51f12a1785a2))
+
 ## [1.4.1](https://github.com/stillmine/packages/compare/v1.4.0...v1.4.1) (2021-04-04)
 
 
