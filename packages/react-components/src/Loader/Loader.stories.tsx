@@ -1,7 +1,6 @@
 import { select } from '@storybook/addon-knobs';
-import * as React from 'react';
 
-import { Spinner } from '../src/spinner';
+import { Spinner } from './Spinner';
 
 export default { title: 'Loaders' };
 

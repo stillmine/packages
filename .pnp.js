@@ -7941,16 +7941,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:6.2.2"],
             ["@testing-library/jest-dom", "npm:5.11.10"],
             ["@testing-library/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:11.2.6"],
+            ["@types/eslint", "npm:7.2.8"],
             ["@types/jest", "npm:26.0.20"],
             ["@types/react", "npm:17.0.3"],
             ["@types/react-dom", "npm:17.0.3"],
             ["@types/testing-library__jest-dom", "npm:5.9.5"],
             ["concurrently", "npm:6.0.0"],
             ["core-js", "npm:3.10.0"],
+            ["eslint", "npm:7.23.0"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.0.2"],
+            ["react-error-boundary", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:3.1.1"],
             ["react-use", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.1"],
             ["rimraf", "npm:3.0.2"],
             ["rollup", "npm:2.44.0"],
@@ -10361,6 +10364,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-color-name-npm-1.1.1-00b0925070-8311db94a9.zip/node_modules/@types/color-name/",
           "packageDependencies": [
             ["@types/color-name", "npm:1.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/eslint", [
+        ["npm:7.2.8", {
+          "packageLocation": "./.yarn/cache/@types-eslint-npm-7.2.8-bf47cd7191-6b46e394c2.zip/node_modules/@types/eslint/",
+          "packageDependencies": [
+            ["@types/eslint", "npm:7.2.8"],
+            ["@types/estree", "npm:0.0.46"],
+            ["@types/json-schema", "npm:7.0.7"]
           ],
           "linkType": "HARD",
         }]
@@ -26729,10 +26743,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/react-error-boundary-npm-3.1.1-d8c2c7171c-8860975e5a.zip/node_modules/react-error-boundary/",
+          "packageDependencies": [
+            ["react-error-boundary", "npm:3.1.1"]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:4cc43ed3799f81bd55fc7d83e62dd65d798ddf291f4b3bb877132d5d18bb8418917de34de4d59f96f7c666170cf31539c37ab94a6bb78a832f041c2e431a5685#npm:3.1.0", {
           "packageLocation": "./.yarn/$$virtual/react-error-boundary-virtual-9beb4f3238/0/cache/react-error-boundary-npm-3.1.0-a06f6e8361-0df44cd3ac.zip/node_modules/react-error-boundary/",
           "packageDependencies": [
             ["react-error-boundary", "virtual:4cc43ed3799f81bd55fc7d83e62dd65d798ddf291f4b3bb877132d5d18bb8418917de34de4d59f96f7c666170cf31539c37ab94a6bb78a832f041c2e431a5685#npm:3.1.0"],
+            ["@babel/runtime", "npm:7.12.5"],
+            ["@types/react", "npm:17.0.3"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:3.1.1", {
+          "packageLocation": "./.yarn/$$virtual/react-error-boundary-virtual-c9e57cab0d/0/cache/react-error-boundary-npm-3.1.1-d8c2c7171c-8860975e5a.zip/node_modules/react-error-boundary/",
+          "packageDependencies": [
+            ["react-error-boundary", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:3.1.1"],
             ["@babel/runtime", "npm:7.12.5"],
             ["@types/react", "npm:17.0.3"],
             ["react", "npm:17.0.2"]
