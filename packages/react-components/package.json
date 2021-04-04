@@ -16,6 +16,7 @@
   "main": "src/mod.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc -p tsconfig.build.json\"",
+    "build:storybook": "build-storybook",
     "develop:storybook": "start-storybook -p 6006",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "yarn lint --fix",
