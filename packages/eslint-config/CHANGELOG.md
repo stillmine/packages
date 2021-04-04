@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/stillmine/packages/compare/v1.3.1...v1.4.0) (2021-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @reach/auto-id to v0.14.0 ([#32](https://github.com/stillmine/packages/issues/32)) ([a8ab999](https://github.com/stillmine/packages/commit/a8ab9994201658c1306544e5d6916d424020cc52))
+* **deps:** update dependency @semantic-release/npm to v7.1.0 ([#65](https://github.com/stillmine/packages/issues/65)) ([9ff2628](https://github.com/stillmine/packages/commit/9ff26284106ed14ec9c7caf00bf323f32db253fd))
+* **deps:** update dependency react-use to v17.2.1 ([#33](https://github.com/stillmine/packages/issues/33)) ([d552ae2](https://github.com/stillmine/packages/commit/d552ae2e434d8d2e8175fc7d7c7279b3392faa4c))
+
+
+### Features
+
+* **react-components:** add SuspenseBoundary ([#67](https://github.com/stillmine/packages/issues/67)) ([b238eab](https://github.com/stillmine/packages/commit/b238eab6e6c339bd33c9a0e25028c4dba2001777))
+
 ## [1.3.1](https://github.com/stillmine/packages/compare/v1.3.0...v1.3.1) (2021-03-27)
 
 
