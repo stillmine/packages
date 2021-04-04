@@ -20,6 +20,7 @@
     "new": "hygen package new",
     "lint": "yarn workspaces foreach -pt run lint",
     "release": "yarn workspaces foreach -t run release",
+    "test": "yarn workspaces foreach -pt run test",
     "typecheck": "yarn workspaces foreach -pt run typecheck"
   },
   "devDependencies": {
