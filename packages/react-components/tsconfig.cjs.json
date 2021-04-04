@@ -3,8 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "lib",
-    "emitDeclarationOnly": true,
-    "incremental": true,
+    "module": "commonjs",
     "outDir": "lib"
   },
   "exclude": ["**/*.stories.tsx", "**/*.test.tsx"]
