@@ -3,7 +3,6 @@ import { ComponentProps } from 'react';
 
 interface Props extends ComponentProps<As> {
   as?: As;
-  color?: string;
 }
 
 export const Text = ({ as: Component = 'p', ...props }: Props) => {
