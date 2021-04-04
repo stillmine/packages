@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: yarn --immutable --immutable-cache
       - name: Release
-        run: yarn changed foreach --git-range=origin/main -pt run release
+        run: yarn changed foreach --git-range=origin/main -p run release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.GH_TOKEN }}
