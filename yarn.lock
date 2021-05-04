@@ -4829,7 +4829,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/webpack@workspace:packages/webpack"
   dependencies:
-    "@types/node": 14.14.37
+    "@types/node": 14.14.43
     dotenv: 8.2.0
     webpack-merge: 5.7.3
   peerDependencies:
@@ -6455,7 +6455,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.14.37, @types/node@npm:^14.0.10":
+"@types/node@npm:14.14.43":
+  version: 14.14.43
+  resolution: "@types/node@npm:14.14.43"
+  checksum: b7a9e6df7c2a6f90e783bfe6ef358cc2c3ff4e1dfcea56b83349cd3feefd02a9b6fa54b443983694b4398a06257d871c947abeae03bd0d39fd71981161d61765
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.10":
   version: 14.14.37
   resolution: "@types/node@npm:14.14.37"
   checksum: 5e2d9baf7594ebacaf016716515f30de0765169412787f981481c2fb8b468923149bb9e2e3219ee672399811672ceddc339a7372a61cf15bc656836a5494d991
