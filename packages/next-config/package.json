@@ -1,0 +1,30 @@
+{
+  "name": "@stillmine/next-config",
+  "version": "0.0.0",
+  "description": "Next.js config.",
+  "license": "MIT",
+  "main": "src/mod.ts",
+  "scripts": {
+    "build": "concurrently \"rimraf dist\" \"ts-node-script -T scripts/build.ts\" \"tsc --emitDeclarationOnly\"",
+    "lint": "eslint src/**/*.ts",
+    "prepack": "yarn build",
+    "test": "jest --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/webpack": "5.28.0",
+    "concurrently": "6.0.2",
+    "esbuild": "0.11.16",
+    "rimraf": "3.0.2",
+    "typescript": "4.2.4"
+  },
+  "peerDependencies": {
+    "next": ">= 10.1.0"
+  },
+  "publishConfig": {
+    "main": "lib/mod.js",
+    "types": "lib/mod.d.ts",
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
