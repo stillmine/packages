@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: 14
       - run: yarn --immutable --immutable-cache
-      - run: yarn workspaces foreach -pt run typecheck
-      - run: yarn workspaces foreach -pt run lint
-      - run: yarn workspaces foreach -pt run test
+      - run: yarn typecheck
+      - run: yarn lint
+      - run: yarn test
