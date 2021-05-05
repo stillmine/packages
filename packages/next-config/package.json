@@ -12,9 +12,12 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/eslint": "^7",
     "@types/webpack": "5.28.0",
     "concurrently": "6.0.2",
     "esbuild": "0.11.16",
+    "eslint": "7.25.0",
+    "jest": "26.6.3",
     "rimraf": "3.0.2",
     "typescript": "4.2.4"
   },
