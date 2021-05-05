@@ -1,7 +1,11 @@
 {
   "name": "@stillmine/next-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Next.js config.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stillmine/packages.git"
+  },
   "license": "MIT",
   "main": "src/mod.ts",
   "scripts": {
