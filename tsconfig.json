@@ -1,6 +1,10 @@
 {
-  "extends": "@stillmine/tsconfig",
+  "compileOnSave": false,
   "compilerOptions": {
-    "jsx": "react-jsx"
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true
   }
 }

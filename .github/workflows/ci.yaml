@@ -17,11 +17,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: Install Dependencies
-        run: yarn --immutable --immutable-cache
-      - name: Run Typecheck
-        run: yarn changed foreach --git-range=origin/main -p run typecheck
-      - name: Run Lint
-        run: yarn changed foreach --git-range=origin/main -p run lint
-      - name: Run Test
-        run: yarn changed foreach --git-range=origin/main -p run test
+      - run: yarn --immutable --immutable-cache
+      - run: yarn typecheck
+      - run: yarn lint
+      - run: yarn test
