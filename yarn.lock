@@ -4448,7 +4448,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:7.2.0, @semantic-release/github@npm:^7.0.0":
+"@semantic-release/github@npm:7.2.2":
+  version: 7.2.2
+  resolution: "@semantic-release/github@npm:7.2.2"
+  dependencies:
+    "@octokit/rest": ^18.0.0
+    "@semantic-release/error": ^2.2.0
+    aggregate-error: ^3.0.0
+    bottleneck: ^2.18.1
+    debug: ^4.0.0
+    dir-glob: ^3.0.0
+    fs-extra: ^10.0.0
+    globby: ^11.0.0
+    http-proxy-agent: ^4.0.0
+    https-proxy-agent: ^5.0.0
+    issue-parser: ^6.0.0
+    lodash: ^4.17.4
+    mime: ^2.4.3
+    p-filter: ^2.0.0
+    p-retry: ^4.0.0
+    url-join: ^4.0.0
+  peerDependencies:
+    semantic-release: ">=16.0.0 <18.0.0"
+  checksum: 44f3efa9bcad54820153e42627bc501bcc4be5f91ac4341ac15b49cde632c70d834abd410e7a62f7a670fe178297c112b8f0ef2afd90a312554b7de158967e0f
+  languageName: node
+  linkType: hard
+
+"@semantic-release/github@npm:^7.0.0":
   version: 7.2.0
   resolution: "@semantic-release/github@npm:7.2.0"
   dependencies:
@@ -4474,17 +4500,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@semantic-release/npm@npm:7.1.0"
+"@semantic-release/npm@npm:7.1.3":
+  version: 7.1.3
+  resolution: "@semantic-release/npm@npm:7.1.3"
   dependencies:
     "@semantic-release/error": ^2.2.0
     aggregate-error: ^3.0.0
     execa: ^5.0.0
-    fs-extra: ^9.0.0
+    fs-extra: ^10.0.0
     lodash: ^4.17.15
     nerf-dart: ^1.0.0
-    normalize-url: ^5.0.0
+    normalize-url: ^6.0.0
     npm: ^7.0.0
     rc: ^1.2.8
     read-pkg: ^5.0.0
@@ -4493,7 +4519,7 @@ __metadata:
     tempy: ^1.0.0
   peerDependencies:
     semantic-release: ">=16.0.0 <18.0.0"
-  checksum: 3d07dc6633260cc1c5cc318523941b00e0b0b9d210c4309621c233cd2e4fe976d51ee2843b6777d21f0e84e8879f44ebdf03cca46923f4da7da0887038305aed
+  checksum: 8004cb60178993089bd28fccd77974ab368743bc90be0a822fde263589257d01233c00e8ed23804ca2874a2912b2221bb849453a4ba8e6fbd4607a8488ae14b8
   languageName: node
   linkType: hard
 
@@ -4748,8 +4774,8 @@ __metadata:
     "@semantic-release/changelog": 5.0.1
     "@semantic-release/commit-analyzer": 8.0.1
     "@semantic-release/git": 9.0.0
-    "@semantic-release/github": 7.2.0
-    "@semantic-release/npm": 7.1.0
+    "@semantic-release/github": 7.2.2
+    "@semantic-release/npm": 7.1.3
     "@semantic-release/release-notes-generator": 9.0.2
     eslint: 7.23.0
   peerDependencies:
@@ -12995,6 +13021,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "fs-extra@npm:10.0.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 84632d143fe3125b8c3c2b1fedbbdfcfb84fc3e087522b4e138cc07edf574619925713a6609f6d5e53ede2e31ab319c7d528ea4a4a770ba6622a16bf4447cd8b
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^9.0.0":
   version: 9.0.1
   resolution: "fs-extra@npm:9.0.1"
@@ -18370,6 +18407,13 @@ fsevents@~2.1.2:
   version: 5.3.0
   resolution: "normalize-url@npm:5.3.0"
   checksum: 126bcee51735bd975a3df3df008595fa4b6770f511494a05472519ca9e8e8caea62761f66d81c7cab28e758b201cdc656c1bc8a2c2c9d091bef661f32a182d6d
+  languageName: node
+  linkType: hard
+
+"normalize-url@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "normalize-url@npm:6.0.0"
+  checksum: ea8e39b4bbaad5110e5fe706eca4eee430635e3c4cf831cb99d9b31bfd25efc125b6446dbf5a24ff767c77e8bdd9ea09fced951d170ac31a25078937ff815529
   languageName: node
   linkType: hard
 
