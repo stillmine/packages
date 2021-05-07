@@ -4660,7 +4660,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/next-config@workspace:packages/next-config"
   dependencies:
-    "@types/eslint": ^7
+    "@types/eslint": 7.2.10
     "@types/webpack": 5.28.0
     concurrently: 6.0.2
     esbuild: 0.11.16
@@ -6298,7 +6298,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:^7":
+"@types/eslint@npm:*, @types/eslint@npm:7.2.10":
   version: 7.2.10
   resolution: "@types/eslint@npm:7.2.10"
   dependencies:
