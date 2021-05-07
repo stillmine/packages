@@ -125,7 +125,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:4.2.0"],
             ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"],
             ["husky", "npm:6.0.0"],
-            ["hygen", "npm:6.0.4"],
+            ["hygen", "npm:6.1.0"],
             ["lint-staged", "npm:10.5.4"],
             ["prettier", "npm:2.2.1"],
             ["textlint", "npm:11.9.0"],
@@ -9283,7 +9283,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:4.2.0"],
             ["eslint-plugin-simple-import-sort", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:7.0.0"],
             ["husky", "npm:6.0.0"],
-            ["hygen", "npm:6.0.4"],
+            ["hygen", "npm:6.1.0"],
             ["lint-staged", "npm:10.5.4"],
             ["prettier", "npm:2.2.1"],
             ["textlint", "npm:11.9.0"],
@@ -12012,13 +12012,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.14.21-dcd7190898-b659823ffa.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:14.14.21"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:14.14.22", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.14.22-fe4ed4ddc2-e46e32685b.zip/node_modules/@types/node/",
-          "packageDependencies": [
-            ["@types/node", "npm:14.14.22"]
           ],
           "linkType": "HARD",
         }],
@@ -15307,6 +15300,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chalk-npm-4.1.0-c746e252ba-f860285b41.zip/node_modules/chalk/",
           "packageDependencies": [
             ["chalk", "npm:4.1.0"],
+            ["ansi-styles", "npm:4.3.0"],
+            ["supports-color", "npm:7.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/chalk-npm-4.1.1-f1ce6bae57-445c12db7a.zip/node_modules/chalk/",
+          "packageDependencies": [
+            ["chalk", "npm:4.1.1"],
             ["ansi-styles", "npm:4.3.0"],
             ["supports-color", "npm:7.2.0"]
           ],
@@ -21175,21 +21177,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["hygen", [
-        ["npm:6.0.4", {
-          "packageLocation": "./.yarn/cache/hygen-npm-6.0.4-e6c2667120-0a9016214d.zip/node_modules/hygen/",
+        ["npm:6.1.0", {
+          "packageLocation": "./.yarn/cache/hygen-npm-6.1.0-628e9da5d6-5a83da48e8.zip/node_modules/hygen/",
           "packageDependencies": [
-            ["hygen", "npm:6.0.4"],
-            ["@types/node", "npm:14.14.22"],
-            ["chalk", "npm:4.1.0"],
+            ["hygen", "npm:6.1.0"],
+            ["@types/node", "npm:14.14.44"],
+            ["chalk", "npm:4.1.1"],
             ["change-case", "npm:3.1.0"],
             ["ejs", "npm:3.1.5"],
             ["enquirer", "npm:2.3.6"],
-            ["execa", "npm:4.1.0"],
+            ["execa", "npm:5.0.0"],
             ["front-matter", "npm:4.0.2"],
             ["fs-extra", "npm:9.1.0"],
             ["ignore-walk", "npm:3.0.3"],
             ["inflection", "npm:1.12.0"],
-            ["yargs-parser", "npm:18.1.3"]
+            ["yargs-parser", "npm:20.2.7"]
           ],
           "linkType": "HARD",
         }]
