@@ -4628,7 +4628,7 @@ __metadata:
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-node-resolve": 11.2.1
     "@stillmine/eslint-config": "workspace:packages/eslint-config"
-    "@testing-library/react-hooks": 5.1.1
+    "@testing-library/react-hooks": 5.1.2
     "@types/jest": 26.0.20
     "@types/react": 17.0.3
     "@types/react-test-renderer": 17.0.1
@@ -5978,9 +5978,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-hooks@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@testing-library/react-hooks@npm:5.1.1"
+"@testing-library/react-hooks@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@testing-library/react-hooks@npm:5.1.2"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/react": ">=16.9.0"
@@ -5997,7 +5997,7 @@ __metadata:
       optional: true
     react-test-renderer:
       optional: true
-  checksum: cae917a90b8cbb8d4e738b1df0d404a0af344dc8debf1afd5b7d6b6919287373994ace87d0d82544adc86927d783a6785a6d414b2818cb69545d6f6ce5672486
+  checksum: d1a1cfeb1ca596747b53bda1124a95232f2f945a94eff275433e52825b3cc883ccd7b265d5c22d2edc2d48d7b5c5fcfa424e3ce50fc2d7d61b29a978b3bfcaf5
   languageName: node
   linkType: hard
 
