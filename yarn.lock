@@ -4695,7 +4695,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-simple-import-sort: 7.0.0
     husky: 6.0.0
-    hygen: 6.0.4
+    hygen: 6.1.0
     lint-staged: 10.5.4
     prettier: 2.2.1
     textlint: 11.9.0
@@ -6525,7 +6525,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.14.44":
+"@types/node@npm:14.14.44, @types/node@npm:^14.14.41":
   version: 14.14.44
   resolution: "@types/node@npm:14.14.44"
   checksum: 5c4db716325fc8a25b5b76b800acf0ff00c8fa1e7cfcb764fc79d79594939488cb9d2a756e188eb8e8a36da51e8e2be1ffe859be901b338779cb0aa12ad73b3a
@@ -6536,13 +6536,6 @@ __metadata:
   version: 14.14.37
   resolution: "@types/node@npm:14.14.37"
   checksum: 5e2d9baf7594ebacaf016716515f30de0765169412787f981481c2fb8b468923149bb9e2e3219ee672399811672ceddc339a7372a61cf15bc656836a5494d991
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^14.0.14":
-  version: 14.14.22
-  resolution: "@types/node@npm:14.14.22"
-  checksum: e46e32685b4d0261779c13c10ba3ff220cfa714b5c12f8f571fd52cc309546bdbc8ffc86cbad20559ad88e7b17e66fc51c98b067d8c3766597092c05df157b9b
   languageName: node
   linkType: hard
 
@@ -9210,6 +9203,16 @@ __metadata:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
   checksum: f860285b419f9e925c2db0f45ffa88aa8794c14b80cc5d01ff30930bcfc384996606362706f0829cf557f6d36152a5fb2d227ad63c4bc90e2ec9e9dbed4a3c07
+  languageName: node
+  linkType: hard
+
+"chalk@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "chalk@npm:4.1.1"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: 445c12db7aeed0046500a1e4184d31209a77d165654c885a789c41c8598a6a95bd2392180987cac572c967b93a2a730dda778bb7f87fa06ca63fd8592f8cc59f
   languageName: node
   linkType: hard
 
@@ -12306,7 +12309,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^4.0.0, execa@npm:^4.0.2, execa@npm:^4.1.0":
+"execa@npm:^4.0.0, execa@npm:^4.1.0":
   version: 4.1.0
   resolution: "execa@npm:4.1.0"
   dependencies:
@@ -13044,7 +13047,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^9.0.1":
+"fs-extra@npm:^9.0.1, fs-extra@npm:^9.1.0":
   version: 9.1.0
   resolution: "fs-extra@npm:9.1.0"
   dependencies:
@@ -14248,24 +14251,24 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"hygen@npm:6.0.4":
-  version: 6.0.4
-  resolution: "hygen@npm:6.0.4"
+"hygen@npm:6.1.0":
+  version: 6.1.0
+  resolution: "hygen@npm:6.1.0"
   dependencies:
-    "@types/node": ^14.0.14
-    chalk: ^4.1.0
+    "@types/node": ^14.14.41
+    chalk: ^4.1.1
     change-case: ^3.1.0
     ejs: ^3.1.3
     enquirer: ^2.3.6
-    execa: ^4.0.2
+    execa: ^5.0.0
     front-matter: ^4.0.2
-    fs-extra: ^9.0.1
+    fs-extra: ^9.1.0
     ignore-walk: ^3.0.3
     inflection: ^1.12.0
-    yargs-parser: ^18.1.3
+    yargs-parser: ^20.2.7
   bin:
     hygen: dist/bin.js
-  checksum: 0a9016214d877491856c2f2ea3e48319c3ccf6d3d566a24cc0c9b0f39b4e3ccc27d12f3707f9fd6751fa8c9ecb55d6df5dfa5b08f0fa77bca3e53eb25485f7bf
+  checksum: 5a83da48e88e08faf402497fc76a64b5208b1f8552f3b489af181d5080704f6f54accef0e75569015675c8211073af20b6b7f2a5d01ff4e78547bfbffb4eff86
   languageName: node
   linkType: hard
 
@@ -25942,7 +25945,7 @@ typescript@4.2.4:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^18.1.2, yargs-parser@npm:^18.1.3":
+"yargs-parser@npm:^18.1.2":
   version: 18.1.3
   resolution: "yargs-parser@npm:18.1.3"
   dependencies:
@@ -25952,7 +25955,7 @@ typescript@4.2.4:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^20.2.2":
+"yargs-parser@npm:^20.2.2, yargs-parser@npm:^20.2.7":
   version: 20.2.7
   resolution: "yargs-parser@npm:20.2.7"
   checksum: 124e7f1c24c9609d5d1c343f14b83289634e19bb43770708ebb6a19852647aaa0f89edcbf0e5b18a21bee77f54513ab5051518b2950cda69eb607a7c6251aa4f
