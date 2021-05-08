@@ -18,8 +18,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js",
-    "release": "semantic-release"
+    "lint": "eslint **/*.js"
   },
   "devDependencies": {
     "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
