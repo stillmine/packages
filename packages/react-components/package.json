@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/react-components",
-  "version": "1.6.5",
+  "version": "0.0.0",
   "description": "React components.",
   "keywords": [
     "ui",
@@ -21,7 +21,6 @@
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "yarn lint --fix",
     "prepack": "yarn build",
-    "release": "semantic-release",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
@@ -41,7 +40,6 @@
     "@babel/preset-typescript": "7.13.0",
     "@emotion/babel-plugin": "11.2.0",
     "@emotion/react": "11.1.5",
-    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
     "@stillmine/types": "workspace:packages/types",
     "@storybook/addon-a11y": "6.2.2",
     "@storybook/addon-actions": "6.2.2",
@@ -64,7 +62,6 @@
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
     "sanitize.css": "12.0.1",
-    "semantic-release": "17.4.2",
     "ts-jest": "26.5.4",
     "typescript": "4.2.3"
   },

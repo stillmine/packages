@@ -1,7 +1,7 @@
 {
   "name": "@stillmine/tsconfig",
-  "version": "1.6.5",
-  "description": "Typescript config",
+  "version": "0.0.0",
+  "description": "Typescript config.",
   "keywords": [
     "typescript",
     "config"
@@ -12,13 +12,6 @@
   },
   "license": "MIT",
   "main": "tsconfig.json",
-  "scripts": {
-    "release": "semantic-release"
-  },
-  "devDependencies": {
-    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
-    "semantic-release": "17.4.2"
-  },
   "peerDependencies": {
     "typescript": ">= 4"
   },
