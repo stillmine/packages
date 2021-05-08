@@ -1,16 +1,11 @@
 {
   "name": "@stillmine/eslint-config",
-  "version": "1.6.5",
+  "version": "0.0.0",
   "description": "ESLint config.",
   "keywords": [
     "eslint",
     "config"
   ],
-  "homepage": "https://github.com/stillmine/packages/packages/eslint-config#readme",
-  "bugs": {
-    "email": "euihyun.yang.9x@gmail.com",
-    "url": "https://github.com/stillmine/packages/issues"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/stillmine/packages.git"
@@ -21,7 +16,6 @@
     "lint": "eslint **/*.js"
   },
   "devDependencies": {
-    "@stillmine/semantic-release-config": "workspace:packages/semantic-release-config",
     "@typescript-eslint/eslint-plugin": "4.22.1",
     "@typescript-eslint/parser": "4.22.1",
     "eslint": "7.23.0",
@@ -32,8 +26,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
-    "eslint-plugin-simple-import-sort": "7.0.0",
-    "semantic-release": "17.4.2"
+    "eslint-plugin-simple-import-sort": "7.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 4",

@@ -1,7 +1,7 @@
 {
   "name": "@stillmine/types",
-  "version": "1.6.5",
-  "description": "utility types",
+  "version": "0.0.0",
+  "description": "Utility types",
   "repository": {
     "type": "git",
     "url": "https://github.com/stillmine/packages.git"
