@@ -4873,7 +4873,7 @@ __metadata:
   resolution: "@stillmine/webpack@workspace:packages/webpack"
   dependencies:
     "@types/node": 14.14.44
-    dotenv: 8.6.0
+    dotenv: 9.0.0
     webpack-merge: 5.7.3
   peerDependencies:
     "@babel/core": ">= 7"
@@ -11275,10 +11275,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:8.6.0":
-  version: 8.6.0
-  resolution: "dotenv@npm:8.6.0"
-  checksum: f4649999a157061dd169118f459d88db56380b2eef68e87fa9de7201796e5f6d94fa337658d7e148f404b48652a0eefe11222d9eba0cd464497911ae56cd6f93
+"dotenv@npm:9.0.0":
+  version: 9.0.0
+  resolution: "dotenv@npm:9.0.0"
+  checksum: 8111fb99a12a8da9fedc90d855d734bbf026f3257d67b611b2517d393b027ca5774c1f9dd5aa0887f339f4e7c711f99bdd8bc82fa076e572f3eb6000b2c09343
   languageName: node
   linkType: hard
 
