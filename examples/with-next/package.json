@@ -1,6 +1,6 @@
 {
   "name": "with-next",
-  "version": "1.6.5",
+  "version": "0.0.1",
   "scripts": {
     "develop": "next dev",
     "start": "next start"
