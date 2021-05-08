@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/semantic-release-config",
-  "version": "0.0.0",
+  "version": "1.6.5",
   "description": "semantic-release config",
   "license": "MIT",
   "main": "index.js",
