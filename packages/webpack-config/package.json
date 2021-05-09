@@ -6,8 +6,12 @@
     "webpack",
     "cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stillmine/packages.git"
+  },
+  "license": "MIT",
   "main": "lib/index.js",
-  "module": "esm/index.js",
   "types": "lib/index.d.ts",
   "bin": {
     "stillmine-webpack": "bin/cli.js"
@@ -22,5 +26,9 @@
   "peerDependencies": {
     "@babel/core": ">= 7",
     "webpack": ">= 5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -6,7 +6,11 @@
     "rollup",
     "config"
   ],
-  "homepage": "https://github.com/stillmine/packages/packages/rollup#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stillmine/packages.git"
+  },
+  "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
