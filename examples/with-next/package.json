@@ -1,13 +1,12 @@
 {
   "name": "with-next",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "scripts": {
-    "build": "next build",
     "develop": "next dev",
     "start": "next start"
   },
   "dependencies": {
-    "@stillmine/webpack": "1.0.1",
+    "@stillmine/webpack-config": "workspace:packages/webpack-config",
     "@types/react": "16.9.55",
     "next": "10.0.0",
     "react": "17.0.1",

@@ -1,0 +1,110 @@
+diff --git a/index.js b/index.js
+index 804aae0618c6bda98e6bd9b6bf034cc7a01ee660..fa8178948491aff1f8c5ac4b7963e1bbf606cf57 100644
+--- a/index.js
++++ b/index.js
+@@ -19,9 +19,18 @@ class PackageGraph extends Map {
+    * @param {'allDependencies'|'dependencies'} [graphType]
+    *    Pass "dependencies" to create a graph of only dependencies,
+    *    excluding the devDependencies that would normally be included.
+-   * @param {boolean} [forceLocal] Force all local dependencies to be linked.
++   * @param {Boolean | String} localDependencies Force all local dependencies to be linked.
+    */
+-  constructor(packages, graphType = "allDependencies", forceLocal) {
++  constructor(
++    packages,
++    graphType = "allDependencies",
++    localDependencies = "auto" // | "force" | "explicit"
++  ) {
++    // For backward compatibility
++    if (localDependencies === true || localDependencies === "forceLocal") {
++      localDependencies = "force"; // eslint-disable-line
++    }
++
+     super(packages.map((pkg) => [pkg.name, new PackageGraphNode(pkg)]));
+ 
+     if (packages.length !== this.size) {
+@@ -40,7 +49,10 @@ class PackageGraph extends Map {
+         if (locations.length > 1) {
+           throw new ValidationError(
+             "ENAME",
+-            [`Package name "${name}" used in multiple packages:`, ...locations].join("\n\t")
++            [
++              `Package name "${name}" used in multiple packages:`,
++              ...locations,
++            ].join("\n\t")
+           );
+         }
+       }
+@@ -49,7 +61,11 @@ class PackageGraph extends Map {
+     this.forEach((currentNode, currentName) => {
+       const graphDependencies =
+         graphType === "dependencies"
+-          ? Object.assign({}, currentNode.pkg.optionalDependencies, currentNode.pkg.dependencies)
++          ? Object.assign(
++              {},
++              currentNode.pkg.optionalDependencies,
++              currentNode.pkg.dependencies
++            )
+           : Object.assign(
+               {},
+               currentNode.pkg.devDependencies,
+@@ -62,16 +78,30 @@ class PackageGraph extends Map {
+         // Yarn decided to ignore https://github.com/npm/npm/pull/15900 and implemented "link:"
+         // As they apparently have no intention of being compatible, we have to do it for them.
+         // @see https://github.com/yarnpkg/yarn/issues/4212
+-        const spec = graphDependencies[depName].replace(/^link:/, "file:");
++        let spec = graphDependencies[depName].replace(/^link:/, "file:");
++
++        // npa doesn't support the explicit workspace: protocol, supported by
++        // pnpm and Yarn.
++        const explicitWorkspace = /^workspace:/.test(spec);
++        if (explicitWorkspace) {
++          spec = spec.replace(/^workspace:/, "");
++        }
++
+         const resolved = npa.resolve(depName, spec, currentNode.location);
++        resolved.explicitWorkspace = explicitWorkspace;
+ 
+         if (!depNode) {
+           // it's an external dependency, store the resolution and bail
+           return currentNode.externalDependencies.set(depName, resolved);
+         }
+ 
+-        if (forceLocal || resolved.fetchSpec === depNode.location || depNode.satisfies(resolved)) {
+-          // a local file: specifier OR a matching semver
++        if (
++          explicitWorkspace ||
++          localDependencies === "force" ||
++          resolved.fetchSpec === depNode.location ||
++          (localDependencies !== "explicit" && depNode.satisfies(resolved))
++        ) {
++          // a local file: specifier, a matching semver or a workspace: version
+           currentNode.localDependencies.set(depName, resolved);
+           depNode.localDependents.set(currentName, currentNode);
+         } else {
+@@ -156,7 +186,11 @@ class PackageGraph extends Map {
+     this.forEach((currentNode, currentName) => {
+       const seen = new Set();
+ 
+-      const visits = (walk) => (dependentNode, dependentName, siblingDependents) => {
++      const visits = (walk) => (
++        dependentNode,
++        dependentName,
++        siblingDependents
++      ) => {
+         const step = walk.concat(dependentName);
+ 
+         if (seen.has(dependentNode)) {
+@@ -175,9 +209,9 @@ class PackageGraph extends Map {
+ 
+         if (siblingDependents.has(currentName)) {
+           // a transitive cycle
+-          const cycleDependentName = Array.from(dependentNode.localDependencies.keys()).find((key) =>
+-            currentNode.localDependents.has(key)
+-          );
++          const cycleDependentName = Array.from(
++            dependentNode.localDependencies.keys()
++          ).find((key) => currentNode.localDependents.has(key));
+           const pathToCycle = step.slice().reverse().concat(cycleDependentName);
+ 
+           cycleNodes.add(dependentNode);
