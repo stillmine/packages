@@ -25,4 +25,4 @@ jobs:
         with:
           node-version: 14
       - run: yarn --immutable --immutable-cache
-      - run: yarn publish
+      - run: yarn publish --yes
