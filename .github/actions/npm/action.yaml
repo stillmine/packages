@@ -7,7 +7,5 @@ inputs:
 runs:
   using: composite
   steps:
-    - run: |
-        npm config set "//npm.pkg.github.com/:_authToken" "${{ inputs.GITHUB_TOKEN }}"
-        npm config set "@stillmine:registry" "https://npm.pkg.github.com"
+    - run: echo "//npm.pkg.github.com/:_authToken=${{ inputs.GITHUB_TOKEN }}\n@stillmine:registry=https://npm.pkg.github.com" | tee .npmrc
       shell: bash

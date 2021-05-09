@@ -5,6 +5,8 @@ on:
       - main
       - next
       - ci/lerna
+permissions:
+  package: write
 jobs:
   release:
     name: Release
@@ -20,7 +22,7 @@ jobs:
           fetch-depth: 0
       - uses: ./.github/actions/npm
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           node-version: 14
