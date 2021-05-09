@@ -1,0 +1,13 @@
+name: NPM token
+description: Set NPM token
+inputs:
+  GITHUB_TOKEN:
+    description: '@stillmine github package registry token'
+    required: true
+runs:
+  using: composite
+  steps:
+    - run: |
+        npm config set "//npm.pkg.github.com/:_authToken" "${{ inputs.GITHUB_TOKEN }}"
+        npm config set "@stillmine:registry" "https://npm.pkg.github.com"
+      shell: bash

@@ -4,6 +4,8 @@ on:
     branches:
       - main
       - next
+permissions:
+  packages: read|write
 jobs:
   release:
     name: Release
@@ -17,14 +19,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          persist-credentials: false
+      - uses: ./.github/actions/npm
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: Install dependencies
-        run: yarn --immutable --immutable-cache
-      - name: Release
-        run: yarn workspaces since run release origin/main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GH_TOKEN }}
+      - run: yarn --immutable --immutable-cache
+      - run: yarn publish
