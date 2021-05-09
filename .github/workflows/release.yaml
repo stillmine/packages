@@ -6,7 +6,7 @@ on:
       - next
       - ci/lerna
 permissions:
-  package: write
+  packages: write
 jobs:
   release:
     name: Release
