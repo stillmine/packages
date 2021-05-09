@@ -35,6 +35,6 @@ jobs:
           scope: '@stillmine'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo $HOME/.npmrc
+      - run: cat $HOME/.npmrc
       - run: yarn --immutable --immutable-cache
       - run: yarn publish --yes
