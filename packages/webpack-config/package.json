@@ -17,7 +17,7 @@
     "stillmine-webpack": "bin/cli.js"
   },
   "dependencies": {
-    "dotenv": "9.0.1",
+    "dotenv": "9.0.2",
     "webpack-merge": "5.7.3"
   },
   "devDependencies": {
