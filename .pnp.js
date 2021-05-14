@@ -123,7 +123,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hygen", "npm:6.1.0"],
             ["lerna", "npm:4.0.0"],
             ["lint-staged", "npm:11.0.0"],
-            ["prettier", "npm:2.2.1"],
+            ["prettier", "npm:2.3.0"],
             ["textlint", "npm:11.9.1"],
             ["textlint-rule-no-todo", "npm:2.0.1"],
             ["typescript", "patch:typescript@npm%3A4.2.3#builtin<compat/typescript>::version=4.2.3&hash=a45b0e"]
@@ -9555,7 +9555,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hygen", "npm:6.1.0"],
             ["lerna", "npm:4.0.0"],
             ["lint-staged", "npm:11.0.0"],
-            ["prettier", "npm:2.2.1"],
+            ["prettier", "npm:2.3.0"],
             ["textlint", "npm:11.9.1"],
             ["textlint-rule-no-todo", "npm:2.0.1"],
             ["typescript", "patch:typescript@npm%3A4.2.3#builtin<compat/typescript>::version=4.2.3&hash=a45b0e"]
@@ -18452,7 +18452,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", null],
             ["eslint", "npm:7.23.0"],
             ["eslint-config-prettier", "virtual:b7c4925132009e25ff5f2d2b65cdd2453e53ffad4c20d291106c8cb177bc2c47d7fd994d8f2165cff25a111c9c16416eaab61b3569a0bca76f4b9a0c48d4a447#npm:8.3.0"],
-            ["prettier", "npm:2.2.1"],
+            ["prettier", "npm:2.3.0"],
             ["prettier-linter-helpers", "npm:1.0.0"]
           ],
           "packagePeers": [
@@ -26368,6 +26368,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prettier-npm-2.2.1-e0670992f8-92c6c9f4b8.zip/node_modules/prettier/",
           "packageDependencies": [
             ["prettier", "npm:2.2.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.3.0-29ef37e8b6-652640cc8b.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
