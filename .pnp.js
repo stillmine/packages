@@ -9520,7 +9520,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", "npm:7.2.10"],
             ["@types/webpack", "npm:5.28.0"],
             ["concurrently", "npm:6.0.2"],
-            ["esbuild", "npm:0.11.20"],
+            ["esbuild", "npm:0.11.21"],
             ["eslint", "npm:7.25.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
@@ -18069,10 +18069,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["esbuild", [
-        ["npm:0.11.20", {
-          "packageLocation": "./.yarn/cache/esbuild-npm-0.11.20-90e0eed8d0-553f88218a.zip/node_modules/esbuild/",
+        ["npm:0.11.21", {
+          "packageLocation": "./.yarn/cache/esbuild-npm-0.11.21-9d1dfc8d86-5b122d678a.zip/node_modules/esbuild/",
           "packageDependencies": [
-            ["esbuild", "npm:0.11.20"]
+            ["esbuild", "npm:0.11.21"]
           ],
           "linkType": "HARD",
         }]
