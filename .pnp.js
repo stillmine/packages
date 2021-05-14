@@ -9750,7 +9750,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],
             ["@types/node", "npm:14.14.44"],
             ["@types/webpack", null],
-            ["dotenv", "npm:9.0.1"],
+            ["dotenv", "npm:9.0.2"],
             ["webpack", null],
             ["webpack-merge", "npm:5.7.3"]
           ],
@@ -9767,7 +9767,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/webpack-config", "workspace:packages/webpack-config"],
             ["@types/node", "npm:14.14.44"],
-            ["dotenv", "npm:9.0.1"],
+            ["dotenv", "npm:9.0.2"],
             ["webpack-merge", "npm:5.7.3"]
           ],
           "linkType": "SOFT",
@@ -17487,10 +17487,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:9.0.1", {
-          "packageLocation": "./.yarn/cache/dotenv-npm-9.0.1-c34ea48d95-d269ad03ed.zip/node_modules/dotenv/",
+        ["npm:9.0.2", {
+          "packageLocation": "./.yarn/cache/dotenv-npm-9.0.2-fd127dfe81-062a31a2fd.zip/node_modules/dotenv/",
           "packageDependencies": [
-            ["dotenv", "npm:9.0.1"]
+            ["dotenv", "npm:9.0.2"]
           ],
           "linkType": "HARD",
         }]
