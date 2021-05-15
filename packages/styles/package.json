@@ -19,7 +19,7 @@
     "@stillmine/utils": "workspace:packages/utils"
   },
   "devDependencies": {
-    "@emotion/react": "11.1.5",
+    "@emotion/react": "11.4.0",
     "@stillmine/types": "workspace:packages/types",
     "@types/facepaint": "1.2.1",
     "@types/react": "17.0.3",
