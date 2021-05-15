@@ -10125,7 +10125,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:26.0.23"],
             ["@types/react", "npm:17.0.3"],
             ["@types/react-test-renderer", "npm:17.0.1"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["eslint", "npm:7.23.0"],
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
@@ -10156,7 +10156,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:26.0.23"],
             ["@types/react", "npm:17.0.3"],
             ["@types/react-test-renderer", "npm:17.0.1"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["eslint", "npm:7.23.0"],
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
@@ -10176,7 +10176,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/next-config", "workspace:packages/next-config"],
             ["@types/eslint", "npm:7.2.10"],
             ["@types/webpack", "npm:5.28.0"],
-            ["concurrently", "npm:6.0.2"],
+            ["concurrently", "npm:6.1.0"],
             ["esbuild", "npm:0.11.22"],
             ["eslint", "npm:7.25.0"],
             ["jest", "npm:26.6.3"],
@@ -10249,7 +10249,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.3"],
             ["@types/react-dom", "npm:17.0.5"],
             ["@types/testing-library__jest-dom", "npm:5.9.5"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["core-js", "npm:3.10.0"],
             ["eslint", "npm:7.23.0"],
             ["facepaint", "npm:1.2.1"],
@@ -10286,7 +10286,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/emotion__react", null],
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["core-js", "npm:3.10.0"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
@@ -10312,7 +10312,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["core-js", "npm:3.10.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
@@ -10349,7 +10349,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/types", "workspace:packages/types"],
             ["@types/react", "npm:17.0.3"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["ts-jest", "virtual:4c5c033154bc32fda67edd5e45eeddb1b5161b835fa90e068939243d1c94938cdd80549ec8ad6f903734d730a00640a143b4ced36d2842dd6ebbf37abcd50f4a#npm:26.5.6"],
@@ -10363,7 +10363,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/units/",
           "packageDependencies": [
             ["@stillmine/units", "workspace:packages/units"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
@@ -10376,7 +10376,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/utils/",
           "packageDependencies": [
             ["@stillmine/utils", "workspace:packages/utils"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
@@ -10390,7 +10390,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/validator", "workspace:packages/validator"],
             ["@types/uuid", "npm:8.3.0"],
-            ["concurrently", "npm:6.0.0"],
+            ["concurrently", "npm:6.1.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
@@ -16664,26 +16664,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["concurrently", [
-        ["npm:6.0.0", {
-          "packageLocation": "./.yarn/cache/concurrently-npm-6.0.0-30b74cef1f-c5ef6bb312.zip/node_modules/concurrently/",
+        ["npm:6.1.0", {
+          "packageLocation": "./.yarn/cache/concurrently-npm-6.1.0-0954720a66-daa788a222.zip/node_modules/concurrently/",
           "packageDependencies": [
-            ["concurrently", "npm:6.0.0"],
-            ["chalk", "npm:4.1.0"],
-            ["date-fns", "npm:2.19.0"],
-            ["lodash", "npm:4.17.20"],
-            ["read-pkg", "npm:5.2.0"],
-            ["rxjs", "npm:6.6.3"],
-            ["spawn-command", "npm:0.0.2-1"],
-            ["supports-color", "npm:8.1.1"],
-            ["tree-kill", "npm:1.2.2"],
-            ["yargs", "npm:16.2.0"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:6.0.2", {
-          "packageLocation": "./.yarn/cache/concurrently-npm-6.0.2-f267b33683-2bb8892c89.zip/node_modules/concurrently/",
-          "packageDependencies": [
-            ["concurrently", "npm:6.0.2"],
+            ["concurrently", "npm:6.1.0"],
             ["chalk", "npm:4.1.0"],
             ["date-fns", "npm:2.19.0"],
             ["lodash", "npm:4.17.21"],
