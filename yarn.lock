@@ -5600,7 +5600,7 @@ __metadata:
     "@types/jest": 26.0.23
     "@types/react": 17.0.3
     "@types/react-test-renderer": 17.0.1
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     eslint: 7.23.0
     jest: 26.6.3
     react: 17.0.2
@@ -5620,7 +5620,7 @@ __metadata:
   dependencies:
     "@types/eslint": 7.2.10
     "@types/webpack": 5.28.0
-    concurrently: 6.0.2
+    concurrently: 6.1.0
     esbuild: 0.11.22
     eslint: 7.25.0
     jest: 26.6.3
@@ -5691,7 +5691,7 @@ __metadata:
     "@types/react": 17.0.3
     "@types/react-dom": 17.0.5
     "@types/testing-library__jest-dom": 5.9.5
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     core-js: 3.10.0
     eslint: 7.23.0
     facepaint: 1.2.1
@@ -5733,7 +5733,7 @@ __metadata:
     "@stillmine/utils": "workspace:packages/utils"
     "@types/facepaint": 1.2.1
     "@types/react": 17.0.3
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     core-js: 3.10.0
     jest: 26.6.3
     rimraf: 3.0.2
@@ -5758,7 +5758,7 @@ __metadata:
   resolution: "@stillmine/types@workspace:packages/types"
   dependencies:
     "@types/react": 17.0.3
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     jest: 26.6.3
     rimraf: 3.0.2
     ts-jest: 26.5.6
@@ -5770,7 +5770,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/units@workspace:packages/units"
   dependencies:
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.2.4
@@ -5781,7 +5781,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/utils@workspace:packages/utils"
   dependencies:
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.2.4
@@ -5793,7 +5793,7 @@ __metadata:
   resolution: "@stillmine/validator@workspace:packages/validator"
   dependencies:
     "@types/uuid": 8.3.0
-    concurrently: 6.0.0
+    concurrently: 6.1.0
     jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.2.4
@@ -10603,28 +10603,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:6.0.0":
-  version: 6.0.0
-  resolution: "concurrently@npm:6.0.0"
-  dependencies:
-    chalk: ^4.1.0
-    date-fns: ^2.16.1
-    lodash: ^4.17.20
-    read-pkg: ^5.2.0
-    rxjs: ^6.6.3
-    spawn-command: ^0.0.2-1
-    supports-color: ^8.1.0
-    tree-kill: ^1.2.2
-    yargs: ^16.2.0
-  bin:
-    concurrently: bin/concurrently.js
-  checksum: c5ef6bb312201d59d342a9e1ba5b7c78d8b660e3cd7d59c262ae4563a95106633ddae2e7a760c8166bffa9a85961c0f49ef86bad51231529aaa92e4eb7a505d7
-  languageName: node
-  linkType: hard
-
-"concurrently@npm:6.0.2":
-  version: 6.0.2
-  resolution: "concurrently@npm:6.0.2"
+"concurrently@npm:6.1.0":
+  version: 6.1.0
+  resolution: "concurrently@npm:6.1.0"
   dependencies:
     chalk: ^4.1.0
     date-fns: ^2.16.1
@@ -10637,7 +10618,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     concurrently: bin/concurrently.js
-  checksum: 2bb8892c8948bcfd8bd4079d720507acb3e49fdb5a4ad4e315f4ffdc768fb8cc7f3b25a1e98fbd7734efe6a8c86a5bd0f77001a212bd2db4ce67f05d0868f326
+  checksum: daa788a222c1c78604f01b39318a003260fb1c47bdaf0336587437414e7727b8de899bd66e58e922572c66a24308874d035caecbd9b1eead3ea451a52d1a8fec
   languageName: node
   linkType: hard
 
