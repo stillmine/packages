@@ -5692,7 +5692,7 @@ __metadata:
     "@types/react-dom": 17.0.5
     "@types/testing-library__jest-dom": 5.9.5
     concurrently: 6.1.0
-    core-js: 3.10.0
+    core-js: 3.12.1
     eslint: 7.23.0
     facepaint: 1.2.1
     jest: 26.6.3
@@ -5734,7 +5734,7 @@ __metadata:
     "@types/facepaint": 1.2.1
     "@types/react": 17.0.3
     concurrently: 6.1.0
-    core-js: 3.10.0
+    core-js: 3.12.1
     jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.2.4
@@ -10926,10 +10926,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.10.0, core-js@npm:^3.8.2":
-  version: 3.10.0
-  resolution: "core-js@npm:3.10.0"
-  checksum: d8bb20f7da9fdd944057cb41938153a7c4e471fb7d529e37958e32c7a20ab9506abbd03932750c27c8fd02de03a8e4775ba68252506a0dd42dda5404901ae9f1
+"core-js@npm:3.12.1":
+  version: 3.12.1
+  resolution: "core-js@npm:3.12.1"
+  checksum: 8b1d05579e7ddeafcd390001cc893540275fa3e658a00ae57f88954411a25bdfe583debb1929c6a50e40631cc07f2092490ea2284b35ffb922b23d7677060f28
   languageName: node
   linkType: hard
 
@@ -10937,6 +10937,13 @@ __metadata:
   version: 3.8.2
   resolution: "core-js@npm:3.8.2"
   checksum: 8fa2c580b77b9d54d3f6ee147be4d9ae01ea6d77f35f16b05962161e9bec02d846449cce4c68b9d190145edc8ded71142f6fd99e35b53fc642b20a3bf47bbd07
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.8.2":
+  version: 3.10.0
+  resolution: "core-js@npm:3.10.0"
+  checksum: d8bb20f7da9fdd944057cb41938153a7c4e471fb7d529e37958e32c7a20ab9506abbd03932750c27c8fd02de03a8e4775ba68252506a0dd42dda5404901ae9f1
   languageName: node
   linkType: hard
 

@@ -10250,7 +10250,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.5"],
             ["@types/testing-library__jest-dom", "npm:5.9.5"],
             ["concurrently", "npm:6.1.0"],
-            ["core-js", "npm:3.10.0"],
+            ["core-js", "npm:3.12.1"],
             ["eslint", "npm:7.23.0"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
@@ -10287,7 +10287,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.1.0"],
-            ["core-js", "npm:3.10.0"],
+            ["core-js", "npm:3.12.1"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
@@ -10313,7 +10313,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.1.0"],
-            ["core-js", "npm:3.10.0"],
+            ["core-js", "npm:3.12.1"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
@@ -16967,6 +16967,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/core-js-npm-3.10.0-2088bcb2de-d8bb20f7da.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.10.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.12.1", {
+          "packageLocation": "./.yarn/cache/core-js-npm-3.12.1-6d1063bc86-8b1d05579e.zip/node_modules/core-js/",
+          "packageDependencies": [
+            ["core-js", "npm:3.12.1"]
           ],
           "linkType": "HARD",
         }],
