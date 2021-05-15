@@ -9294,7 +9294,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", null],
             ["@types/rollup", null],
             ["@types/types__babel__core", null],
-            ["rollup", "npm:2.47.0"]
+            ["rollup", "npm:2.48.0"]
           ],
           "packagePeers": [
             "@babel/core",
@@ -9325,7 +9325,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["deepmerge", "npm:4.2.2"],
             ["is-module", "npm:1.0.0"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"],
-            ["rollup", "npm:2.47.0"]
+            ["rollup", "npm:2.48.0"]
           ],
           "packagePeers": [
             "@types/rollup",
@@ -9350,7 +9350,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rollup", null],
             ["estree-walker", "npm:1.0.1"],
             ["picomatch", "npm:2.2.2"],
-            ["rollup", "npm:2.47.0"]
+            ["rollup", "npm:2.48.0"]
           ],
           "packagePeers": [
             "@types/rollup",
@@ -9474,7 +9474,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-test-renderer", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:17.0.2"],
             ["rimraf", "npm:3.0.2"],
-            ["rollup", "npm:2.47.0"],
+            ["rollup", "npm:2.48.0"],
             ["ts-jest", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:26.5.4"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=a45b0e"]
           ],
@@ -9505,7 +9505,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-test-renderer", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:17.0.2"],
             ["rimraf", "npm:3.0.2"],
-            ["rollup", "npm:2.47.0"],
+            ["rollup", "npm:2.48.0"],
             ["ts-jest", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:26.5.4"],
             ["typescript", "patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=a45b0e"]
           ],
@@ -28499,10 +28499,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["rollup", [
-        ["npm:2.47.0", {
-          "packageLocation": "./.yarn/cache/rollup-npm-2.47.0-1695d7a128-bab2079fea.zip/node_modules/rollup/",
+        ["npm:2.48.0", {
+          "packageLocation": "./.yarn/cache/rollup-npm-2.48.0-70f984c31b-3f50c1e023.zip/node_modules/rollup/",
           "packageDependencies": [
-            ["rollup", "npm:2.47.0"],
+            ["rollup", "npm:2.48.0"],
             ["fsevents", "patch:fsevents@npm%3A2.3.1#builtin<compat/fsevents>::version=2.3.1&hash=11e9ea"]
           ],
           "linkType": "HARD",
