@@ -10257,7 +10257,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.0.2"],
             ["react-error-boundary", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:3.1.1"],
-            ["react-use", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.1"],
+            ["react-use", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.4"],
             ["rimraf", "npm:3.0.2"],
             ["sanitize.css", "npm:12.0.1"],
             ["ts-jest", "virtual:5a3447f98803c6a57ddd6a82f26283d8a31c9adc10628ff6bc7ab4ebd026f116a74ee912822db704d93fd2600701f1222284c0cffad9d6d4ecc76e845136cc75#npm:26.5.6"],
@@ -25140,10 +25140,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:7916c95d5fea35ef1a0dcb35bcda7b4c7674e0e9e22c44493a6f8aea0979f2f1b774b2c5c8a3726f54af278a13d698b822e930c5d49ab25fc53e076e5cc5608d#npm:5.3.1", {
-          "packageLocation": "./.yarn/$$virtual/nano-css-virtual-bd2ac91963/0/cache/nano-css-npm-5.3.1-b5193932b9-b3c1817047.zip/node_modules/nano-css/",
+        ["virtual:092c171d0d4feabd6eaf44c6c2adf643a8c6bef21f782f2fa1d0b8902214d830d785cd0752339418791704ff02ed43b554e8144a99d1b6d48fec414f86c09e7b#npm:5.3.1", {
+          "packageLocation": "./.yarn/$$virtual/nano-css-virtual-399049353b/0/cache/nano-css-npm-5.3.1-b5193932b9-b3c1817047.zip/node_modules/nano-css/",
           "packageDependencies": [
-            ["nano-css", "virtual:7916c95d5fea35ef1a0dcb35bcda7b4c7674e0e9e22c44493a6f8aea0979f2f1b774b2c5c8a3726f54af278a13d698b822e930c5d49ab25fc53e076e5cc5608d#npm:5.3.1"],
+            ["nano-css", "virtual:092c171d0d4feabd6eaf44c6c2adf643a8c6bef21f782f2fa1d0b8902214d830d785cd0752339418791704ff02ed43b554e8144a99d1b6d48fec414f86c09e7b#npm:5.3.1"],
             ["@types/react", "npm:17.0.3"],
             ["@types/react-dom", "npm:17.0.5"],
             ["css-tree", "npm:1.1.2"],
@@ -28352,10 +28352,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:7916c95d5fea35ef1a0dcb35bcda7b4c7674e0e9e22c44493a6f8aea0979f2f1b774b2c5c8a3726f54af278a13d698b822e930c5d49ab25fc53e076e5cc5608d#npm:0.6.2", {
-          "packageLocation": "./.yarn/$$virtual/react-universal-interface-virtual-ac9b04b8dd/0/cache/react-universal-interface-npm-0.6.2-795659cd0e-4b63c77bbd.zip/node_modules/react-universal-interface/",
+        ["virtual:092c171d0d4feabd6eaf44c6c2adf643a8c6bef21f782f2fa1d0b8902214d830d785cd0752339418791704ff02ed43b554e8144a99d1b6d48fec414f86c09e7b#npm:0.6.2", {
+          "packageLocation": "./.yarn/$$virtual/react-universal-interface-virtual-ab353c0aca/0/cache/react-universal-interface-npm-0.6.2-795659cd0e-4b63c77bbd.zip/node_modules/react-universal-interface/",
           "packageDependencies": [
-            ["react-universal-interface", "virtual:7916c95d5fea35ef1a0dcb35bcda7b4c7674e0e9e22c44493a6f8aea0979f2f1b774b2c5c8a3726f54af278a13d698b822e930c5d49ab25fc53e076e5cc5608d#npm:0.6.2"],
+            ["react-universal-interface", "virtual:092c171d0d4feabd6eaf44c6c2adf643a8c6bef21f782f2fa1d0b8902214d830d785cd0752339418791704ff02ed43b554e8144a99d1b6d48fec414f86c09e7b#npm:0.6.2"],
             ["@types/react", "npm:17.0.3"],
             ["@types/tslib", null],
             ["react", "npm:17.0.2"],
@@ -28371,17 +28371,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["react-use", [
-        ["npm:17.2.1", {
-          "packageLocation": "./.yarn/cache/react-use-npm-17.2.1-e543166a97-b18eaeb5dd.zip/node_modules/react-use/",
+        ["npm:17.2.4", {
+          "packageLocation": "./.yarn/cache/react-use-npm-17.2.4-c702db5427-eb215eccee.zip/node_modules/react-use/",
           "packageDependencies": [
-            ["react-use", "npm:17.2.1"]
+            ["react-use", "npm:17.2.4"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.1", {
-          "packageLocation": "./.yarn/$$virtual/react-use-virtual-7916c95d5f/0/cache/react-use-npm-17.2.1-e543166a97-b18eaeb5dd.zip/node_modules/react-use/",
+        ["virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.4", {
+          "packageLocation": "./.yarn/$$virtual/react-use-virtual-092c171d0d/0/cache/react-use-npm-17.2.4-c702db5427-eb215eccee.zip/node_modules/react-use/",
           "packageDependencies": [
-            ["react-use", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.1"],
+            ["react-use", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.2.4"],
             ["@types/js-cookie", "npm:2.2.6"],
             ["@types/react", "npm:17.0.3"],
             ["@types/react-dom", "npm:17.0.5"],
@@ -28390,10 +28390,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-deep-equal", "npm:3.1.3"],
             ["fast-shallow-equal", "npm:1.0.0"],
             ["js-cookie", "npm:2.2.1"],
-            ["nano-css", "virtual:7916c95d5fea35ef1a0dcb35bcda7b4c7674e0e9e22c44493a6f8aea0979f2f1b774b2c5c8a3726f54af278a13d698b822e930c5d49ab25fc53e076e5cc5608d#npm:5.3.1"],
+            ["nano-css", "virtual:092c171d0d4feabd6eaf44c6c2adf643a8c6bef21f782f2fa1d0b8902214d830d785cd0752339418791704ff02ed43b554e8144a99d1b6d48fec414f86c09e7b#npm:5.3.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:17.0.2"],
-            ["react-universal-interface", "virtual:7916c95d5fea35ef1a0dcb35bcda7b4c7674e0e9e22c44493a6f8aea0979f2f1b774b2c5c8a3726f54af278a13d698b822e930c5d49ab25fc53e076e5cc5608d#npm:0.6.2"],
+            ["react-universal-interface", "virtual:092c171d0d4feabd6eaf44c6c2adf643a8c6bef21f782f2fa1d0b8902214d830d785cd0752339418791704ff02ed43b554e8144a99d1b6d48fec414f86c09e7b#npm:0.6.2"],
             ["resize-observer-polyfill", "npm:1.5.1"],
             ["screenfull", "npm:5.1.0"],
             ["set-harmonic-interval", "npm:1.0.1"],

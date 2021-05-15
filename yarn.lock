@@ -5699,7 +5699,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-error-boundary: 3.1.1
-    react-use: 17.2.1
+    react-use: 17.2.4
     rimraf: 3.0.2
     sanitize.css: 12.0.1
     ts-jest: 26.5.6
@@ -20645,9 +20645,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react-use@npm:17.2.1":
-  version: 17.2.1
-  resolution: "react-use@npm:17.2.1"
+"react-use@npm:17.2.4":
+  version: 17.2.4
+  resolution: "react-use@npm:17.2.4"
   dependencies:
     "@types/js-cookie": ^2.2.6
     "@xobotyi/scrollbar-width": ^1.9.5
@@ -20666,7 +20666,7 @@ fsevents@~2.1.2:
   peerDependencies:
     react: ^16.8.0  || ^17.0.0
     react-dom: ^16.8.0  || ^17.0.0
-  checksum: b18eaeb5ddbdc1d9e49dd3bde9a9e7327eb45aab18ffe672bbc9b92ac9cdbaf4960d3193fc53468bab7886e88a64d1df5b1fb7b3b3dbc7e61e0774aa5a69dac0
+  checksum: eb215eccee832ad1de5f1c204a210019a8cc9e221902d2a215d5b80aad5a892496c39c52b4c9047a5d33b67306566c1874b8a1be2accad1cc5046ea4bd34e364
   languageName: node
   linkType: hard
 
