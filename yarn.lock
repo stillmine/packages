@@ -5204,7 +5204,7 @@ __metadata:
     "@types/eslint": 7.2.10
     "@types/webpack": 5.28.0
     concurrently: 6.0.2
-    esbuild: 0.11.21
+    esbuild: 0.11.22
     eslint: 7.25.0
     jest: 26.6.3
     rimraf: 3.0.2
@@ -11971,12 +11971,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.11.21":
-  version: 0.11.21
-  resolution: "esbuild@npm:0.11.21"
+"esbuild@npm:0.11.22":
+  version: 0.11.22
+  resolution: "esbuild@npm:0.11.22"
   bin:
     esbuild: bin/esbuild
-  checksum: 5b122d678a0c00b746f8862a8e51656a268d3416487bfe61006ebb893519ee512d0a66639c23c1aeb89d454812b3f7c6e60e7c5a0859dcebfa8e2fe52ac8bdb4
+  checksum: eb448d8793058197996bf71b3a2d648e6f9d2751e1b0a195c72a555c4ad8098db91771f73c7bc68802eb02d89301fe962b2abda9c328e5d3c60da33bc279ff3b
   languageName: node
   linkType: hard
 
