@@ -5449,16 +5449,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/auto-id@npm:0.14.0":
-  version: 0.14.0
-  resolution: "@reach/auto-id@npm:0.14.0"
+"@reach/auto-id@npm:0.15.0":
+  version: 0.15.0
+  resolution: "@reach/auto-id@npm:0.15.0"
   dependencies:
-    "@reach/utils": 0.14.0
+    "@reach/utils": 0.15.0
     tslib: ^2.1.0
   peerDependencies:
     react: ^16.8.0 || 17.x
     react-dom: ^16.8.0 || 17.x
-  checksum: 587d1bfc3fc5b7860f159c537643a32595a79af183ff8d3ed70864ad33f0adef53530f556788c194f8cc3721fd63bec61a260444c85f2ade30f24585c0c5cb9f
+  checksum: 8ee799c19e12469006e3a3d768b007c73fc2c1b05327238b12a4b08e4ef335d10e6d7155ee5ef836d65c68cad5b8844b73455247bbcff96b8a22e17ee87646df
   languageName: node
   linkType: hard
 
@@ -5477,17 +5477,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/utils@npm:0.14.0":
-  version: 0.14.0
-  resolution: "@reach/utils@npm:0.14.0"
+"@reach/utils@npm:0.15.0":
+  version: 0.15.0
+  resolution: "@reach/utils@npm:0.15.0"
   dependencies:
-    "@types/warning": ^3.0.0
+    tiny-warning: ^1.0.3
     tslib: ^2.1.0
-    warning: ^4.0.3
   peerDependencies:
     react: ^16.8.0 || 17.x
     react-dom: ^16.8.0 || 17.x
-  checksum: eee16852fa341ae7b50c958a4c05bd20a78c7fdc203c94c019eefaf4b748bc60734feb56f1558ab76ba9aff7f544bcb086f931a412b29ff5d5b2f81e814cf0ea
+  checksum: de7754c11603c70c936e3d4029fbbc1ffba9dd3f66a2c32b0af801414941f03748a2a8b98a5355a5de71e6edf59a6f979c94fd58e2c35f3df6c6c1f70a3cb3c6
   languageName: node
   linkType: hard
 
@@ -5673,7 +5672,7 @@ __metadata:
     "@babel/preset-typescript": 7.13.0
     "@emotion/babel-plugin": 11.3.0
     "@emotion/react": 11.4.0
-    "@reach/auto-id": 0.14.0
+    "@reach/auto-id": 0.15.0
     "@stillmine/hooks": "workspace:packages/hooks"
     "@stillmine/styles": "workspace:packages/styles"
     "@stillmine/types": "workspace:packages/types"
@@ -7719,13 +7718,6 @@ __metadata:
   version: 8.3.0
   resolution: "@types/uuid@npm:8.3.0"
   checksum: 620985aed8fdb4aed153daca5235f4303457a67a4d181efac0021712eabd9edd7e88895f79730c0e651effde7633b1b61e49a81519ac8d4e75019d2ac9b6412f
-  languageName: node
-  linkType: hard
-
-"@types/warning@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@types/warning@npm:3.0.0"
-  checksum: cb7a16aa88641beceec53ce765274c1ba3a9136e3c7c53cafd769d5063ea96f8899332ce7031c6f374bd23b5713a9a733d42c369ebdb4b62daf9b7562700848c
   languageName: node
   linkType: hard
 
@@ -23456,6 +23448,13 @@ resolve@^2.0.0-next.3:
   version: 2.1.0
   resolution: "tiny-emitter@npm:2.1.0"
   checksum: 0055509c72e5fe35d6ab66fa6339342e0f29129e77ed2086e475fdf80be43a8651f2517be76513b46a042c8356396f4da5a35e2e23457252176808d5a892036a
+  languageName: node
+  linkType: hard
+
+"tiny-warning@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "tiny-warning@npm:1.0.3"
+  checksum: 6cf9f66cb765b893976b8cd1c1310338861f30fb04d02ef2c8e0a748cbc2ed5acd8bb1954b78c15f640ad4116def67134d7d705f2a0c9bf27e6e2eb3e92bff29
   languageName: node
   linkType: hard
 
