@@ -2,8 +2,12 @@ import { Configuration } from 'webpack';
 
 export function nextConfig() {
   return {
-    future: { webpack5: true },
-    typescript: { ignoreBuildErrors: true },
+    future: {
+      webpack5: true,
+    },
+    typescript: {
+      ignoreBuildErrors: true,
+    },
     webpack(config: Configuration) {
       config.module?.rules?.push({
         test: /\.tsx?$/u,
@@ -13,10 +17,7 @@ export function nextConfig() {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [
-              '@babel/typescript',
-              ['@babel/react', { importSource: '@emotion/react', runtime: 'automatic' }],
-            ],
+            presets: ['@babel/typescript', ['@babel/react', { importSource: '@emotion/react', runtime: 'automatic' }]],
             plugins: ['@emotion'],
           },
         },
