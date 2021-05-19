@@ -1,7 +1,9 @@
-import { FC } from 'react';
+import { ReactNode } from 'react';
 
-interface Props {}
+interface Props {
+  children: ReactNode;
+}
 
-export const Card: FC<Props> = ({ children }) => {
+export const Card = ({ children }: Props) => {
   return <div>{children}</div>;
 };

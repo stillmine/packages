@@ -1,4 +1,4 @@
-import { FC, ProgressHTMLAttributes, useState } from 'react';
+import { ProgressHTMLAttributes, useState } from 'react';
 
 interface ProgressProps extends ProgressHTMLAttributes<HTMLProgressElement> {}
 
@@ -8,8 +8,8 @@ export function usePercentage(initialPercentage = 0) {
   return [percentage];
 }
 
-export const Progress: FC<ProgressProps> = () => {
+export const Progress = (props: ProgressProps) => {
   const [percentage] = usePercentage();
 
-  return <progress max="100" value={percentage} />;
+  return <progress max="100" value={percentage} {...props} />;
 };
