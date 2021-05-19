@@ -15,6 +15,7 @@
   "scripts": {
     "build": "concurrently \"rimraf lib\" \"ts-node-script -T scripts/build.ts\" \"tsc --emitDeclarationOnly\"",
     "lint": "eslint src/**/*.ts",
+    "lint:fix": "yarn lint --fix",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"

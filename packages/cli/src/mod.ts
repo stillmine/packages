@@ -1,4 +1,5 @@
 import { Cli } from 'clipanion';
+
 import { BuildCommand } from './BuildCommand';
 
 const [node, app, ...args] = process.argv;
