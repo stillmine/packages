@@ -4,10 +4,10 @@
   "version": "0.0.2",
   "command": {
     "version": {
-      "allowBranch": [
-        "main",
-        "ci/lerna"
-      ]
+      "allowBranch": ["main"],
+      "conventionalCommits": true,
+      "message": "chore: publish %s",
+      "noChangelog": true
     }
   }
 }
