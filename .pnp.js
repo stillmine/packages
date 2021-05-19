@@ -8897,10 +8897,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@lerna/npm-publish", [
-        ["npm:4.0.0", {
-          "packageLocation": "./.yarn/cache/@lerna-npm-publish-npm-4.0.0-5bf75363bd-21eaf08eda.zip/node_modules/@lerna/npm-publish/",
+        ["patch:@lerna/npm-publish@npm%3A4.0.0#.yarn/patches/@lerna/npm-publish.diff::version=4.0.0&hash=bfd99c&locator=%40stillmine%2Fpackages%40workspace%3A.", {
+          "packageLocation": "./.yarn/cache/@lerna-npm-publish-patch-3deafe1136-064f4e54ec.zip/node_modules/@lerna/npm-publish/",
           "packageDependencies": [
-            ["@lerna/npm-publish", "npm:4.0.0"],
+            ["@lerna/npm-publish", "patch:@lerna/npm-publish@npm%3A4.0.0#.yarn/patches/@lerna/npm-publish.diff::version=4.0.0&hash=bfd99c&locator=%40stillmine%2Fpackages%40workspace%3A."],
             ["@lerna/otplease", "npm:4.0.0"],
             ["@lerna/run-lifecycle", "npm:4.0.0"],
             ["fs-extra", "npm:9.1.0"],
@@ -9054,7 +9054,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@lerna/log-packed", "npm:4.0.0"],
             ["@lerna/npm-conf", "npm:4.0.0"],
             ["@lerna/npm-dist-tag", "npm:4.0.0"],
-            ["@lerna/npm-publish", "npm:4.0.0"],
+            ["@lerna/npm-publish", "patch:@lerna/npm-publish@npm%3A4.0.0#.yarn/patches/@lerna/npm-publish.diff::version=4.0.0&hash=bfd99c&locator=%40stillmine%2Fpackages%40workspace%3A."],
             ["@lerna/otplease", "npm:4.0.0"],
             ["@lerna/output", "npm:4.0.0"],
             ["@lerna/pack-directory", "npm:4.0.0"],
