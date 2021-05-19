@@ -10,7 +10,7 @@
   "main": "lib/mod.js",
   "types": "lib/mod.d.ts",
   "scripts": {
-    "build": "concurrently \"rimraf lib\" \"yarn stillmine build\" \"tsc --emitDeclarationOnly\"",
+    "build": "concurrently \"rimraf lib\" \"yarn stillmine build cjs\" \"tsc --emitDeclarationOnly\"",
     "lint": "eslint src/**/*.ts",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
