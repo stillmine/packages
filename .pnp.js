@@ -10397,6 +10397,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/utils/",
           "packageDependencies": [
             ["@stillmine/utils", "workspace:packages/utils"],
+            ["@stillmine/cli", "workspace:packages/cli"],
             ["concurrently", "npm:6.1.0"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
