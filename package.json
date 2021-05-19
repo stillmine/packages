@@ -52,6 +52,7 @@
   },
   "private": true,
   "resolutions": {
+    "@lerna/npm-publish": "patch:@lerna/npm-publish@npm:4.0.0#.yarn/patches/@lerna/npm-publish.diff",
     "@lerna/package": "patch:@lerna/package@npm:4.0.0#.yarn/patches/@lerna/package.diff",
     "@lerna/package-graph": "patch:@lerna/package-graph@npm:4.0.0#.yarn/patches/@lerna/package-graph.diff"
   },
