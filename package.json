@@ -17,8 +17,9 @@
   },
   "scripts": {
     "postinstall": "husky install",
-    "new": "hygen package new",
+    "build": "yarn workspaces foreach -pt run build",
     "lint": "yarn workspaces foreach -pt run lint",
+    "new": "hygen package new",
     "publish": "lerna publish from-package",
     "test": "yarn workspaces foreach -pt run test",
     "typecheck": "yarn workspaces foreach -pt run typecheck"
