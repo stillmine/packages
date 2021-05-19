@@ -5797,6 +5797,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stillmine/utils@workspace:packages/utils"
   dependencies:
+    "@stillmine/cli": "workspace:packages/cli"
     concurrently: 6.1.0
     jest: 26.6.3
     rimraf: 3.0.2
