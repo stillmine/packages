@@ -4699,6 +4699,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lerna/npm-publish@patch:@lerna/npm-publish@npm:4.0.0#.yarn/patches/@lerna/npm-publish.diff::locator=%40stillmine%2Fpackages%40workspace%3A.":
+  version: 4.0.0
+  resolution: "@lerna/npm-publish@patch:@lerna/npm-publish@npm%3A4.0.0#.yarn/patches/@lerna/npm-publish.diff::version=4.0.0&hash=bfd99c&locator=%40stillmine%2Fpackages%40workspace%3A."
+  dependencies:
+    "@lerna/otplease": 4.0.0
+    "@lerna/run-lifecycle": 4.0.0
+    fs-extra: ^9.1.0
+    libnpmpublish: ^4.0.0
+    npm-package-arg: ^8.1.0
+    npmlog: ^4.1.2
+    pify: ^5.0.0
+    read-package-json: ^3.0.0
+  checksum: 064f4e54ec970e25593735a1cf25873d8b8d625b843221bef8861de4ea8a49a4630dbac9866e2a1da97fcfc49d5564b8bdde6569f3c973da79df3f65645498e3
+  languageName: node
+  linkType: hard
+
 "@lerna/npm-run-script@npm:4.0.0":
   version: 4.0.0
   resolution: "@lerna/npm-run-script@npm:4.0.0"
