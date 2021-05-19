@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/stillmine/packages/compare/v0.1.0...v0.2.0) (2021-05-19)
+
+
+### Bug Fixes
+
+* add patch into resolution ([#134](https://github.com/stillmine/packages/issues/134)) ([fc8f948](https://github.com/stillmine/packages/commit/fc8f94805bce82df5fa26534890b596eb6ca27db))
+* modify npm publish script ([#132](https://github.com/stillmine/packages/issues/132)) ([9c6cc2c](https://github.com/stillmine/packages/commit/9c6cc2c89d9ac8cb161ac5c5692068b7b6689719))
+
+
+### Features
+
+* **hooks:** add useSafeLayoutEffect ([#133](https://github.com/stillmine/packages/issues/133)) ([3ed3aec](https://github.com/stillmine/packages/commit/3ed3aeca144c3013b72b98e8e23ab9b0769e644c))
+
+
+
+
+
 # [0.1.0](https://github.com/stillmine/packages/compare/v0.0.2...v0.1.0) (2021-05-19)
 
 
