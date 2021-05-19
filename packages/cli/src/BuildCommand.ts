@@ -1,16 +1,24 @@
 import { Command, Option } from 'clipanion';
 import { build, Format } from 'esbuild';
 import { resolve } from 'path';
+
 import { readPackageJson } from './readPackageJson';
 
+const entryPoint = resolve(process.cwd(), 'src', 'mod.ts');
+
+const outFiles: Record<string, string> = {
+  cjs: resolve(process.cwd(), 'lib', 'mod.js'),
+  esm: resolve(process.cwd(), 'esm', 'mod.js'),
+};
+
 export class BuildCommand extends Command {
-  static paths = [['build']];
+  public static paths = [['build']];
 
-  formats = Option.Rest();
+  private readonly formats = Option.Rest();
 
-  async execute() {
+  public async execute() {
+    const external: string[] = [];
     const pkg = await readPackageJson(resolve(process.cwd(), 'package.json'));
-    let external: string[] = [];
 
     if (pkg?.dependencies != null) {
       external.push(...Object.keys(pkg.dependencies));
@@ -21,11 +29,11 @@ export class BuildCommand extends Command {
     }
 
     await Promise.all(
-      (this.formats ?? ['cjs']).map(format => {
+      this.formats.map(format => {
         return build({
           bundle: true,
-          external,
           entryPoints: [entryPoint],
+          external,
           format: format as Format,
           outfile: outFiles[format],
         });
@@ -33,10 +41,3 @@ export class BuildCommand extends Command {
     );
   }
 }
-
-const entryPoint = resolve(process.cwd(), 'src', 'mod.ts');
-
-const outFiles: Record<string, string> = {
-  cjs: resolve(process.cwd(), 'lib', 'mod.js'),
-  esm: resolve(process.cwd(), 'esm', 'mod.js'),
-};
