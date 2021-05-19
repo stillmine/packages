@@ -1,5 +1,4 @@
 .babelrc
-.releaserc
 .storybook
 jest.config.js
 jest.setup.ts
@@ -8,4 +7,5 @@ assets
 src
 stories
 tsconfig*.json
+*.md
 *.tsbuildinfo
