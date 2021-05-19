@@ -9,23 +9,24 @@
   "license": "MIT",
   "main": "src/mod.ts",
   "scripts": {
-    "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc --emitDeclarationOnly -p tsconfig.build.json\"",
+    "build": "concurrently \"rimraf esm lib\" \"yarn stillmine build cjs esm\" \"tsc --emitDeclarationOnly -p tsconfig.build.json\"",
     "lint": "eslint src/**/*.ts",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
+    "test:watch": "yarn test --watch",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@stillmine/utils": "workspace:packages/utils"
+  },
   "devDependencies": {
-    "@babel/core": "7.14.2",
-    "@babel/plugin-transform-runtime": "7.14.2",
+    "@babel/core": "7.14.3",
     "@babel/preset-env": "7.14.2",
     "@babel/preset-typescript": "7.13.0",
-    "@babel/runtime": "7.14.0",
-    "@rollup/plugin-babel": "5.3.0",
-    "@rollup/plugin-node-resolve": "13.0.0",
-    "@testing-library/react-hooks": "5.1.2",
+    "@stillmine/cli": "workspace:packages/cli",
+    "@testing-library/react-hooks": "6.0.0",
     "@types/jest": "26.0.23",
-    "@types/react": "17.0.3",
+    "@types/react": "17.0.6",
     "@types/react-test-renderer": "17.0.1",
     "concurrently": "6.1.0",
     "eslint": "7.26.0",
@@ -33,8 +34,6 @@
     "react": "17.0.2",
     "react-test-renderer": "17.0.2",
     "rimraf": "3.0.2",
-    "rollup": "2.48.0",
-    "ts-jest": "26.5.6",
     "typescript": "4.2.4"
   },
   "peerDependencies": {
