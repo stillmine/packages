@@ -9,12 +9,16 @@
   "license": "MIT",
   "main": "src/mod.ts",
   "scripts": {
-    "build": "concurrently \"rimraf esm lib\" \"tsc -p tsconfig.cjs.json\" \"tsc -p tsconfig.esm.json\"",
+    "build": "concurrently \"rimraf esm lib\" \"yarn stillmine build cjs esm\" \"tsc --emitDeclarationOnly\"",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "yarn lint --fix",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
+    "test:watch": "yarn test --watch",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@stillmine/cli": "workspace:packages/cli",
     "concurrently": "6.1.0",
     "jest": "26.6.3",
     "rimraf": "3.0.2",
