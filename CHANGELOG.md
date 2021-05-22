@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/stillmine/packages/compare/v0.2.1...v0.2.2) (2021-05-22)
+
+
+### Bug Fixes
+
+* **styles:** modify build script ([#136](https://github.com/stillmine/packages/issues/136)) ([4bd9556](https://github.com/stillmine/packages/commit/4bd9556f7d3f42eb7c5443a69a2435f0f5a55cfd))
+* **types,validator,webpack-config:** modify build script ([#138](https://github.com/stillmine/packages/issues/138)) ([bc5839a](https://github.com/stillmine/packages/commit/bc5839a6bb67ff427244358e8ac10a8ec105ce64))
+* **units:** modify build script ([#137](https://github.com/stillmine/packages/issues/137)) ([2616e73](https://github.com/stillmine/packages/commit/2616e73675ea073c2e1641c41936a7a2083cb133))
+
+
+
+
+
 ## [0.2.1](https://github.com/stillmine/packages/compare/v0.2.0...v0.2.1) (2021-05-22)
 
 
