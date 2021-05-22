@@ -1,8 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "target": "es2015"
-  },
-  "exclude": ["node_modules"]
+    "declaration": true,
+    "outDir": "lib"
+  }
 }
