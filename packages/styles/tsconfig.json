@@ -1,8 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "incremental": true,
-    "lib": ["dom", "es2017"],
-    "target": "es2015"
+    "declaration": true,
+    "outDir": "lib"
   }
 }

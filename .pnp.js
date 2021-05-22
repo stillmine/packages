@@ -10311,13 +10311,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/styles", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#workspace:packages/styles"],
             ["@emotion/react", "virtual:a15656145a1ae4857c776abc0c51f5b8ff5999eaa5501cc19ce39ff640f2755c9896dd5ab686feb659e130a21d4548bdf8836ec80febd244d3c139bc1ba409a0#npm:11.4.0"],
+            ["@stillmine/cli", "workspace:packages/cli"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/emotion__react", null],
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.6"],
             ["concurrently", "npm:6.1.0"],
-            ["core-js", "npm:3.12.1"],
             ["facepaint", "npm:1.2.1"],
             ["jest", "npm:26.6.3"],
             ["react", "npm:17.0.2"],
@@ -10338,12 +10338,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@stillmine/styles", "workspace:packages/styles"],
             ["@emotion/react", "virtual:32448490a953c8ca1b6c61105d30db99da0198b6677b2a5d793d2f926d65b9c2a05a4e98d22c99147e4a0e1185424fe482e533eb3bfe164778f0b1e1665a353c#npm:11.4.0"],
+            ["@stillmine/cli", "workspace:packages/cli"],
             ["@stillmine/types", "workspace:packages/types"],
             ["@stillmine/utils", "workspace:packages/utils"],
             ["@types/facepaint", "npm:1.2.1"],
             ["@types/react", "npm:17.0.3"],
             ["concurrently", "npm:6.1.0"],
-            ["core-js", "npm:3.12.1"],
             ["jest", "npm:26.6.3"],
             ["rimraf", "npm:3.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
