@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/stillmine/packages/compare/v0.2.2...v0.2.4) (2021-05-22)
+
+
+### Bug Fixes
+
+* **react-components,styles:** patch version up ([d381489](https://github.com/stillmine/packages/commit/d38148927e42389c8634aa1f31150cf2cd2d121c))
+* **styles:** add margin ([#141](https://github.com/stillmine/packages/issues/141)) ([65e27be](https://github.com/stillmine/packages/commit/65e27be1954f05f29fd62360e7e2ae4c4023c1c3))
+
+
+
+
+
 ## [0.2.2](https://github.com/stillmine/packages/compare/v0.2.1...v0.2.2) (2021-05-22)
 
 
