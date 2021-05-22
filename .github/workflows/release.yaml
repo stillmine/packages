@@ -39,6 +39,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: cat $NPM_CONFIG_USERCONFIG
       - run: yarn --immutable --immutable-cache
-      - run: yarn publish --yes
+      - run: yarn release:version --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
