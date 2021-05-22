@@ -11,17 +11,28 @@
     "url": "https://github.com/stillmine/packages.git"
   },
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "bin": {
-    "stillmine-webpack": "bin/cli.js"
+  "main": "lib/mod.js",
+  "types": "lib/mod.d.ts",
+  "scripts": {
+    "build": "concurrently \"rimraf lib\" \"yarn stillmine build cjs\" \"tsc --emitDeclarationOnly\"",
+    "lint": "eslint src/**/*.ts",
+    "prepack": "yarn build",
+    "test": "jest --passWithNoTests",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "dotenv": "9.0.2",
+    "dotenv": "10.0.0",
     "webpack-merge": "5.7.3"
   },
   "devDependencies": {
-    "@types/node": "14.14.45"
+    "@stillmine/cli": "workspace:packages/cli",
+    "@types/node": "15.6.0",
+    "concurrently": "6.1.0",
+    "eslint": "7.27.0",
+    "jest": "26.6.3",
+    "rimraf": "3.0.2",
+    "typescript": "4.2.4",
+    "webpack": "5.37.1"
   },
   "peerDependencies": {
     "@babel/core": ">= 7",
