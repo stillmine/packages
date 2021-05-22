@@ -9,10 +9,12 @@
   "license": "MIT",
   "main": "src/mod.ts",
   "scripts": {
-    "build": "concurrently \"rimraf esm lib\" \"tsc -p tsconfig.cjs.json\" \"tsc -p tsconfig.esm.json\"",
+    "build": "concurrently \"rimraf esm lib\" \"yarn stillmine build cjs esm\" \"tsc --emitDeclarationOnly\"",
     "lint": "eslint src/**/*.ts",
+    "lint:fix": "yarn lint --fix",
     "prepack": "yarn build",
     "test": "jest --passWithNoTests",
+    "test:watch": "yarn test --watch",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -20,11 +22,11 @@
   },
   "devDependencies": {
     "@emotion/react": "11.4.0",
+    "@stillmine/cli": "workspace:packages/cli",
     "@stillmine/types": "workspace:packages/types",
     "@types/facepaint": "1.2.1",
     "@types/react": "17.0.3",
     "concurrently": "6.1.0",
-    "core-js": "3.12.1",
     "jest": "26.6.3",
     "rimraf": "3.0.2",
     "typescript": "4.2.4"

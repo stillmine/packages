@@ -5773,12 +5773,12 @@ __metadata:
   resolution: "@stillmine/styles@workspace:packages/styles"
   dependencies:
     "@emotion/react": 11.4.0
+    "@stillmine/cli": "workspace:packages/cli"
     "@stillmine/types": "workspace:packages/types"
     "@stillmine/utils": "workspace:packages/utils"
     "@types/facepaint": 1.2.1
     "@types/react": 17.0.3
     concurrently: 6.1.0
-    core-js: 3.12.1
     jest: 26.6.3
     rimraf: 3.0.2
     typescript: 4.2.4

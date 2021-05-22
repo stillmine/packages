@@ -1,4 +1,4 @@
-.releaserc
 src
 tsconfig*.json
+*.md
 *.tsbuildinfo
