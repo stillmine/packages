@@ -1,10 +1,12 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "0.2.4",
+  "version": "0.2.5",
   "command": {
     "version": {
-      "allowBranch": ["main"],
+      "allowBranch": [
+        "main"
+      ],
       "conventionalCommits": true,
       "message": "chore: publish %s [skip ci]",
       "noChangelog": true

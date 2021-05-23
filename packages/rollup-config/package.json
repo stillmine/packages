@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/rollup-config",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "description": "Rollup config.",
   "keywords": [
     "rollup",
