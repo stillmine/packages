@@ -1,3 +1,4 @@
+*.md
 scripts
 src
-*.md
+tsconfig*.json

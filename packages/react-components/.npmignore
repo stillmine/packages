@@ -1,11 +1,10 @@
 .babelrc
 .storybook
+*.md
+*.tsbuildinfo
+assets
 jest.config.js
 jest.setup.ts
 rollup.config.js
-assets
 src
-stories
 tsconfig*.json
-*.md
-*.tsbuildinfo

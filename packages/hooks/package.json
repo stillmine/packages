@@ -7,7 +7,9 @@
     "url": "https://github.com/stillmine/packages.git"
   },
   "license": "MIT",
-  "main": "src/mod.ts",
+  "main": "lib/mod.js",
+  "module": "esm/mod.js",
+  "types": "lib/mod.d.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"yarn stillmine build cjs esm\" \"tsc --emitDeclarationOnly -p tsconfig.build.json\"",
     "lint": "eslint src/**/*.ts",
@@ -29,7 +31,7 @@
     "@types/react": "17.0.6",
     "@types/react-test-renderer": "17.0.1",
     "concurrently": "6.1.0",
-    "eslint": "7.26.0",
+    "eslint": "7.27.0",
     "jest": "26.6.3",
     "react": "17.0.2",
     "react-test-renderer": "17.0.2",
@@ -40,9 +42,6 @@
     "react": ">= 17"
   },
   "publishConfig": {
-    "main": "lib/mod.js",
-    "module": "esm/mod.js",
-    "types": "lib/mod.d.ts",
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   }

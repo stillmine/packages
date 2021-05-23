@@ -4,11 +4,9 @@
   "version": "0.2.4",
   "command": {
     "version": {
-      "allowBranch": [
-        "main"
-      ],
+      "allowBranch": ["main"],
       "conventionalCommits": true,
-      "message": "chore: publish %s",
+      "message": "chore: publish %s [skip ci]",
       "noChangelog": true
     }
   }
