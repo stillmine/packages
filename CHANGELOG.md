@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/stillmine/packages/compare/v0.2.5...v0.2.6) (2021-05-23)
+
+
+### Bug Fixes
+
+* **react-components:** fix rollup config ([#144](https://github.com/stillmine/packages/issues/144)) ([f55a172](https://github.com/stillmine/packages/commit/f55a172212a816c58294506c05d3a476f5bd2be9))
+
+
+
+
+
 ## [0.2.5](https://github.com/stillmine/packages/compare/v0.2.4...v0.2.5) (2021-05-23)
 
 
