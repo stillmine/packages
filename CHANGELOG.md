@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/stillmine/packages/compare/v0.2.6...v0.3.0) (2021-05-23)
+
+
+### Features
+
+* **next-config:** extends next config options ([#146](https://github.com/stillmine/packages/issues/146)) ([842c254](https://github.com/stillmine/packages/commit/842c254f0bb0a0f5c23e32cf2915055e7944405d))
+
+
+
+
+
 ## [0.2.6](https://github.com/stillmine/packages/compare/v0.2.5...v0.2.6) (2021-05-23)
 
 
