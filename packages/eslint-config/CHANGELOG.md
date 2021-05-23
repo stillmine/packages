@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/stillmine/packages/compare/v0.3.0...v0.3.1) (2021-05-23)
+
+
+### Bug Fixes
+
+* **eslint-config:** add src again ([#147](https://github.com/stillmine/packages/issues/147)) ([eaeb4f3](https://github.com/stillmine/packages/commit/eaeb4f34afbe64dc8a0df2b78577881a0f245648))
+
+
+
+
+
 # [0.3.0](https://github.com/stillmine/packages/compare/v0.2.6...v0.3.0) (2021-05-23)
 
 **Note:** Version bump only for package @stillmine/eslint-config
