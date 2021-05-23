@@ -14,12 +14,12 @@ module.exports = {
   output: [
     {
       exports: 'named',
-      file: packageJson.publishConfig.main,
+      file: packageJson.main,
       format: 'cjs',
     },
     {
       exports: 'named',
-      file: packageJson.publishConfig.module,
+      file: packageJson.module,
       format: 'esm',
     },
   ],
