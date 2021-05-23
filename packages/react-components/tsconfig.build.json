@@ -4,5 +4,5 @@
     "declaration": true,
     "outDir": "lib"
   },
-  "exclude": ["**/*.stories.tsx", "**/*.test.tsx"]
+  "exclude": ["**/*.stories.tsx", "**/*.test.ts", "**/*.test.tsx"]
 }

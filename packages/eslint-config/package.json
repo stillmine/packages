@@ -16,11 +16,11 @@
     "lint": "eslint **/*.js"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.23.0",
-    "@typescript-eslint/parser": "4.23.0",
-    "eslint": "7.26.0",
+    "@typescript-eslint/eslint-plugin": "4.24.0",
+    "@typescript-eslint/parser": "4.24.0",
+    "eslint": "7.27.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.23.2",
+    "eslint-plugin-import": "2.23.3",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-no-secrets": "0.8.9",
     "eslint-plugin-prettier": "3.4.0",
@@ -32,14 +32,15 @@
     "@typescript-eslint/eslint-plugin": ">= 4",
     "@typescript-eslint/parser": ">= 4",
     "eslint": ">= 7",
-    "eslint-config-prettier": ">= 7",
+    "eslint-config-prettier": ">= 8",
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-jsx-a11y": ">= 6",
-    "eslint-plugin-no-secrets": ">= 0.6",
+    "eslint-plugin-no-secrets": ">= *",
     "eslint-plugin-prettier": ">= 3",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">= 4",
-    "eslint-plugin-simple-import-sort": ">= 7"
+    "eslint-plugin-simple-import-sort": ">= 7",
+    "prettier": ">= 2"
   },
   "publishConfig": {
     "access": "public",

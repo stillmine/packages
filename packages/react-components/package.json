@@ -13,7 +13,9 @@
     "url": "https://github.com/stillmine/packages.git"
   },
   "license": "MIT",
-  "main": "src/mod.ts",
+  "main": "lib/mod.js",
+  "module": "esm/mod.js",
+  "types": "lib/mod.d.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"rollup -c\" \"tsc --emitDeclarationOnly -p tsconfig.build.json\"",
     "build:storybook": "build-storybook",
@@ -78,9 +80,6 @@
     "react-dom": ">= 17"
   },
   "publishConfig": {
-    "main": "lib/mod.js",
-    "module": "esm/mod.js",
-    "types": "lib/mod.d.ts",
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   }

@@ -1,4 +1,5 @@
 .babelrc
+*.md
 jest.config.js
 src
 tsconfig*.json
