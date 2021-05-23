@@ -21,6 +21,7 @@
     "lint": "yarn workspaces foreach -pt run lint",
     "new": "hygen package new",
     "release:version": "lerna version",
+    "release:package": "lerna publish from-package",
     "test": "yarn workspaces foreach -pt run test",
     "typecheck": "yarn workspaces foreach -pt run typecheck"
   },
