@@ -1,6 +1,8 @@
 import { useCallback, useState } from 'react';
 
-export function useBoolean(initialActive: boolean) {
+export function useBoolean(
+  initialActive: boolean
+): [active: boolean, on: () => void, off: () => void, toggle: () => void] {
   const [active, setActive] = useState(initialActive);
 
   const on = useCallback(() => {
@@ -15,5 +17,5 @@ export function useBoolean(initialActive: boolean) {
     setActive(active => !active);
   }, []);
 
-  return [active, on, off, toggle] as const;
+  return [active, on, off, toggle];
 }
