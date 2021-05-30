@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/stillmine/packages/compare/v0.3.1...v0.4.0) (2021-05-30)
+
+
+### Features
+
+* **hooks:** named tuple ([#148](https://github.com/stillmine/packages/issues/148)) ([a8968cb](https://github.com/stillmine/packages/commit/a8968cbbbf821c0a637c8cf6cc78f6ae30200337))
+
+
+
+
+
 ## [0.3.1](https://github.com/stillmine/packages/compare/v0.3.0...v0.3.1) (2021-05-23)
 
 
