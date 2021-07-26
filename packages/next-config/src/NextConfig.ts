@@ -6,10 +6,11 @@ export type NextConfig = Partial<{
   compression: boolean;
   distDir: string;
   env: Record<string, unknown>;
-  exportPathMap: unknown;
-  future: {
-    webpack5: boolean;
+  eslint: {
+    ignoreDuringBuilds: boolean;
   };
+  exportPathMap: unknown;
+  future: {};
   generateBuildId: unknown;
   generateEtags: boolean;
   headers: unknown;
@@ -26,4 +27,5 @@ export type NextConfig = Partial<{
     ignoreBuildErrors: boolean;
   };
   webpack: Configuration;
+  webpack5: boolean;
 }>;
