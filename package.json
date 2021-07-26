@@ -1,6 +1,7 @@
 {
   "name": "@stillmine/packages",
   "version": "0.0.0",
+  "private": true,
   "bugs": {
     "email": "euihyun.yang.9x@gmail.com",
     "url": "https://github.com/stillmine/packages/issues"
@@ -52,7 +53,11 @@
     "textlint-rule-no-todo": "2.0.1",
     "typescript": "4.2.4"
   },
-  "private": true,
+  "dependenciesMeta": {
+    "esbuild": {
+      "built": false
+    }
+  },
   "resolutions": {
     "@lerna/npm-publish": "patch:@lerna/npm-publish@npm:4.0.0#.yarn/patches/@lerna/npm-publish.diff",
     "@lerna/package": "patch:@lerna/package@npm:4.0.0#.yarn/patches/@lerna/package.diff",

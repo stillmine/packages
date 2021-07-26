@@ -4149,6 +4149,9 @@ __metadata:
     textlint: 11.9.1
     textlint-rule-no-todo: 2.0.1
     typescript: 4.2.4
+  dependenciesMeta:
+    esbuild:
+      built: false
   languageName: unknown
   linkType: soft
 
