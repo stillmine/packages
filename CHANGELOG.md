@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/stillmine/packages/compare/v0.4.0...v0.4.1) (2021-07-26)
+
+
+### Bug Fixes
+
+* **next-config:** webpack5 ([#149](https://github.com/stillmine/packages/issues/149)) ([e4e6aa8](https://github.com/stillmine/packages/commit/e4e6aa880a32aabc63769897976d8f57f75e63fd))
+
+
+
+
+
 # [0.4.0](https://github.com/stillmine/packages/compare/v0.3.1...v0.4.0) (2021-05-30)
 
 
