@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - run: yarn build
       - run: yarn typecheck
   lint:
     name: Run lint
@@ -37,6 +38,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - run: yarn build
       - run: yarn lint
   test:
     name: Run test
@@ -50,4 +52,5 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - run: yarn build
       - run: yarn test
