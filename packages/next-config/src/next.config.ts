@@ -1,17 +1,19 @@
 import { Configuration } from 'webpack';
 import { merge } from 'webpack-merge';
+
 import { NextConfig } from './NextConfig';
 
 export function nextConfig({ webpack: webpackConfig, ...nextConfig }: NextConfig = {}) {
   return {
     ...nextConfig,
-    future: {
-      webpack5: true,
+    eslint: {
+      ignoreDuringBuilds: true,
     },
     reactStrictMode: true,
     typescript: {
       ignoreBuildErrors: true,
     },
+    webpack5: true,
     webpack(config: Configuration) {
       return merge(config, webpackConfig ?? {}, {
         module: {
