@@ -7,11 +7,9 @@
     "url": "https://github.com/stillmine/packages.git"
   },
   "license": "MIT",
-  "main": "lib/mod.js",
-  "module": "esm/mod.js",
   "types": "lib/mod.d.ts",
   "scripts": {
-    "build": "concurrently \"rimraf esm lib\" \"yarn stillmine build cjs esm\" \"tsc --emitDeclarationOnly\"",
+    "build": "concurrently \"rimraf lib\" \"tsc --emitDeclarationOnly\"",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "yarn lint --fix",
     "prepack": "yarn build",
@@ -20,12 +18,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@stillmine/cli": "workspace:packages/cli",
-    "@types/react": "17.0.6",
-    "concurrently": "6.1.0",
-    "jest": "26.6.3",
-    "rimraf": "3.0.2",
-    "typescript": "4.2.4"
+    "@types/react": "^17.0.6",
+    "concurrently": "^6.1.0",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
   },
   "peerDependencies": {
     "@types/react": ">= 17"
