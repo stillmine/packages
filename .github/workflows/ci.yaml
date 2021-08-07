@@ -46,7 +46,6 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: ls
       - run: yarn typecheck
   lint:
     name: Run lint
