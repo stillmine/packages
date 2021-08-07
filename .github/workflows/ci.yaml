@@ -45,6 +45,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
+          path: packages
       - run: ls
       - run: yarn typecheck
   lint:
@@ -62,6 +63,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
+          path: packages
       - run: yarn lint
   test:
     name: Run test
@@ -78,4 +80,5 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
+          path: packages
       - run: yarn test
