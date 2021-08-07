@@ -45,6 +45,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
+      - run: ls
       - run: yarn typecheck
   lint:
     name: Run lint
