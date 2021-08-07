@@ -19,6 +19,7 @@ jobs:
     needs: yarn-validate
     runs-on: ubuntu-latest
     steps:
+      - run: yarn build
       - uses: actions/upload-artifact@v2
         with:
           name: stillmine-artifact
