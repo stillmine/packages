@@ -14,9 +14,25 @@ jobs:
           node-version: 12.x
       - run: yarn --immutable --immutable-cache
       - run: yarn dedupe --check
+  package-artifact:
+    name: Upload package artifact
+    needs: yarn-validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: yarn build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: stillmine-artifact
+          path: |
+            packages/*/esm/**/*
+            packages/*/lib/**/*
   typecheck:
     name: Run typecheck
-    needs: yarn-validate
+    needs: package-artifact
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -26,11 +42,14 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn build
+      - uses: actions/download-artifact@v2
+        with:
+          name: stillmine-artifact
+          path: packages
       - run: yarn typecheck
   lint:
     name: Run lint
-    needs: yarn-validate
+    needs: package-artifact
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -40,11 +59,14 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn build
+      - uses: actions/download-artifact@v2
+        with:
+          name: stillmine-artifact
+          path: packages
       - run: yarn lint
   test:
     name: Run test
-    needs: yarn-validate
+    needs: package-artifact
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -54,5 +76,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn build
+      - uses: actions/download-artifact@v2
+        with:
+          name: stillmine-artifact
+          path: packages
       - run: yarn test
