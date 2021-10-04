@@ -10,7 +10,6 @@ importers:
       '@babel/preset-typescript': ^7.15.0
       '@commitlint/cli': ^13.2.0
       '@commitlint/config-conventional': ^13.2.0
-      '@commitlint/config-lerna-scopes': ^13.2.0
       '@microsoft/rush': ^5.54.0
       '@stillmine/eslint-config': workspace:*
       '@stillmine/tsconfig': workspace:*
@@ -57,7 +56,6 @@ importers:
       '@babel/preset-typescript': 7.15.0_@babel+core@7.15.5
       '@commitlint/cli': 13.2.0_typescript@4.4.3
       '@commitlint/config-conventional': 13.2.0
-      '@commitlint/config-lerna-scopes': 13.2.0
       '@microsoft/rush': 5.54.0
       '@stillmine/eslint-config': link:packages/eslint-config
       '@stillmine/tsconfig': link:packages/tsconfig
@@ -2810,21 +2808,6 @@ packages:
     engines: {node: '>=v12'}
     dependencies:
       conventional-changelog-conventionalcommits: 4.6.1
-    dev: true
-
-  /@commitlint/config-lerna-scopes/13.2.0:
-    resolution: {integrity: sha512-d2VqA1EX+G+XvEWIr3B37bydtMm+UHvmAWU6z0v5oOgUvBwZcNMzvTrwdZB6524YCmspi2q+kwgimMR+sBilXQ==}
-    engines: {node: '>=v12'}
-    peerDependencies:
-      lerna: ^3.0.0 || ^4.0.0
-    peerDependenciesMeta:
-      lerna:
-        optional: true
-    dependencies:
-      globby: 11.0.4
-      import-from: 4.0.0
-      resolve-pkg: 2.0.0
-      semver: 7.3.5
     dev: true
 
   /@commitlint/ensure/13.2.0:
@@ -10859,11 +10842,6 @@ packages:
       resolve-from: 4.0.0
     dev: true
 
-  /import-from/4.0.0:
-    resolution: {integrity: sha512-P9J71vT5nLlDeV8FHs5nNxaLbrpfAV5cF5srvbZfpwpcJoM/xZR3hiv+q+SAnuSmuGbXMWud063iIMx/V/EWZQ==}
-    engines: {node: '>=12.2'}
-    dev: true
-
   /import-lazy/4.0.0:
     resolution: {integrity: sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==}
     engines: {node: '>=8'}
@@ -15321,13 +15299,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       global-dirs: 0.1.1
-    dev: true
-
-  /resolve-pkg/2.0.0:
-    resolution: {integrity: sha512-+1lzwXehGCXSeryaISr6WujZzowloigEofRB+dj75y9RRa/obVcYgbHJd53tdYw8pvZj8GojXaaENws8Ktw/hQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      resolve-from: 5.0.0
     dev: true
 
   /resolve-url-loader/3.1.2:
