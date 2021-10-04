@@ -1,2 +1,3 @@
-.pnp.js   merge=binary
-yarn.lock merge=binary
+.pnp.js         merge=binary
+pnpm-lock.yaml  merge=binary
+yarn.lock       merge=binary

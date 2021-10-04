@@ -4,26 +4,32 @@ on:
     branches-ignore:
       - main
 jobs:
-  yarn-validate:
-    name: Validate yarn dependencies
+  prepare-cache:
+    name: Prepare cache
     runs-on: ubuntu-latest
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    strategy:
+      matrix:
+        node-version: [12, 14, 16]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: ./.github/setup-pnpm
         with:
-          node-version: 12.x
-      - run: yarn --immutable --immutable-cache
-      - run: yarn dedupe --check
+          node-version: ${{ matrix.node-version }}
   package-artifact:
     name: Upload package artifact
-    needs: yarn-validate
+    needs: prepare-cache
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12, 14, 16]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: ./.github/setup-pnpm
         with:
-          node-version: 12.x
-      - run: yarn build
+          node-version: ${{ matrix.node-version }}
+      - run: pnpm run build --if-present --recursive
       - uses: actions/upload-artifact@v2
         with:
           name: stillmine-artifact
@@ -36,48 +42,48 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [12, 14, 16]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: ./.github/setup-pnpm
         with:
           node-version: ${{ matrix.node-version }}
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
           path: packages
-      - run: yarn typecheck
+      - run: pnpm run typecheck --if-present --recursive
   lint:
     name: Run lint
     needs: package-artifact
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [12, 14, 16]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: ./.github/setup-pnpm
         with:
           node-version: ${{ matrix.node-version }}
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
           path: packages
-      - run: yarn lint
+      - run: pnpm run lint --if-present --recursive
   test:
     name: Run test
     needs: package-artifact
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [12, 14, 16]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: ./.github/setup-pnpm
         with:
           node-version: ${{ matrix.node-version }}
       - uses: actions/download-artifact@v2
         with:
           name: stillmine-artifact
           path: packages
-      - run: yarn test
+      - run: pnpm test --if-present --recursive
