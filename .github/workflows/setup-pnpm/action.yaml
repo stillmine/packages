@@ -1,0 +1,21 @@
+name: Setup pnpm
+description: Install dependencies using pnpm
+inputs:
+  node-version:
+    description: nodejs version
+    required: false
+    default: '14'
+runs:
+  using: composite
+  steps:
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 6.10.0
+    - uses: actions/setup-node@v2
+      with:
+        cache: pnpm
+        node-version: ${{ inputs.node-version }}
+        registry-url: https://npm.pkg.github.com
+        scope: '@stillmine'
+    - run: pnpm install --ignore-scripts
+      shell: bash
