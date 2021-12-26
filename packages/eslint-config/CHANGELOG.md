@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.3.0
+
+### Minor Changes
+
+- feat: add next config
+
 ## 1.2.0
 
 ### Minor Changes

@@ -103,6 +103,7 @@ importers:
       '@emotion/eslint-plugin': ^11.7.0
       '@typescript-eslint/eslint-plugin': ^5.8.0
       '@typescript-eslint/parser': ^5.8.0
+      eslint-config-next: ^12.0.7
       eslint-config-prettier: ^8.3.0
       eslint-plugin-import: ^2.25.3
       eslint-plugin-jest: ^25.3.0
@@ -120,6 +121,7 @@ importers:
       '@emotion/eslint-plugin': 11.7.0_eslint@7.32.0
       '@typescript-eslint/eslint-plugin': 5.8.0_3d05c6dc4024a765cda685c4880607d7
       '@typescript-eslint/parser': 5.8.0_eslint@7.32.0+typescript@4.4.3
+      eslint-config-next: 12.0.7_eslint@7.32.0+typescript@4.4.3
       eslint-config-prettier: 8.3.0_eslint@7.32.0
       eslint-plugin-import: 2.25.3_eslint@7.32.0
       eslint-plugin-jest: 25.3.0_5c45c8fc57eec19b7c3ca66dce5df81b
@@ -3838,6 +3840,12 @@ packages:
     resolution: {integrity: sha512-uBOjRBjsWC4C8X3DfmWWP6ekwLnf2JCCwQX9KVnJtJkqfDsv1yQPakdOEwvJzXQc3JC/v5KKffYPVmV2wHXCgQ==}
     dev: true
 
+  /@next/eslint-plugin-next/12.0.7:
+    resolution: {integrity: sha512-xk7eMjw4+roWWR/0ETIoToCNs2wdvCGgQUiUO390Rj33/82yxZsh+ODRSaFWkiKp8zHWQN5GCW+U5pfjt/gyQg==}
+    dependencies:
+      glob: 7.1.7
+    dev: false
+
   /@next/polyfill-module/10.0.0:
     resolution: {integrity: sha512-FLSwwWQaP/sXjlS7w4YFu+oottbo/bjoh+L+YED7dblsaRJT89ifV+h8zvLvh1hCL7FJUYVar4rehvj/VO5T9w==}
     dev: false
@@ -4222,6 +4230,10 @@ packages:
       picomatch: 2.3.0
       rollup: 2.58.0
     dev: true
+
+  /@rushstack/eslint-patch/1.1.0:
+    resolution: {integrity: sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==}
+    dev: false
 
   /@rushstack/heft-config-file/0.6.6:
     resolution: {integrity: sha512-XaY2boTJaIE51fDa6oENsRvmLu0SltynyhC9IzYFb1fzEoHOcIuRMr5HIcobhTDCj41UkbIXEv+QinS6c5GCGw==}
@@ -9556,6 +9568,31 @@ packages:
       source-map: 0.6.1
     dev: true
 
+  /eslint-config-next/12.0.7_eslint@7.32.0+typescript@4.4.3:
+    resolution: {integrity: sha512-kWOaym5qjyzR190zFKkZMaHetmiRORmzJiKML7Kr9CL213S6SwkrHHCEL58TRdpx0NA+HzrsFR9zgcV2pvV2Yg==}
+    peerDependencies:
+      eslint: ^7.23.0 || ^8.0.0
+      next: '>=10.2.0'
+      typescript: '>=3.3.1'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@next/eslint-plugin-next': 12.0.7
+      '@rushstack/eslint-patch': 1.1.0
+      '@typescript-eslint/parser': 5.8.0_eslint@7.32.0+typescript@4.4.3
+      eslint: 7.32.0
+      eslint-import-resolver-node: 0.3.6
+      eslint-import-resolver-typescript: 2.5.0_a820dc868cc8cd66d8297be6779b9035
+      eslint-plugin-import: 2.25.3_eslint@7.32.0
+      eslint-plugin-jsx-a11y: 6.5.1_eslint@7.32.0
+      eslint-plugin-react: 7.28.0_eslint@7.32.0
+      eslint-plugin-react-hooks: 4.3.0_eslint@7.32.0
+      typescript: 4.4.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /eslint-config-prettier/8.3.0_eslint@7.32.0:
     resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
     hasBin: true
@@ -9570,6 +9607,24 @@ packages:
     dependencies:
       debug: 3.2.7
       resolve: 1.20.0
+    dev: false
+
+  /eslint-import-resolver-typescript/2.5.0_a820dc868cc8cd66d8297be6779b9035:
+    resolution: {integrity: sha512-qZ6e5CFr+I7K4VVhQu3M/9xGv9/YmwsEXrsm3nimw8vWaVHRDrQRp26BgCypTxBp3vUp4o5aVEJRiy0F2DFddQ==}
+    engines: {node: '>=4'}
+    peerDependencies:
+      eslint: '*'
+      eslint-plugin-import: '*'
+    dependencies:
+      debug: 4.3.2
+      eslint: 7.32.0
+      eslint-plugin-import: 2.25.3_eslint@7.32.0
+      glob: 7.2.0
+      is-glob: 4.0.3
+      resolve: 1.20.0
+      tsconfig-paths: 3.11.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /eslint-module-utils/2.7.1:
@@ -10740,6 +10795,17 @@ packages:
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
+
+  /glob/7.1.7:
+    resolution: {integrity: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==}
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.0.4
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    dev: false
 
   /glob/7.2.0:
     resolution: {integrity: sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==}
