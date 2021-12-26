@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.1
+
+### Patch Changes
+
+- fix(eslint-config): fix path resolve
+
 ## 1.0.0
 
 ### Major Changes
