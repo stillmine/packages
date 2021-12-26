@@ -19,9 +19,18 @@ module.exports = {
       extends: resolveModule('typescript'),
       files: ['**/*.ts', '**/*.tsx'],
     },
+    {
+      extends: ['plugin:storybook/recommended'],
+      files: ['**/*.stories.js', '**/*.stories.tsx'],
+    },
+    {
+      extends: ['plugin:jest/recommended', 'plugin:jest/style', 'plugin:testing-library/react'],
+      files: ['**/*.test.ts', '**/*.test.tsx'],
+    },
   ],
   parserOptions: {
     ecmaVersion: ECMA_VERSION,
     sourceType: 'module',
   },
+  plugins: ['@emotion'],
 };
