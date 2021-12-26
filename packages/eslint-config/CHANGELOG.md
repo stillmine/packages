@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.0
+
+### Minor Changes
+
+- feat(eslint-config): move peer deps into deps
+
 ## 1.1.0
 
 ### Minor Changes
