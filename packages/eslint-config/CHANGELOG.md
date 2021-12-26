@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.0
+
+### Minor Changes
+
+- feat(eslint-config): remove all custom rules from typescript
+
 ## 1.0.1
 
 ### Patch Changes
