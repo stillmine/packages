@@ -1,5 +1,17 @@
 # Change Log
 
+## 1.0.0
+
+### Major Changes
+
+- feat(eslint-config): remove react config & merge into index
+
+## 0.5.0
+
+### Minor Changes
+
+- 97507e3: feat(eslint-config): add storybook and test related rules
+
 ## 0.4.1
 
 ### Patch Changes

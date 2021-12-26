@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/eslint-config",
-  "version": "0.4.1",
+  "version": "1.0.0",
   "description": "ESLint config.",
   "keywords": [
     "eslint",
@@ -13,10 +13,12 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js"
+    "lint": "eslint ./**/*.js"
   },
   "dependencies": {
+    "@emotion/eslint-plugin": "^11.7.0",
     "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-react-hook-form": "^0.2.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-storybook": "^0.5.5",
     "eslint-plugin-testing-library": "^5.0.1"

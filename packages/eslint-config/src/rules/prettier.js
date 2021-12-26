@@ -1,7 +1,3 @@
 module.exports = {
-  extends: 'prettier',
-  plugins: ['prettier'],
-  rules: {
-    'prettier/prettier': 'warn',
-  },
+  extends: ['plugin:prettier/recommended', 'prettier'],
 };

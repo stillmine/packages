@@ -1,7 +1,3 @@
 module.exports = {
-  plugins: ['react-hooks'],
-  rules: {
-    'react-hooks/exhaustive-deps': 'warn',
-    'react-hooks/rules-of-hooks': 'warn',
-  },
+  extends: ['plugin:react-hook-form/recommended', 'plugin:react-hooks/recommended'],
 };

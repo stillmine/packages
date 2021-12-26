@@ -1,5 +1,7 @@
+const { resolveModule } = require('../../utils');
+
 module.exports = {
-  extends: ['./extension', './typescript'],
+  extends: ['./typescript/extension', './typescript/typescript'].map(resolveModule),
   parser: '@typescript-eslint/parser',
   rules: {
     'indent': 'off',

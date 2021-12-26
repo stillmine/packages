@@ -1,18 +1,26 @@
-const { ECMA_VERSION } = require('./src/constants');
 const { resolveModule } = require('./src/utils');
 
 module.exports = {
-  env: { jest: true, node: true },
+  env: {
+    browser: true,
+    jest: true,
+    node: true,
+  },
   extends: [
     'best-practices',
     'ecma-script-6',
     'import',
     'no-secrets',
     'possible-errors',
-    'prettier',
     'strict-mode',
     'stylistic-issues',
     'variables',
+    'react',
+    /**
+     * NOTE: should be last
+     * @see https://github.com/prettier/eslint-config-prettier#installation
+     */
+    'prettier',
   ].map(resolveModule),
   overrides: [
     {
@@ -29,8 +37,7 @@ module.exports = {
     },
   ],
   parserOptions: {
-    ecmaVersion: ECMA_VERSION,
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
-  plugins: ['@emotion'],
 };

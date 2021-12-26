@@ -1,5 +1,7 @@
+const { resolveModule } = require('../../utils');
+
 module.exports = {
-  extends: ['./jsx', './jsx-a11y', './react', './react-hooks'],
+  extends: ['./react/jsx', './react/jsx-a11y', './react/react', './react/react-hooks'].map(resolveModule),
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

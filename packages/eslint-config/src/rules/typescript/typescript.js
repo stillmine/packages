@@ -1,4 +1,5 @@
 module.exports = {
+  extends: 'plugin:@typescript-eslint/recommended',
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
