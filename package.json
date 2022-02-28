@@ -31,7 +31,6 @@
     "@changesets/cli": "^2.19.0",
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
-    "@microsoft/rush": "^5.54.0",
     "@stillmine/eslint-config": "workspace:*",
     "@stillmine/tsconfig": "workspace:*",
     "@stillmine/types": "workspace:*",

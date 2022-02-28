@@ -21,13 +21,14 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@reach/auto-id": "0.16.0",
+    "@reach/auto-id": "^0.16.0",
     "@stillmine/hooks": "workspace:*",
     "@stillmine/styles": "workspace:*",
     "@stillmine/units": "workspace:*",
     "@stillmine/utils": "workspace:*",
-    "react-error-boundary": "3.1.4",
-    "react-use": "17.3.2"
+    "facepaint": "^1.2.1",
+    "react-error-boundary": "^3.1.4",
+    "react-use": "^17.3.2"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.7.2",
@@ -50,7 +51,6 @@
   "peerDependencies": {
     "@emotion/react": ">= 11",
     "@emotion/styled": ">= 11",
-    "facepaint": ">= 1",
     "react": ">= 17",
     "react-dom": ">= 17"
   },
