@@ -9,4 +9,4 @@ export * from './Select/mod';
 export * from './Stack/mod';
 export * from './Suspense/mod';
 export * from './Tab/mod';
-export * from './Typography/mod';
+export * from './Text';
