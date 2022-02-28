@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.5.1
+
+### Patch Changes
+
+- b928f1a: chore(react-components): modify repository field
+
 ## 0.5.0
 
 ### Minor Changes
