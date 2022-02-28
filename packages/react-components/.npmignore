@@ -5,6 +5,4 @@
 assets
 jest.config.js
 jest.setup.ts
-rollup.config.js
-src
 tsconfig*.json
