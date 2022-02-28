@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.5.2
+
+### Patch Changes
+
+- 7465359: chore(packages): bump versions
+- Updated dependencies [7465359]
+  - @stillmine/hooks@0.4.3
+  - @stillmine/styles@0.4.3
+  - @stillmine/units@0.4.3
+  - @stillmine/utils@0.4.3
+
 ## 0.5.1
 
 ### Patch Changes
