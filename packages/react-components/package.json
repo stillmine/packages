@@ -8,10 +8,7 @@
     "components"
   ],
   "homepage": "https://stillmine-component-docs.netlify.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stillmine/packages.git"
-  },
+  "repository": "https://github.com/stillmine/packages",
   "license": "MIT",
   "main": "src/mod.ts",
   "scripts": {
