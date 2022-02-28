@@ -2,14 +2,9 @@
   "name": "@stillmine/styles",
   "version": "0.4.2",
   "description": "Style utils.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stillmine/packages.git"
-  },
+  "repository": "https://github.com/stillmine/packages",
   "license": "MIT",
-  "main": "lib/mod.js",
-  "module": "esm/mod.js",
-  "types": "lib/mod.d.ts",
+  "main": "src/mod.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"tsc -p tsconfig.cjs.json\" \"tsc -p tsconfig.esm.json\"",
     "lint": "eslint src/**/*.ts",
@@ -18,18 +13,22 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@stillmine/utils": "workspace:*"
+    "@stillmine/utils": "workspace:*",
+    "facepaint": "^1.2.1"
   },
   "devDependencies": {
-    "@emotion/react": "^11.4.0"
+    "@emotion/react": "^11.4.0",
+    "react": "^17.0.2"
   },
   "peerDependencies": {
     "@emotion/react": ">=11",
-    "facepaint": ">= 1",
     "react": ">= 17"
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "main": "lib/mod.js",
+    "module": "esm/mod.js",
+    "types": "lib/mod.d.ts"
   }
 }

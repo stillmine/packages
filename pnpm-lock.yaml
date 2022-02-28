@@ -160,7 +160,7 @@ importers:
     specifiers:
       '@emotion/babel-plugin': ^11.7.2
       '@emotion/react': ^11.8.1
-      '@reach/auto-id': 0.16.0
+      '@reach/auto-id': ^0.16.0
       '@rollup/plugin-babel': ^5.3.1
       '@rollup/plugin-commonjs': ^21.0.2
       '@rollup/plugin-node-resolve': ^13.1.3
@@ -178,8 +178,8 @@ importers:
       facepaint: ^1.2.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-error-boundary: 3.1.4
-      react-use: 17.3.2
+      react-error-boundary: ^3.1.4
+      react-use: ^17.3.2
       sanitize.css: ^13.0.0
     dependencies:
       '@reach/auto-id': 0.16.0_react-dom@17.0.2+react@17.0.2
@@ -187,6 +187,7 @@ importers:
       '@stillmine/styles': link:../styles
       '@stillmine/units': link:../units
       '@stillmine/utils': link:../utils
+      facepaint: 1.2.1
       react-error-boundary: 3.1.4_react@17.0.2
       react-use: 17.3.2_react-dom@17.0.2+react@17.0.2
     devDependencies:
@@ -202,7 +203,6 @@ importers:
       '@storybook/addon-options': 5.3.21_react-dom@17.0.2+react@17.0.2
       '@storybook/react': 6.4.19_c4a649d80b363c6629ecc41609220778
       core-js: 3.21.1
-      facepaint: 1.2.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       sanitize.css: 13.0.0
@@ -214,10 +214,14 @@ importers:
     specifiers:
       '@emotion/react': ^11.4.0
       '@stillmine/utils': workspace:*
+      facepaint: ^1.2.1
+      react: ^17.0.2
     dependencies:
       '@stillmine/utils': link:../utils
+      facepaint: 1.2.1
     devDependencies:
-      '@emotion/react': 11.4.1_ffba92a8a6482e968e6544581e92d136
+      '@emotion/react': 11.4.1_4cd242800bdbc134fcd72e6059f1afd4
+      react: 17.0.2
 
   packages/tsconfig:
     specifiers: {}
@@ -3248,7 +3252,7 @@ packages:
     resolution: {integrity: sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==}
     dev: true
 
-  /@emotion/react/11.4.1_ffba92a8a6482e968e6544581e92d136:
+  /@emotion/react/11.4.1_4cd242800bdbc134fcd72e6059f1afd4:
     resolution: {integrity: sha512-pRegcsuGYj4FCdZN6j5vqCALkNytdrKw3TZMekTzNXixRg4wkLsU5QEaBG5LC6l01Vppxlp7FE3aTHpIG5phLg==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -3269,6 +3273,7 @@ packages:
       '@emotion/weak-memoize': 0.2.5
       '@types/react': 17.0.27
       hoist-non-react-statics: 3.3.2
+      react: 17.0.2
     dev: true
 
   /@emotion/react/11.8.1_4cd242800bdbc134fcd72e6059f1afd4:
@@ -10233,7 +10238,7 @@ packages:
 
   /facepaint/1.2.1:
     resolution: {integrity: sha512-oNvBekbhsm/0PNSOWca5raHNAi6dG960Bx6LJgxDPNF59WpuspgQ17bN5MKwOr7JcFdQYc7StW3VZ28DBZLavQ==}
-    dev: true
+    dev: false
 
   /fast-deep-equal/2.0.1:
     resolution: {integrity: sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=}
