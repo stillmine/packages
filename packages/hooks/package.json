@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/hooks",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "React hooks.",
   "repository": "https://github.com/stillmine/packages",
   "license": "MIT",
