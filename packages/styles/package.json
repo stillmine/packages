@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/styles",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Style utils.",
   "repository": "https://github.com/stillmine/packages",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@stillmine/utils": "^0.4.4",
+    "@stillmine/utils": "^0.4.5",
     "facepaint": "^1.2.1"
   },
   "devDependencies": {

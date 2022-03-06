@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.4
+
+### Patch Changes
+
+- 8d3cc8f: chore: use pnpm again
+
 ## 0.4.3
 
 ### Patch Changes
