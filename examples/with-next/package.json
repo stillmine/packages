@@ -6,7 +6,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@stillmine/webpack-config": "workspace:*",
     "@types/react": "16.9.55",
     "next": "10.0.0",
     "react": "17.0.1",

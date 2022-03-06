@@ -1,5 +1,5 @@
 {
-  "npm.packageManager": "pnpm",
+  "npm.packageManager": "npm",
   "search.exclude": {
     "**/.yarn": true,
     "**/.pnp.*": true

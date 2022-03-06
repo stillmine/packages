@@ -15,7 +15,7 @@
   "scripts": {
     "build": "concurrently \"rimraf lib\" \"tsc\"",
     "lint": "eslint src/**/*.ts",
-    "prepack": "pnpm run build",
+    "prepack": "npm run build",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },

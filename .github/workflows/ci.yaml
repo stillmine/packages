@@ -9,12 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v2
         with:
-          cache: pnpm
+          cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@stillmine'
@@ -26,18 +23,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v2
         with:
-          cache: pnpm
+          cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@stillmine'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: pnpm build --if-present --recursive
+      - run: npm run build --workspaces
       - uses: actions/upload-artifact@v2
         with:
           name: stillmine-artifact
@@ -50,12 +44,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v2
         with:
-          cache: pnpm
+          cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@stillmine'
@@ -65,19 +56,16 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: pnpm typecheck --if-present --recursive
+      - run: npm run typecheck --workspaces
   lint:
     name: Run lint
     needs: package-artifact
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v2
         with:
-          cache: pnpm
+          cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@stillmine'
@@ -87,19 +75,16 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: pnpm lint --if-present --recursive
+      - run: npm run lint --workspaces
   test:
     name: Run test
     needs: package-artifact
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v2
         with:
-          cache: pnpm
+          cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@stillmine'
@@ -109,4 +94,4 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: pnpm test --if-present --recursive
+      - run: npm run test --workspaces

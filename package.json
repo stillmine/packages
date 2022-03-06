@@ -19,9 +19,7 @@
   "scripts": {
     "postinstall": "husky install",
     "new": "hygen package new",
-    "release:changeset": "changeset publish",
-    "release:lerna-version": "lerna version",
-    "release:lerna-package": "lerna publish from-package"
+    "release:changeset": "changeset publish"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
@@ -31,9 +29,6 @@
     "@changesets/cli": "^2.19.0",
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
-    "@stillmine/eslint-config": "workspace:*",
-    "@stillmine/tsconfig": "workspace:*",
-    "@stillmine/types": "workspace:*",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/react-hooks": "^7.0.2",
@@ -58,5 +53,8 @@
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

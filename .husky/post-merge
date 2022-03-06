@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm install
-pnpm run build --if-present --recursive
+npm install
+npm run build --workspaces

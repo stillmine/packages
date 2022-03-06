@@ -11,29 +11,23 @@ jobs:
     env:
       HUSKY: 0
     steps:
-      - uses: styfle/cancel-workflow-action@0.8.0
-        with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v2
         with:
-          cache: pnpm
+          cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@stillmine'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: pnpm install
+      - run: npm ci
       - id: changesets
         uses: changesets/action@v1
         with:
-          version: pnpm changeset version
-          publish: pnpm changeset publish
+          version: npm run changeset version
+          publish: npm run changeset publish
           title: "chore: update versions"
           commit: "chore: update versions"
         env:
