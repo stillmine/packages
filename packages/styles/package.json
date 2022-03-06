@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@stillmine/utils": "^0.4.5",
+    "@stillmine/utils": "workspace:*",
     "facepaint": "^1.2.1"
   },
   "devDependencies": {
