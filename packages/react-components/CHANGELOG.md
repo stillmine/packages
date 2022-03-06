@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.7.1
+
+### Patch Changes
+
+- 7fec9e5: fix: fix build error
+
 ## 0.7.0
 
 ### Minor Changes
