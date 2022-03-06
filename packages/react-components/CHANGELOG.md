@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.6.1
+
+### Patch Changes
+
+- 13408bd: chore: use npm as cli
+- Updated dependencies [13408bd]
+  - @stillmine/hooks@0.4.4
+  - @stillmine/styles@0.4.4
+  - @stillmine/units@0.4.4
+  - @stillmine/utils@0.4.4
+
 ## 0.6.0
 
 ### Minor Changes
