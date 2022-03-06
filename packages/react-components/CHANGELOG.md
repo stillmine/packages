@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.6.0
+
+### Minor Changes
+
+- 7b12c24: feat: add external UI library
+
 ## 0.5.2
 
 ### Patch Changes
