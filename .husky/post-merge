@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm install
-npm run build --workspaces
+npm run build --workspaces --if-present

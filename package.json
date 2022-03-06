@@ -19,7 +19,10 @@
   "scripts": {
     "postinstall": "husky install",
     "new": "hygen package new",
-    "release:changeset": "changeset publish"
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",

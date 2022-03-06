@@ -56,7 +56,7 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: npm run typecheck --workspaces
+      - run: npm run typecheck
   lint:
     name: Run lint
     needs: package-artifact
@@ -75,7 +75,7 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: npm run lint --workspaces
+      - run: npm run lint
   test:
     name: Run test
     needs: package-artifact
@@ -94,4 +94,4 @@ jobs:
         with:
           name: stillmine-artifact
           path: packages
-      - run: npm run test --workspaces
+      - run: npm run test

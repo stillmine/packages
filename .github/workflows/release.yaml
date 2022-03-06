@@ -22,7 +22,7 @@ jobs:
           scope: '@stillmine'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: npm ci
+      - run: npm install
       - id: changesets
         uses: changesets/action@v1
         with:
