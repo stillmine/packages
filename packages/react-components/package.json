@@ -16,7 +16,7 @@
     "build:storybook": "build-storybook",
     "develop:storybook": "start-storybook -p 6006",
     "lint": "eslint src/**/*.{ts,tsx}",
-    "prepack": "npm run build",
+    "prepack": "pnpm build",
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },

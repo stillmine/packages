@@ -19,10 +19,10 @@
   "scripts": {
     "postinstall": "husky install",
     "new": "hygen package new",
-    "build": "npm run build --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present"
+    "build": "pnpm build --recursive --if-present --parallel",
+    "lint": "pnpm lint --recursive --if-present --parallel",
+    "test": "pnpm test --recursive --if-present --parallel",
+    "typecheck": "pnpm typecheck --recursive --if-present --parallel"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
