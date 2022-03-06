@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.6
+
+### Patch Changes
+
+- 5de06b3: fix: use workspace protocol
+
 ## 0.4.5
 
 ### Patch Changes

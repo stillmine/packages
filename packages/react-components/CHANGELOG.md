@@ -1,5 +1,14 @@
 # Change Log
 
+## 0.7.3
+
+### Patch Changes
+
+- 5de06b3: fix: use workspace protocol
+- Updated dependencies [5de06b3]
+  - @stillmine/hooks@0.4.6
+  - @stillmine/styles@0.4.6
+
 ## 0.7.2
 
 ### Patch Changes
