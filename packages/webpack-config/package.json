@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/webpack-config",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Webpack config.",
   "keywords": [
     "webpack",

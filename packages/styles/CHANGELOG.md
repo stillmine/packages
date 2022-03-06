@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.4.5
+
+### Patch Changes
+
+- 8d3cc8f: chore: use pnpm again
+- Updated dependencies [8d3cc8f]
+  - @stillmine/utils@0.4.5
+
 ## 0.4.4
 
 ### Patch Changes

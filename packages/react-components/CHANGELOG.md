@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.7.2
+
+### Patch Changes
+
+- 8d3cc8f: chore: use pnpm again
+- Updated dependencies [8d3cc8f]
+  - @stillmine/hooks@0.4.5
+  - @stillmine/styles@0.4.5
+  - @stillmine/units@0.4.5
+  - @stillmine/utils@0.4.5
+
 ## 0.7.1
 
 ### Patch Changes
