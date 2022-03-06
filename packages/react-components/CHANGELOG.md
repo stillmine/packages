@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.7.0
+
+### Minor Changes
+
+- 3d88cb8: feat: migrate product local components
+
 ## 0.6.1
 
 ### Patch Changes
