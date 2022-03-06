@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.4
+
+### Patch Changes
+
+- 13408bd: chore: use npm as cli
+
 ## 0.4.3
 
 ### Patch Changes

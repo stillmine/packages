@@ -1,6 +1,6 @@
 {
   "name": "@stillmine/hooks",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "React hooks.",
   "repository": "https://github.com/stillmine/packages",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@stillmine/utils": "^0.4.3"
+    "@stillmine/utils": "^0.4.4"
   },
   "devDependencies": {
     "react": "^17.0.2",

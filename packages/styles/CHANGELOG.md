@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.4.4
+
+### Patch Changes
+
+- 13408bd: chore: use npm as cli
+- Updated dependencies [13408bd]
+  - @stillmine/utils@0.4.4
+
 ## 0.4.3
 
 ### Patch Changes
