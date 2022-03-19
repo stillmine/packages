@@ -16,14 +16,11 @@
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
-  "dependencies": {
-    "webpack-merge": "5.7.3"
-  },
   "devDependencies": {
-    "next": "^10.2.2"
+    "next": "^12.1.0"
   },
   "peerDependencies": {
-    "next": ">= 10"
+    "next": ">= 12"
   },
   "publishConfig": {
     "access": "public",
