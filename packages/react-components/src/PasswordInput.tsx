@@ -1,13 +1,16 @@
 import { Button, Input, InputGroup, InputRightElement } from '@chakra-ui/react';
 import { OmitProps } from '@stillmine/types';
-import { forwardRef } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { useToggle } from 'react-use';
 
 import { Field } from './Field';
 
 interface Props extends OmitProps<typeof Field, 'children'>, OmitProps<typeof Input, 'type'> {}
 
-export const PasswordInput = forwardRef<HTMLInputElement, Props>(({ error, errorMessage, label, ...props }, ref) => {
+export const PasswordInput = forwardRef(function PasswordInput(
+  { error, errorMessage, label, ...props }: Props,
+  ref: ForwardedRef<HTMLInputElement>
+) {
   const [passwordVisible, togglePassword] = useToggle(false);
 
   return (

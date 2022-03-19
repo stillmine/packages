@@ -2,7 +2,7 @@ import { gutter } from '@stillmine/styles';
 import { As, OmitProps } from '@stillmine/types';
 import { forwardRef } from 'react';
 
-import { Flex } from '../Flex/mod';
+import { Flex } from '../Flex';
 import { HorizontalStack } from './HorzontalStack';
 import { VerticalStack } from './VerticalStack';
 

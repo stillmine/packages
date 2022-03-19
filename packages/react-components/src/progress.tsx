@@ -8,8 +8,8 @@ export function usePercentage(initialPercentage = 0) {
   return [percentage];
 }
 
-export const Progress = (props: ProgressProps) => {
+export function Progress(props: ProgressProps) {
   const [percentage] = usePercentage();
 
   return <progress max="100" value={percentage} {...props} />;
-};
+}

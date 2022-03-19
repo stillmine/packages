@@ -1,6 +1,5 @@
-import { css } from '@emotion/react';
 import { resetButton } from '@stillmine/styles';
-import { Color } from '@stillmine/units';
+import { color } from '@stillmine/units';
 import { ButtonHTMLAttributes, forwardRef } from 'react';
 
 export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -11,7 +10,7 @@ export const TabItem = forwardRef<HTMLButtonElement, Props>(({ active, ...props 
   return (
     <button
       aria-selected={active}
-      css={[resetButton, css(`color: ${active ? Color.black : Color.githubGray}`)]}
+      css={[resetButton, { color: active ? color.black : color.gray.github }]}
       ref={ref}
       role="tab"
       {...props}

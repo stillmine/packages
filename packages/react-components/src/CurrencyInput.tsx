@@ -14,7 +14,10 @@ const masked = createMask({
   thousandsSeparator: ',',
 });
 
-export const CurrencyInput = forwardRef(({ value, onChange, ...props }: Props, ref: ForwardedRef<HTMLInputElement>) => {
+export const CurrencyInput = forwardRef(function CurrencyInput(
+  { value, onChange, ...props }: Props,
+  ref: ForwardedRef<HTMLInputElement>
+) {
   return (
     <TextInput
       ref={ref}

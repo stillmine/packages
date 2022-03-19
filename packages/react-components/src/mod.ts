@@ -9,7 +9,6 @@ export {
   ColorModeScript,
   Container,
   extendTheme,
-  Flex,
   Grid,
   GridItem,
   Heading,
@@ -44,13 +43,12 @@ export * from './Chip/mod';
 export * from './Container/mod';
 export * from './CurrencyInput';
 export * from './Field';
-export * from './Flex/mod';
+export * from './Flex';
 export * from './GlobalErrorBoundary';
 export * from './Icon/mod';
 export * from './Loader/mod';
 export * from './PasswordInput';
 export * from './ProgressBar/mod';
-export * from './Select/mod';
 export * from './SelectInput';
 export * from './SSRSuspense';
 export * from './Stack/mod';

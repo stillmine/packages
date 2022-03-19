@@ -5,6 +5,6 @@ interface Props extends Omit<ErrorBoundaryPropsWithFallback, 'fallback'> {
   children: ReactNode;
 }
 
-export const GlobalErrorBoundary = (props: Props) => {
+export function GlobalErrorBoundary(props: Props) {
   return <ErrorBoundary fallback={<div>error</div>} {...props} />;
-};
+}

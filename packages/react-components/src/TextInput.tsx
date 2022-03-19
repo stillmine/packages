@@ -6,12 +6,13 @@ import { Field } from './Field';
 
 interface Props extends OmitProps<typeof Field, 'children'>, ComponentProps<typeof Input> {}
 
-export const TextInput = forwardRef(
-  ({ error, errorMessage, label, ...props }: Props, ref: ForwardedRef<HTMLInputElement>) => {
-    return (
-      <Field error={error} errorMessage={errorMessage} label={label}>
-        <Input ref={ref} {...props} />
-      </Field>
-    );
-  }
-);
+export const TextInput = forwardRef(function TextInput(
+  { error, errorMessage, label, ...props }: Props,
+  ref: ForwardedRef<HTMLInputElement>
+) {
+  return (
+    <Field error={error} errorMessage={errorMessage} label={label}>
+      <Input ref={ref} {...props} />
+    </Field>
+  );
+});

@@ -1,5 +1,5 @@
 import { As } from '@stillmine/types';
-import { ComponentProps, forwardRef } from 'react';
+import { ComponentProps, ForwardedRef, forwardRef } from 'react';
 
 type Level = 1 | 2 | 3 | 4 | 5 | 6;
 
@@ -26,6 +26,9 @@ function font(level: Level) {
   }
 }
 
-export const Text = forwardRef<As, Props>(({ as: Component = 'p', level = 4, ...props }) => {
-  return <Component css={font(level)} {...props} />;
+export const Text = forwardRef(function Text(
+  { as: Component = 'p', level = 4, ...props }: Props,
+  ref: ForwardedRef<As>
+) {
+  return <Component css={font(level)} ref={ref} {...props} />;
 });

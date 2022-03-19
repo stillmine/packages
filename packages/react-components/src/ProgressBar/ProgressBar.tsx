@@ -1,10 +1,9 @@
-import { css } from '@emotion/react';
-import { Color } from '@stillmine/units';
+import { color } from '@stillmine/units';
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useIsomorphicLayoutEffect, useWindowScroll } from 'react-use';
 
-export const ProgressBar = () => {
+export function ProgressBar() {
   const { y } = useWindowScroll();
   const [percentage, setPercentage] = useState(0);
 
@@ -16,15 +15,15 @@ export const ProgressBar = () => {
 
   return createPortal(
     <div
-      css={css`
-        top: 0;
-        position: fixed;
-        background-color: ${Color.black};
-        height: 4px;
-        width: ${percentage}vw;
-        transition: width 0.2s ease-out;
-      `}
+      css={{
+        top: 0,
+        position: 'fixed',
+        backgroundColor: color.black,
+        height: 4,
+        width: `${percentage}vw`,
+        transition: 'width 0.2s ease-out',
+      }}
     />,
     document.body
   );
-};
+}

@@ -4,10 +4,10 @@ import { ProgressBar } from './ProgressBar';
 
 export default { title: 'ProgressBar' };
 
-export const Basic = () => {
+export function Basic() {
   return (
     <div css={css(`min-height: 200vh`)}>
       <ProgressBar />
     </div>
   );
-};
+}

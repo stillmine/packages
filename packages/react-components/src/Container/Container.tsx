@@ -1,4 +1,3 @@
-import { css } from '@emotion/react';
 import { lg, md, mq, sm, xl, xxl } from '@stillmine/styles';
 import { HTMLAttributes } from 'react';
 
@@ -11,11 +10,11 @@ export function Container({ as: Component = 'div', ...props }: Props) {
     <Component
       css={[
         mq({ maxWidth: [null, sm, md, lg, xl, xxl] }),
-        css`
-          margin: 0 auto;
-          padding: 1rem;
-          width: 100%;
-        `,
+        {
+          margin: '0 auto',
+          padding: '1rem',
+          width: '100%',
+        },
       ]}
       {...props}
     />

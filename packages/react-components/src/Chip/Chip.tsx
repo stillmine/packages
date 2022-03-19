@@ -1,7 +1,6 @@
-import { css } from '@emotion/react';
 import { As } from '@stillmine/types';
-import { Color } from '@stillmine/units';
-import { ComponentProps, forwardRef } from 'react';
+import { color } from '@stillmine/units';
+import { ComponentProps, ForwardedRef, forwardRef } from 'react';
 
 import { Button } from '../Button/mod';
 
@@ -9,19 +8,19 @@ interface Props extends ComponentProps<As> {
   color?: string;
 }
 
-export const Chip = forwardRef<As, Props>((props, ref) => {
+export const Chip = forwardRef(function Chip(props: Props, ref: ForwardedRef<As>) {
   return (
     <Button
-      css={css`
-        background-color: ${Color.tossBlue};
-        border-radius: 9999px;
-        color: ${Color.white};
-        padding: 4px 12px;
+      css={{
+        'backgroundColor': color.blue.toss,
+        'borderRadius': 9999,
+        'color': color.white,
+        'padding': '4px 12px',
 
-        &:hover {
-          background-color: ${Color.facebookBlue};
-        }
-      `}
+        '&:hover': {
+          backgroundColor: color.blue.facebook,
+        },
+      }}
       ref={ref}
       {...props}
     />

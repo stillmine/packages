@@ -1,9 +1,9 @@
-import { Color } from '@stillmine/units';
+import { color as COLOR } from '@stillmine/units';
 import { memo, SVGProps } from 'react';
 
 export interface Props extends Omit<SVGProps<SVGElement>, 'children' | 'ref'> {}
 
-export const Mail = memo<Props>(({ color = Color.black, height = 20, width = 20, ...props }) => {
+export const Mail = memo(function Mail({ color = COLOR.black, height = 20, width = 20, ...props }: Props) {
   return (
     <svg color={color} height={height} viewBox="0 0 20 20" width={width} {...props}>
       <path
