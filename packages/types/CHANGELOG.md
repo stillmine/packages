@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.5.0
+
+### Minor Changes
+
+- 74577e3: feat(types,units): add ValueOf, add unit constants
+
 ## 0.4.5
 
 ### Patch Changes
