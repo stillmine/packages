@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.5
+
+### Patch Changes
+
+- 55b152d: fix: modify types
+
 ## 0.4.4
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.7.4
+
+### Patch Changes
+
+- 9aac031: fix: add missing dependencies - imask
+
 ## 0.7.3
 
 ### Patch Changes
