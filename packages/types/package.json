@@ -7,7 +7,7 @@
     "url": "https://github.com/stillmine/packages.git"
   },
   "license": "MIT",
-  "types": "lib/mod.d.ts",
+  "types": "src/mod.ts",
   "scripts": {
     "build": "concurrently \"rimraf lib\" \"tsc --emitDeclarationOnly\"",
     "lint": "eslint src/**/*.ts",
@@ -25,6 +25,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "types": "lib/mod.d.ts"
   }
 }
