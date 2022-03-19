@@ -12,6 +12,12 @@
     "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@chakra-ui/theme": "^1.14.0"
+  },
+  "devDependencies": {
+    "@stillmine/types": "workspace:*"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com",
