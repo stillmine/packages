@@ -157,6 +157,7 @@ importers:
       core-js: ^3.21.1
       facepaint: ^1.2.1
       framer-motion: ^6.2.8
+      imask: ^6.4.2
       react: ^17.0.2
       react-content-loader: ^6.1.0
       react-dom: ^17.0.2
@@ -176,6 +177,7 @@ importers:
       '@stillmine/utils': link:../utils
       facepaint: 1.2.1
       framer-motion: 6.2.8_react-dom@17.0.2+react@17.0.2
+      imask: 6.4.2
       react-content-loader: 6.1.0_react@17.0.2
       react-error-boundary: 3.1.4_react@17.0.2
       react-use: 17.3.2_react-dom@17.0.2+react@17.0.2
@@ -10861,6 +10863,11 @@ packages:
   /ignore/5.2.0:
     resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
     engines: {node: '>= 4'}
+
+  /imask/6.4.2:
+    resolution: {integrity: sha512-xvEgbTdk6y2dW2UAysq0NRPmO6PuaXM5NHIt4TXEJEwXUHj26M0p/fXqyrSJdNXFaGVOtqYjPRnNdrjQQhDuuA==}
+    engines: {npm: '>=4.0.0'}
+    dev: false
 
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
