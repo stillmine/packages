@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.5.0
+
+### Minor Changes
+
+- 73d07e4: feat: nextjs peer dependencies version up
+
 ## 0.4.4
 
 ### Patch Changes
