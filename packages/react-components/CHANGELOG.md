@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.8.0
+
+### Minor Changes
+
+- 96bc979: feat: remove some unused components
+
+### Patch Changes
+
+- Updated dependencies [74577e3]
+  - @stillmine/units@0.5.0
+
 ## 0.7.4
 
 ### Patch Changes
