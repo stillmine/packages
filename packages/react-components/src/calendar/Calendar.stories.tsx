@@ -1,6 +1,6 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { IconButton, theme } from '@chakra-ui/react';
-import { useCalendar } from '@h6s/calendar';
+import useCalendar from '@veccu/react-calendar';
 import { ComponentMeta } from '@storybook/react';
 import { format } from 'date-fns';
 import { Fragment } from 'react';

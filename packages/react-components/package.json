@@ -13,8 +13,6 @@
   "main": "src/mod.ts",
   "scripts": {
     "build": "concurrently \"rimraf esm lib\" \"tsc -p tsconfig.cjs.json\" \"tsc -p tsconfig.esm.json\"",
-    "build:storybook": "build-storybook",
-    "develop:storybook": "start-storybook -p 6006",
     "lint": "eslint src/**/*.{ts,tsx}",
     "prepack": "pnpm build",
     "test": "jest --passWithNoTests",
@@ -39,22 +37,12 @@
     "react-use": "^17.3.2"
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "^11.7.2",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
-    "@h6s/calendar": "^1.0.5",
     "@stillmine/types": "workspace:*",
-    "@storybook/addon-a11y": "^6.4.19",
-    "@storybook/addon-actions": "^6.4.19",
-    "@storybook/addon-essentials": "^6.4.19",
-    "@storybook/addon-knobs": "^6.4.0",
-    "@storybook/addon-options": "^5.3.21",
-    "@storybook/react": "^6.4.19",
-    "core-js": "^3.21.1",
-    "facepaint": "^1.2.1",
+    "@veccu/react-calendar": "^2.3.5",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "sanitize.css": "^13.0.0"
+    "react-dom": "^17.0.2"
   },
   "peerDependencies": {
     "@emotion/react": ">= 11",

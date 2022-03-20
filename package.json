@@ -6,15 +6,12 @@
     "email": "euihyun.yang.9x@gmail.com",
     "url": "https://github.com/stillmine/packages/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stillmine/packages.git"
-  },
+  "repository": "git@github.com:stillmine/packages.git",
   "license": "MIT",
   "author": {
     "email": "euihyun.yang.9x@gmail.com",
     "name": "Euihyun_Yang",
-    "url": "https://euihyun.vercel.app"
+    "url": "https://yang.euihyun.pro"
   },
   "scripts": {
     "postinstall": "husky install",
@@ -22,7 +19,9 @@
     "build": "pnpm build --recursive --if-present --parallel",
     "lint": "pnpm lint --recursive --if-present --parallel",
     "test": "pnpm test --recursive --if-present --parallel",
-    "typecheck": "pnpm typecheck --recursive --if-present --parallel"
+    "typecheck": "pnpm typecheck --recursive --if-present --parallel",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
@@ -32,6 +31,15 @@
     "@changesets/cli": "^2.19.0",
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
+    "@stillmine/react-components": "workspace:*",
+    "@storybook/addon-a11y": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "0.0.9",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/react-hooks": "^7.0.2",
@@ -44,6 +52,9 @@
     "@types/testing-library__jest-dom": "^5.14.1",
     "@types/uuid": "^8.3.1",
     "@types/webpack": "^5.28.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-storybook-csf-title": "^2.1.0",
+    "chromatic": "^6.5.3",
     "concurrently": "^6.3.0",
     "eslint": "^7.32.0",
     "husky": "^7.0.2",
